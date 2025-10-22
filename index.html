@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HUAYU - Professional Capacitor Manufacturer specializing in Snap-in Capacitors and Screw Terminal Capacitors. High quality, reliable, and competitive price.">
+    <meta name="keywords" content="capacitor manufacturer, huayu capacitor, snap-in capacitor, screw terminal capacitor, aluminum electrolytic capacitor, capacitor supplier, electronic components">
+    <title>HUAYU - Professional Capacitor Manufacturer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous">
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --primary-dark: #1e40af;
+            --secondary-color: #3b82f6;
+            --text-dark: #1e293b;
+            --text-light: #64748b;
+            --background-light: #f8fafc;
+            --white: #ffffff;
+            --border-radius: 12px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: var(--background-light);
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: var(--white);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 0;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background-color: var(--primary-color);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 20px;
+        }
+
+        .logo-text {
+            margin-left: 12px;
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--primary-dark);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 24px;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-link:hover {
+            color: var(--primary-color);
+        }
+
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            color: var(--text-dark);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(to right, var(--primary-dark), var(--secondary-color));
+            color: var(--white);
+            padding: 100px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-content {
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 30px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .btn-primary {
+            background-color: var(--white);
+            color: var(--primary-dark);
+        }
+
+        .btn-primary:hover {
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+
+        .btn-secondary {
+            background-color: rgba(255, 255, 255, 0.2);
+            color: var(--white);
+            border: 2px solid var(--white);
+        }
+
+        .btn-secondary:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+
+        /* About Section */
+        .about {
+            padding: 100px 0;
+            background-color: var(--white);
+        }
+
+        .about-content {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .about-text {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .about-text h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: var(--primary-dark);
+        }
+
+        .about-text p {
+            margin-bottom: 20px;
+            color: var(--text-light);
+        }
+
+        .about-image {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .about-image img {
+            width: 100%;
+            border-radius: var(--border-radius);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Products Section */
+        .products {
+            padding: 100px 0;
+            background-color: var(--background-light);
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-title h2 {
+            font-size: 36px;
+            margin-bottom: 16px;
+            color: var(--primary-dark);
+        }
+
+        .section-title p {
+            font-size: 18px;
+            color: var(--text-light);
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .product-card {
+            background-color: var(--white);
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-image {
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s;
+        }
+
+        .product-card:hover .product-image img {
+            transform: scale(1.05);
+        }
+
+        .product-info {
+            padding: 20px;
+        }
+
+        .product-info h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: var(--primary-dark);
+        }
+
+        .product-info p {
+            color: var(--text-light);
+            margin-bottom: 15px;
+        }
+
+        /* Features Section */
+        .features {
+            padding: 100px 0;
+            background-color: var(--white);
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .feature-card {
+            text-align: center;
+            padding: 30px;
+            background-color: #f1f5f9;
+            border-radius: var(--border-radius);
+            transition: transform 0.3s;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            width: 64px;
+            height: 64px;
+            background-color: var(--primary-color);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 24px;
+            margin: 0 auto 20px;
+        }
+
+        .feature-card h3 {
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: var(--primary-dark);
+        }
+
+        .feature-card p {
+            color: var(--text-light);
+        }
+
+        /* Testimonials Section */
+        .testimonials {
+            padding: 100px 0;
+            background-color: var(--background-light);
+        }
+
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .testimonial-card {
+            background-color: var(--white);
+            padding: 30px;
+            border-radius: var(--border-radius);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .testimonial-stars {
+            color: #f59e0b;
+            margin-bottom: 15px;
+        }
+
+        .testimonial-text {
+            font-style: italic;
+            color: var(--text-light);
+            margin-bottom: 20px;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+        }
+
+        .testimonial-author h4 {
+            font-weight: 600;
+            color: var(--primary-dark);
+        }
+
+        .testimonial-author p {
+            color: var(--text-light);
+            font-size: 14px;
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 100px 0;
+            background-color: var(--white);
+        }
+
+        .contact-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+
+        .contact-info {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .contact-info h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: var(--primary-dark);
+        }
+
+        .contact-info p {
+            margin-bottom: 30px;
+            color: var(--text-light);
+        }
+
+        .contact-details {
+            margin-bottom: 30px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+
+        .contact-icon {
+            width: 40px;
+            height: 40px;
+            background-color: #e0f2fe;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary-color);
+            margin-right: 15px;
+        }
+
+        .contact-text h4 {
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: var(--primary-dark);
+        }
+
+        .contact-text p {
+            color: var(--text-light);
+            margin: 0;
+        }
+
+        .map-container {
+            flex: 1;
+            min-width: 300px;
+            height: 400px;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .map-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* CTA Section */
+        .cta {
+            padding: 100px 0;
+            background-color: var(--primary-dark);
+            color: var(--white);
+            text-align: center;
+        }
+
+        .cta h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .cta p {
+            font-size: 18px;
+            margin-bottom: 30px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0f172a;
+            color: var(--white);
+            padding: 60px 0 30px;
+        }
+
+        .footer-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-logo {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .footer-logo .logo-icon {
+            background-color: var(--white);
+            color: var(--primary-color);
+        }
+
+        .footer-logo .logo-text {
+            color: var(--white);
+        }
+
+        .footer-logo p {
+            margin-top: 20px;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .footer-links {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .footer-links h3 {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: var(--white);
+        }
+
+        .footer-links ul {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover {
+            color: var(--white);
+        }
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .social-link {
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .social-link:hover {
+            background-color: var(--primary-color);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .mobile-menu-btn {
+                display: block;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .hero p {
+                font-size: 18px;
+            }
+
+            .section-title h2 {
+                font-size: 30px;
+            }
+
+            .about-content,
+            .contact-content {
+                flex-direction: column;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 28px;
+            }
+
+            .hero p {
+                font-size: 16px;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+            }
+
+            .section-title h2 {
+                font-size: 24px;
+            }
+
+            .footer-content {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <span class="logo-text">HUAYU</span>
+                </a>
+                <nav class="nav-links">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#products" class="nav-link">Products</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Professional Capacitor Manufacturer Since 1987</h1>
+                <p>Focus on snap-in and screw terminal aluminum electrolytic capacitors</p>
+                <div class="cta-buttons">
+                    <a href="#products" class="btn btn-primary">
+                        View Products
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Leading Capacitor Manufacturer</h2>
+                    <p>As a professional capacitor manufacturer with over 38 years of experience, HUAYU specializes in the design, development, and production of high-quality aluminum electrolytic capacitors. Since 1987, we have established ourselves as a trusted capacitor manufacturer for customers worldwide, providing reliable and innovative capacitor solutions.</p>
+                    <p>Our state-of-the-art manufacturing facilities are equipped with advanced technology to ensure precision and consistency in every capacitor we produce. We are committed to providing reliable, long-lasting capacitors that meet the highest international standards.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://space.coze.cn/api/coze_space/gen_image?image_size=landscape_4_3&prompt=Capacitor%20manufacturer%20factory%20interior%20with%20production%20lines&sign=336c495d1e35eb471d3514ddd60cb431" alt="Capacitor Manufacturer Factory">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-title">
+                <h2>Premium Capacitor Products</h2>
+                <p>As a leading capacitor manufacturer, we provide high quality capacitors for various applications</p>
+            </div>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://space.coze.cn/api/coze_space/gen_image?image_size=landscape_4_3&prompt=Snap-in%20aluminum%20electrolytic%20capacitors%20array&sign=8b40890e8b0716a4b6948a28f3a16162" alt="Snap-in Capacitors">
+                    </div>
+                    <div class="product-info">
+                        <h3>Snap-in Capacitors</h3>
+                        <p>High performance snap-in type aluminum electrolytic capacitors with easy PCB mounting and high capacitance values in a compact design.</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://space.coze.cn/api/coze_space/gen_image?image_size=landscape_4_3&prompt=Screw%20terminal%20aluminum%20electrolytic%20capacitors%20product&sign=dca58f3bbdb7afec65f991d598cf65ad" alt="Screw Terminal Capacitors">
+                    </div>
+                    <div class="product-info">
+                        <h3>Screw Terminal Capacitors</h3>
+                        <p>Robust screw terminal capacitors designed for high power applications requiring high capacitance and ripple current capability.</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://space.coze.cn/api/coze_space/gen_image?image_size=landscape_4_3&prompt=Low%20ESR%20snap-in%20capacitor&sign=70920519a150d5e8d0ff66ba83b5f66a" alt="Low ESR Capacitors">
+                    </div>
+                    <div class="product-info">
+                        <h3>Low ESR Capacitors</h3>
+                        <p>Specialized capacitors with low equivalent series resistance for high frequency applications and excellent filtering performance.</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://space.coze.cn/api/coze_space/gen_image?image_size=landscape_4_3&prompt=Long%20life%20screw%20terminal%20aluminum%20electrolytic%20capacitor&sign=dd178a96a34faca57d3a618a80b97b23" alt="Long Life Capacitors">
+                    </div>
+                    <div class="product-info">
+                        <h3>Long Life Capacitors</h3>
+                        <p>Extended lifespan capacitors designed for applications requiring reliability in harsh environments with advanced materials.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Choose HUAYU</h2>
+                <p>We are committed to providing the highest quality capacitors and exceptional customer service</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3>Advanced Manufacturing</h3>
+                    <p>State-of-the-art production facilities with strict quality control processes</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Quality Certification</h3>
+                    <p>ISO 9001, ISO 14001 certified and compliant with international standards</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Global Shipping</h3>
+                    <p>Fast and reliable delivery to customers worldwide</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Technical Support</h3>
+                    <p>Professional engineering team providing technical assistance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Trusted by Leading Companies Worldwide</h2>
+                <p>Hear from businesses that trust us as their preferred capacitor manufacturer</p>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"We have been working with this capacitor manufacturer for 5 years and their products consistently meet our high standards. The quality and reliability of their snap-in capacitors have significantly improved our product performance."</p>
+                    <div class="testimonial-author">
+                        <div>
+                            <h4>John Smith</h4>
+                            <p>ABC Electronics</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"The technical support team is excellent and always provides quick solutions to our problems. Their engineering expertise helped us select the perfect screw terminal capacitors for our industrial applications."</p>
+                    <div class="testimonial-author">
+                        <div>
+                            <h4>Sarah Johnson</h4>
+                            <p>XYZ Industries</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+                <p>Have questions or need a quote? Our team is ready to assist you</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>Feel free to contact us through any of the channels below. Our team will respond to your inquiry as soon as possible.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Address</h4>
+                                <p>123 Industrial Road, Electronics City, Shenzhen, Guangdong, China</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <p>+86 123 4567 8910</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>info@capacitormanufacturer.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <img src="https://space.coze.cn/api/coze_space/gen_image?image_size=landscape_16_9&prompt=Factory%20location%20map%20with%20pin%20showing%20capacitor%20manufacturer%20facility%20in%20industrial%20area&sign=b725ebbaf0b55872c13374e15e48860f" alt="Our location map">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Get Started?</h2>
+            <p>Contact us today for a quote or to learn more about our capacitor products and services</p>
+            <a href="#contact" class="btn btn-primary">Contact Us Now</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <span class="logo-text">HUAYU</span>
+                    </a>
+                    <p>Professional capacitor manufacturer with years of experience in the industry.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Our Products</h3>
+                    <ul>
+                        <li><a href="#products">Snap-in Capacitors</a></li>
+                        <li><a href="#products">Screw Terminal Capacitors</a></li>
+                        <li><a href="#products">Low ESR Capacitors</a></li>
+                        <li><a href="#products">Long Life Capacitors</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>123 Industrial Road, Electronics City, China</li>
+                        <li>+86 123 4567 8910</li>
+                        <li>info@capacitormanufacturer.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; {new Date().getFullYear()} HUAYU Electronics. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple mobile menu toggle
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+        
+        if (mobileMenuBtn && navLinks) {
+            mobileMenuBtn.addEventListener('click', () => {
+                navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+                navLinks.style.flexDirection = 'column';
+                navLinks.style.position = 'absolute';
+                navLinks.style.top = '70px';
+                navLinks.style.right = '20px';
+                navLinks.style.background = 'var(--white)';
+                navLinks.style.padding = '20px';
+                navLinks.style.borderRadius = 'var(--border-radius)';
+                navLinks.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1)';
+                navLinks.style.gap = '15px';
+            });
+        }
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    if (navLinks && navLinks.style.display === 'flex') {
+                        navLinks.style.display = 'none';
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
