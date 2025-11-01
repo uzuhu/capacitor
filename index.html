@@ -1,21 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1RN0916472"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-1RN0916472');
-</script>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="HUAYU is a  Professional Capacitor Manufacturer, specializing in Snap-in Capacitors and Screw Terminal Capacitors. High quality, reliable, and competitive price.">
-    <meta name="keywords" content="capacitor manufacturer, huayu capacitor, snap-in capacitor, screw terminal capacitor, aluminum electrolytic capacitor, capacitor supplier, electronic components">
+    <meta name="description" content="Professional Capacitor Manufacturer specializing in high-quality Snap-in Capacitors, Screw Terminal Capacitors, Aluminum Electrolytic Capacitors with excellent performance for industrial and electronic applications. Worldwide shipping and custom solutions available.">
+    <meta name="keywords" content="capacitor manufacturer, snap-in capacitor, screw terminal capacitor, aluminum electrolytic capacitor, electrolytic capacitor supplier, high voltage capacitor, low esr capacitor, long life capacitor, industrial capacitor, electronic components manufacturer, capacitor factory, CD292 capacitor, CD293 capacitor, CD135 capacitor, CD136 capacitor, worldwide capacitor supplier, bulk capacitors, custom capacitor solutions">
     <title>Capacitor Manufacturer - HUAYU</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous">
     <style>
@@ -212,6 +201,54 @@
             color: var(--text-light);
         }
 
+        .about-intro {
+            font-size: 18px;
+            margin-bottom: 30px;
+            color: var(--text-dark);
+            line-height: 1.8;
+        }
+
+        .about-highlights {
+            margin: 30px 0;
+        }
+
+        .highlight-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #f8fafc;
+            border-radius: var(--border-radius);
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .highlight-item i {
+            font-size: 20px;
+            color: var(--primary-color);
+            margin-right: 15px;
+            min-width: 24px;
+            margin-top: 3px;
+        }
+
+        .highlight-item p {
+            margin: 0;
+            color: var(--text-dark);
+        }
+
+        .about-statement {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: rgba(37, 99, 235, 0.05);
+            border-radius: var(--border-radius);
+            border-left: 4px solid var(--primary-dark);
+        }
+
+        .about-statement p {
+            color: var(--text-dark);
+            font-weight: 500;
+            margin: 0;
+        }
+
         .about-image {
             flex: 1;
             min-width: 300px;
@@ -245,6 +282,368 @@
             color: var(--text-light);
             max-width: 700px;
             margin: 0 auto;
+        }
+        
+        /* Quality Section Styles */
+        .quality {
+            padding: 80px 0;
+            background-color: var(--background-light);
+        }
+        
+        .quality-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 50px;
+            align-items: flex-start;
+        }
+        
+        .quality-image {
+            flex: 1;
+            min-width: 300px;
+            position: relative;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .quality-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .certification-badges {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            display: flex;
+            gap: 10px;
+        }
+        
+        .certification-badge {
+            background: var(--primary-color);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            box-shadow: 0 4px 12px rgba(255, 92, 0, 0.3);
+        }
+        
+        .quality-text {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .quality-intro {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+        
+        .quality-intro p {
+            font-size: 1.1rem;
+            color: var(--text-dark);
+            line-height: 1.6;
+            margin: 0;
+        }
+        
+        .quality-steps-grid {
+            margin-bottom: 30px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        .quality-step {
+            display: flex;
+            gap: 20px;
+            padding: 15px;
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        /* Reduce section padding */
+        .about,
+        .products,
+        .applications,
+        .quality,
+        .manufacturing,
+        .contact {
+            padding: 50px 0;
+        }
+        
+        .quality-step:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .step-number {
+            width: 40px;
+            height: 40px;
+            background: var(--primary-color);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 0.9rem;
+            flex-shrink: 0;
+        }
+        
+        .step-content {
+            flex: 1;
+        }
+        
+        .step-content h3 {
+            color: var(--primary-dark);
+            margin-bottom: 8px;
+            font-size: 1.2rem;
+        }
+        
+        .step-content p {
+            color: var(--text-light);
+            margin: 0;
+            line-height: 1.6;
+        }
+        
+        .compliance-note {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 20px;
+            background: var(--primary-color-light);
+            border-radius: var(--border-radius);
+            border-left: 4px solid var(--primary-color);
+        }
+        
+        .compliance-note i {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+        }
+        
+        .compliance-note p {
+            margin: 0;
+            color: var(--text-dark);
+            font-weight: 500;
+        }
+        
+        /* Manufacturing Section Styles */
+        .manufacturing {
+            padding: 80px 0;
+            background-color: var(--white);
+        }
+        
+        /* Manufacturing Stats */
+        .manufacturing-stats {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 30px;
+            margin-bottom: 80px;
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(135deg, rgba(37, 99, 235, 0.05) 0%, rgba(37, 99, 235, 0.1) 100%);
+            border-radius: var(--border-radius);
+            flex: 1;
+            min-width: 200px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+        
+        .stat-number {
+            font-size: 3rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+            line-height: 1;
+        }
+        
+        .stat-label {
+            font-size: 1.1rem;
+            color: var(--text-dark);
+            font-weight: 500;
+        }
+        
+        /* Manufacturing Grid */
+        .manufacturing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 40px;
+            margin-bottom: 80px;
+        }
+        
+        .manufacturing-item {
+            display: flex;
+            gap: 25px;
+            padding: 30px;
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .manufacturing-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .manufacturing-icon {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 28px;
+            flex-shrink: 0;
+            margin-top: 5px;
+        }
+        
+        /* Different icon backgrounds */
+        .automation-icon {
+            background: linear-gradient(135deg, #3b82f6, #2563eb);
+        }
+        
+        .precision-icon {
+            background: linear-gradient(135deg, #f97316, #ea580c);
+        }
+        
+        .analytics-icon {
+            background: linear-gradient(135deg, #10b981, #059669);
+        }
+        
+        .capacity-icon {
+            background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+        }
+        
+        .manufacturing-details h3 {
+            color: var(--primary-dark);
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+        
+        .manufacturing-details p {
+            color: var(--text-light);
+            margin-bottom: 20px;
+            line-height: 1.7;
+        }
+        
+        .feature-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .feature-list li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            color: var(--text-dark);
+            font-weight: 500;
+        }
+        
+        .feature-list i {
+            color: #10b981;
+            margin-right: 10px;
+            font-size: 18px;
+        }
+        
+        /* Process Flow */
+        .process-flow {
+            margin-top: 60px;
+            text-align: center;
+        }
+        
+        .process-flow h3 {
+            color: var(--primary-dark);
+            margin-bottom: 40px;
+            font-size: 1.8rem;
+        }
+        
+        .process-steps {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .process-step {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            background: white;
+            padding: 20px 30px;
+            border-radius: var(--border-radius);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
+        
+        .process-step:hover {
+            transform: translateY(-5px);
+        }
+        
+        .step-circle {
+            width: 50px;
+            height: 50px;
+            background: var(--primary-color);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.2rem;
+            flex-shrink: 0;
+        }
+        
+        .step-content h4 {
+            color: var(--primary-dark);
+            margin: 0 0 5px 0;
+            font-size: 1.1rem;
+        }
+        
+        .step-content p {
+            color: var(--text-light);
+            margin: 0;
+            font-size: 0.95rem;
+        }
+        
+        .process-arrow {
+            color: var(--primary-color);
+            font-size: 24px;
+            margin: 0 10px;
+        }
+        
+        /* Responsive adjustments for manufacturing section */
+        @media (max-width: 768px) {
+            .manufacturing-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .manufacturing-item {
+                flex-direction: column;
+                text-align: center;
+                gap: 20px;
+            }
+            
+            .process-steps {
+                flex-direction: column;
+            }
+            
+            .process-arrow {
+                transform: rotate(90deg);
+                margin: 10px 0;
+            }
         }
 
         .product-grid {
@@ -295,6 +694,298 @@
         .product-info p {
             color: var(--text-light);
             margin-bottom: 15px;
+        }
+
+        .product-badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+        }
+
+        .badge {
+            background-color: #f97316;
+            color: var(--white);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-models {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 2px solid rgba(37, 99, 235, 0.2);
+        }
+
+        .product-models h4 {
+            color: var(--primary-dark);
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+
+        .model-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+
+        .model-tag {
+            background-color: #e0f2fe;
+            color: var(--primary-color);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .model-tag a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .model-tag a:hover {
+            color: #004499;
+            text-decoration: underline;
+        }
+
+        .parameter-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .parameter-item {
+            display: flex;
+            align-items: center;
+            padding: 12px;
+            background-color: #f8fafc;
+            border-radius: var(--border-radius);
+        }
+
+        .parameter-icon {
+            width: 40px;
+            height: 40px;
+            background-color: rgba(37, 99, 235, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary-color);
+            margin-right: 12px;
+        }
+
+        .parameter-details strong {
+            display: block;
+            font-size: 14px;
+            color: var(--text-dark);
+            margin-bottom: 2px;
+        }
+
+        .parameter-details p {
+            font-size: 13px;
+            color: var(--text-light);
+            margin: 0;
+        }
+
+        /* Applications Section */
+        .applications {
+            padding: 100px 0;
+            background-color: var(--white);
+        }
+
+        .applications-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .application-card {
+            background-color: var(--background-light);
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .application-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+
+        .application-icon {
+            width: 100%;
+            height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            font-size: 40px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .application-icon::after {
+            content: '';
+            position: absolute;
+            width: 120%;
+            height: 30px;
+            background-color: rgba(255, 255, 255, 0.1);
+            transform: rotate(-5deg) translateX(-20px);
+            animation: shine 3s infinite;
+        }
+
+        @keyframes shine {
+            0% {
+                transform: rotate(-5deg) translateX(-20px) translateY(-50px);
+            }
+            100% {
+                transform: rotate(-5deg) translateX(100px) translateY(50px);
+            }
+        }
+
+        .application-icon.industry {
+            background: linear-gradient(135deg, #1e40af, #3b82f6);
+        }
+
+        .application-icon.energy {
+            background: linear-gradient(135deg, #059669, #10b981);
+        }
+
+        .application-icon.electronics {
+            background: linear-gradient(135deg, #8b5cf6, #a855f7);
+        }
+
+        .application-icon.automotive {
+            background: linear-gradient(135deg, #ea580c, #f97316);
+        }
+
+        .application-icon.medical {
+            background: linear-gradient(135deg, #0f766e, #14b8a6);
+        }
+
+        .application-icon.telecom {
+            background: linear-gradient(135deg, #6366f1, #8b5cf6);
+        }
+
+        .application-content {
+            padding: 25px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .application-content h3 {
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: var(--primary-dark);
+        }
+
+        .application-content p {
+            color: var(--text-light);
+            margin-bottom: 20px;
+            flex-grow: 1;
+        }
+
+        .application-highlight {
+            display: flex;
+            align-items: center;
+            background-color: var(--white);
+            padding: 10px 15px;
+            border-radius: 8px;
+            border-left: 3px solid var(--primary-color);
+        }
+
+        .application-highlight i {
+            color: var(--primary-color);
+            margin-right: 10px;
+            font-size: 14px;
+        }
+
+        /* Technical Documents Section */
+        .technical-docs {
+            padding: 50px 0;
+            background-color: #f0f4f8;
+        }
+
+        .docs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .doc-card {
+            display: flex;
+            background-color: white;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .doc-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        .doc-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            background-color: var(--primary-color);
+            color: white;
+            border-radius: 12px;
+            font-size: 24px;
+            margin-right: 20px;
+        }
+
+        .doc-info {
+            flex: 1;
+        }
+
+        .doc-info h3 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+
+        .doc-info p {
+            color: #666;
+            margin-bottom: 15px;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        .doc-link {
+            display: inline-flex;
+            align-items: center;
+            color: var(--primary-color);
+            font-weight: 500;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .doc-link:hover {
+            color: #004499;
+            text-decoration: underline;
+        }
+
+        .doc-link::after {
+            content: '\f56d';
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+            margin-left: 5px;
+            font-size: 0.8rem;
         }
 
         /* Features Section */
@@ -651,6 +1342,7 @@
                     <a href="#home" class="nav-link">Home</a>
                     <a href="#about" class="nav-link">About</a>
                     <a href="#products" class="nav-link">Products</a>
+                    <a href="#technical-docs" class="nav-link">Technical Docs</a>
                     <a href="#contact" class="nav-link">Contact</a>
                 </nav>
                 <button class="mobile-menu-btn">
@@ -681,14 +1373,41 @@
     <!-- About Section -->
     <section class="about" id="about">
         <div class="container">
+            <div class="section-title">
+                <h2>Leading Capacitor Manufacturer</h2>
+                <p>Professional manufacturer with 38+ years of excellence in aluminum electrolytic capacitors</p>
+            </div>
             <div class="about-content">
                 <div class="about-text">
-                    <h2>Leading Capacitor Manufacturer</h2>
-                    <p>As a professional capacitor manufacturer with over 38 years of experience, HUAYU specializes in the design, development, and production of high-quality aluminum electrolytic capacitors. Since 1987, we have established ourselves as a trusted capacitor manufacturer for customers worldwide, providing reliable and innovative capacitor solutions.</p>
-                    <p>Our state-of-the-art manufacturing facilities are equipped with advanced technology to ensure precision and consistency in every capacitor we produce. We are committed to providing reliable, long-lasting capacitors that meet the highest international standards.</p>
+                    <div class="about-intro-section">
+                        <p>HUAYU specializes in the design, development, and production of high-quality aluminum electrolytic capacitors for global customers.</p>
+                    </div>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-history"></i>
+                            <p>Since 1987, we have established ourselves as a trusted capacitor manufacturer for customers worldwide.</p>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-industry"></i>
+                            <p>Our state-of-the-art manufacturing facilities are equipped with advanced technology to ensure precision.</p>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-certificate"></i>
+                            <p>We are committed to providing reliable, long-lasting capacitors that meet the highest international standards.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="about-intro-section">
+                        <p>HUAYU continues to innovate and improve our capacitor technology to meet the evolving needs of the electronics industry.</p>
+                    </div>
+                    
+                    <div class="about-intro-section">
+                        <p>Our solutions range from industrial power supplies to consumer electronics, delivering consistent quality and performance.</p>
+                    </div>
                 </div>
                 <div class="about-image">
-                    <img src="https://space.coze.cn/api/coze_space/gen_image?image_size=landscape_4_3&prompt=Capacitor%20manufacturer%20factory%20interior%20with%20production%20lines&sign=336c495d1e35eb471d3514ddd60cb431" alt="Capacitor Manufacturer Factory">
+                    <img src="https://capacitormanufacturer.com/images/HUAYU.jpg" alt="Capacitor Manufacturer Factory">
                 </div>
             </div>
         </div>
@@ -704,38 +1423,187 @@
             <div class="product-grid">
                 <div class="product-card">
                     <div class="product-image">
-                        <img src="https://space.coze.cn/api/coze_space/gen_image?image_size=landscape_4_3&prompt=Snap-in%20aluminum%20electrolytic%20capacitors%20array&sign=8b40890e8b0716a4b6948a28f3a16162" alt="Snap-in Capacitors">
+                        <img src="https://capacitormanufacturer.com/images/snap-in.jpg" alt="Snap-in Capacitors">
+                        <div class="product-badge">
+                            <span class="badge">Popular</span>
+                        </div>
                     </div>
                     <div class="product-info">
                         <h3>Snap-in Capacitors</h3>
                         <p>High performance snap-in type aluminum electrolytic capacitors with easy PCB mounting and high capacitance values in a compact design.</p>
+                        
+                        <div class="product-models">
+                            <h4>Capacitor Series</h4>
+                            <div class="model-tags">
+                                <span class="model-tag"><a href="https://capacitormanufacturer.com/pdf/CD292.pdf" target="_blank">CD292</a></span>
+                                <span class="model-tag"><a href="https://capacitormanufacturer.com/pdf/CD293.pdf" target="_blank">CD293</a></span>
+                                <span class="model-tag"><a href="https://capacitormanufacturer.com/pdf/CD294.pdf" target="_blank">CD294</a></span>
+                                <span class="model-tag"><a href="https://capacitormanufacturer.com/pdf/CD295.pdf" target="_blank">CD295</a></span>
+                                <span class="model-tag"><a href="https://capacitormanufacturer.com/pdf/CD296.pdf" target="_blank">CD296</a></span>
+                                <span class="model-tag"><a href="https://capacitormanufacturer.com/pdf/CD297.pdf" target="_blank">CD297</a></span>
+                                <span class="model-tag"><a href="https://capacitormanufacturer.com/pdf/CD298.pdf" target="_blank">CD298</a></span>
+                            </div>
+                            
+                            <h4>Parameter Highlights</h4>
+                            <div class="parameter-grid">
+                                <div class="parameter-item">
+                                    <div class="parameter-icon">
+                                        <i class="fas fa-temperature-high"></i>
+                                    </div>
+                                    <div class="parameter-details">
+                                        <strong>Temperature</strong>
+                                        <p>-40°C to 85°C/105°C/125°C</p>
+                                    </div>
+                                </div>
+                                <div class="parameter-item">
+                                    <div class="parameter-icon">
+                                        <i class="fas fa-clock"></i>
+                                    </div>
+                                    <div class="parameter-details">
+                                        <strong>Lifetime</strong>
+                                        <p>1000-5000 hours @ rated temp</p>
+                                    </div>
+                                </div>
+                                <div class="parameter-item">
+                                    <div class="parameter-icon">
+                                        <i class="fas fa-bolt"></i>
+                                    </div>
+                                    <div class="parameter-details">
+                                        <strong>Capacitance</strong>
+                                        <p>100μF - 100000μF</p>
+                                    </div>
+                                </div>
+                                <div class="parameter-item">
+                                    <div class="parameter-icon">
+                                        <i class="fas fa-plug"></i>
+                                    </div>
+                                    <div class="parameter-details">
+                                        <strong>Voltage</strong>
+                                        <p>6.3V - 500V DC</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="product-card">
                     <div class="product-image">
-                        <img src="https://space.coze.cn/api/coze_space/gen_image?image_size=landscape_4_3&prompt=Screw%20terminal%20aluminum%20electrolytic%20capacitors%20product&sign=dca58f3bbdb7afec65f991d598cf65ad" alt="Screw Terminal Capacitors">
+                        <img src="https://capacitormanufacturer.com/images/screw.jpg" alt="Screw Terminal Capacitors">
+                        <div class="product-badge">
+                            <span class="badge">High Power</span>
+                        </div>
                     </div>
                     <div class="product-info">
                         <h3>Screw Terminal Capacitors</h3>
                         <p>Robust screw terminal capacitors designed for high power applications requiring high capacitance and ripple current capability.</p>
+                        
+                        <div class="product-models">
+                            <h4>Capacitor Series</h4>
+                            <div class="model-tags">
+                                <span class="model-tag"><a href="https://capacitormanufacturer.com/pdf/CD135.pdf" target="_blank">CD135</a></span>
+                                <span class="model-tag"><a href="https://capacitormanufacturer.com/pdf/CD136.pdf" target="_blank">CD136</a></span>
+                                <span class="model-tag"><a href="https://capacitormanufacturer.com/pdf/CD13L.pdf" target="_blank">CD13L</a></span>
+                                <span class="model-tag"><a href="https://capacitormanufacturer.com/pdf/CD92.pdf" target="_blank">CD92</a></span>
+                                <span class="model-tag"><a href="https://capacitormanufacturer.com/pdf/CD92.pdf" target="_blank">CD92H</a></span>
+                                <span class="model-tag"><a href="https://capacitormanufacturer.com/pdf/CD92L.pdf" target="_blank">CD92L</a></span>
+                                <span class="model-tag"><a href="https://capacitormanufacturer.com/pdf/CD13N.pdf" target="_blank">CD13N</a></span>
+                                <span class="model-tag"><a href="https://capacitormanufacturer.com/pdf/CD13NH.pdf" target="_blank">CD13NH</a></span>
+                                <span class="model-tag"><a href="https://capacitormanufacturer.com/pdf/CD13HL.pdf" target="_blank">CD13HL</a></span>
+                            </div>
+                            
+                            <h4>Parameter Highlights</h4>
+                            <div class="parameter-grid">
+                                <div class="parameter-item">
+                                    <div class="parameter-icon">
+                                        <i class="fas fa-temperature-high"></i>
+                                    </div>
+                                    <div class="parameter-details">
+                                        <strong>Temperature</strong>
+                                        <p>-40°C to 85°C/105°C/125°C</p>
+                                    </div>
+                                </div>
+                                <div class="parameter-item">
+                                    <div class="parameter-icon">
+                                        <i class="fas fa-clock"></i>
+                                    </div>
+                                    <div class="parameter-details">
+                                        <strong>Lifetime</strong>
+                                        <p>1000-10000 hours @ rated temp</p>
+                                    </div>
+                                </div>
+                                <div class="parameter-item">
+                                    <div class="parameter-icon">
+                                        <i class="fas fa-bolt"></i>
+                                    </div>
+                                    <div class="parameter-details">
+                                        <strong>Capacitance</strong>
+                                        <p>100μF - 2500000μF</p>
+                                    </div>
+                                </div>
+                                <div class="parameter-item">
+                                    <div class="parameter-icon">
+                                        <i class="fas fa-plug"></i>
+                                    </div>
+                                    <div class="parameter-details">
+                                        <strong>Voltage</strong>
+                                        <p>10V - 550V DC</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://space.coze.cn/api/coze_space/gen_image?image_size=landscape_4_3&prompt=Low%20ESR%20snap-in%20capacitor&sign=70920519a150d5e8d0ff66ba83b5f66a" alt="Low ESR Capacitors">
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Documents Section -->
+    <section class="technical-docs" id="technical-docs">
+        <div class="container">
+            <div class="section-title">
+                <h2>Technical Documents</h2>
+                <p>Access our comprehensive documentation for product specifications, usage guidelines, and dimensional information</p>
+            </div>
+            <div class="docs-grid">
+                <div class="doc-card">
+                    <div class="doc-icon">
+                        <i class="fas fa-book"></i>
                     </div>
-                    <div class="product-info">
-                        <h3>Low ESR Capacitors</h3>
-                        <p>Specialized capacitors with low equivalent series resistance for high frequency applications and excellent filtering performance.</p>
+                    <div class="doc-info">
+                        <h3>Guidelines for Using</h3>
+                        <p>Detailed instructions for proper capacitor installation, operation, and maintenance</p>
+                        <a href="https://capacitormanufacturer.com/pdf/Guidelines-For-Using.pdf" target="_blank" class="doc-link">Download PDF</a>
                     </div>
                 </div>
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="https://space.coze.cn/api/coze_space/gen_image?image_size=landscape_4_3&prompt=Long%20life%20screw%20terminal%20aluminum%20electrolytic%20capacitor&sign=dd178a96a34faca57d3a618a80b97b23" alt="Long Life Capacitors">
+                <div class="doc-card">
+                    <div class="doc-icon">
+                        <i class="fas fa-code"></i>
                     </div>
-                    <div class="product-info">
-                        <h3>Long Life Capacitors</h3>
-                        <p>Extended lifespan capacitors designed for applications requiring reliability in harsh environments with advanced materials.</p>
+                    <div class="doc-info">
+                        <h3>Part Number System</h3>
+                        <p>Comprehensive explanation of our product coding structure and identification system</p>
+                        <a href="https://capacitormanufacturer.com/pdf/Part-Number-System.pdf" target="_blank" class="doc-link">Download PDF</a>
+                    </div>
+                </div>
+                <div class="doc-card">
+                    <div class="doc-icon">
+                        <i class="fas fa-ruler-combined"></i>
+                    </div>
+                    <div class="doc-info">
+                        <h3>Screw Terminal Dimensions</h3>
+                        <p>Detailed dimensional drawings and specifications for all screw terminal capacitor models</p>
+                        <a href="https://capacitormanufacturer.com/pdf/Screw-Terminal-Dimensions.pdf" target="_blank" class="doc-link">Download PDF</a>
+                    </div>
+                </div>
+                <div class="doc-card">
+                    <div class="doc-icon">
+                        <i class="fas fa-cubes"></i>
+                    </div>
+                    <div class="doc-info">
+                        <h3>Snap-in Terminal Dimensions</h3>
+                        <p>Precise dimensional specifications for all snap-in capacitor models</p>
+                        <a href="https://capacitormanufacturer.com/pdf/Snap-in-Terminal-Dimensions.pdf" target="_blank" class="doc-link">Download PDF</a>
                     </div>
                 </div>
             </div>
@@ -802,7 +1670,7 @@
                     <div class="testimonial-author">
                         <div>
                             <h4>John Smith</h4>
-                            <p>ABC Electronics</p>
+                         
                         </div>
                     </div>
                 </div>
@@ -818,7 +1686,285 @@
                     <div class="testimonial-author">
                         <div>
                             <h4>Sarah Johnson</h4>
-                            <p>XYZ Industries</p>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Applications Section -->
+    <section class="applications">
+        <div class="container">
+            <div class="section-title">
+                <h2>Capacitor Applications</h2>
+                <p>Our capacitors power a wide range of applications across various industries</p>
+            </div>
+            <div class="applications-grid">
+                <div class="application-card">
+                    <div class="application-icon industry">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <div class="application-content">
+                        <h3>Industrial Power</h3>
+                        <p>Our capacitors are widely used in industrial power supplies, UPS systems, and motor drives requiring high reliability and performance.</p>
+                        <div class="application-highlight">
+                            <i class="fas fa-check"></i> High ripple current handling
+                        </div>
+                    </div>
+                </div>
+                <div class="application-card">
+                    <div class="application-icon energy">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <div class="application-content">
+                        <h3>Renewable Energy</h3>
+                        <p>High-performance capacitors for solar inverters, wind power systems, and energy storage applications with long service life.</p>
+                        <div class="application-highlight">
+                            <i class="fas fa-check"></i> Long-term stability
+                        </div>
+                    </div>
+                </div>
+                <div class="application-card">
+                    <div class="application-icon electronics">
+                        <i class="fas fa-tv"></i>
+                    </div>
+                    <div class="application-content">
+                        <h3>Consumer Electronics</h3>
+                        <p>Compact and reliable snap-in capacitors for TVs, audio equipment, and home appliances requiring high capacitance in small spaces.</p>
+                        <div class="application-highlight">
+                            <i class="fas fa-check"></i> Compact design
+                        </div>
+                    </div>
+                </div>
+                <div class="application-card">
+                    <div class="application-icon automotive">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <div class="application-content">
+                        <h3>Automotive Electronics</h3>
+                        <p>Automotive-grade capacitors designed for harsh environments, suitable for vehicle electronics, charging systems, and EV applications.</p>
+                        <div class="application-highlight">
+                            <i class="fas fa-check"></i> Wide temperature range
+                        </div>
+                    </div>
+                </div>
+                <div class="application-card">
+                    <div class="application-icon medical">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <div class="application-content">
+                        <h3>Medical Equipment</h3>
+                        <p>High-precision capacitors for medical devices, diagnostic equipment, and life support systems requiring exceptional reliability.</p>
+                        <div class="application-highlight">
+                            <i class="fas fa-check"></i> Medical-grade reliability
+                        </div>
+                    </div>
+                </div>
+                <div class="application-card">
+                    <div class="application-icon telecom">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <div class="application-content">
+                        <h3>Telecommunications</h3>
+                        <p>High-frequency capacitors for communication infrastructure, base stations, and network equipment requiring stable performance.</p>
+                        <div class="application-highlight">
+                            <i class="fas fa-check"></i> Low ESR characteristics
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quality Section -->
+    <section class="quality">
+        <div class="container">
+            <div class="section-title">
+                <h2>Quality & Certification</h2>
+                <p>We maintain the highest quality standards throughout our manufacturing process</p>
+            </div>
+            <div class="quality-content">
+                <div class="quality-image">
+                    <img src="https://capacitormanufacturer.com/images/Patent.png" alt="Quality Control Laboratory">
+                    <div class="certification-badges">
+                        <div class="certification-badge">Patent Certificate for Invention</div>
+                
+                    </div>
+                </div>
+                <div class="quality-text">
+                    <div class="quality-intro">
+                        <p>Quality is our top priority, with strict control measures at every production stage.</p>
+                    </div>
+                    
+                    <div class="quality-steps-grid">
+                        <div class="quality-step">
+                            <div class="step-number">01</div>
+                            <div class="step-content">
+                                <h3>Raw Material Inspection</h3>
+                                <p>Strict testing of all incoming materials to ensure they meet specifications.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="quality-step">
+                            <div class="step-number">02</div>
+                            <div class="step-content">
+                                <h3>Process Monitoring</h3>
+                                <p>Real-time monitoring of manufacturing parameters for consistent quality.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="quality-step">
+                            <div class="step-number">03</div>
+                            <div class="step-content">
+                                <h3>Advanced Testing</h3>
+                                <p>Comprehensive testing of all capacitor parameters in our laboratory.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="quality-step">
+                            <div class="step-number">04</div>
+                            <div class="step-content">
+                                <h3>Final Quality Check</h3>
+                                <p>100% final testing before shipment to guarantee quality standards.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="compliance-note">
+                        <i class="fas fa-shield-alt"></i>
+                        <p>Compliant with RoHS and REACH environmental standards.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Manufacturing Section -->
+    <section class="manufacturing">
+        <div class="container">
+            <div class="section-title">
+                <h2>Advanced Manufacturing Capability</h2>
+                <p>State-of-the-art facilities and cutting-edge technology for superior capacitor production</p>
+            </div>
+            
+            <!-- Manufacturing Stats -->
+            <div class="manufacturing-stats">
+                <div class="stat-item">
+                    <div class="stat-number" data-count="30">0</div>
+                    <div class="stat-label">Million Pcs Annually</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="10000">0</div>
+                    <div class="stat-label">Square Meters Facility</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="98+">0</div>
+                    <div class="stat-label">% On-Time Delivery</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="30+">0</div>
+                    <div class="stat-label">Countries Served</div>
+                </div>
+            </div>
+            
+            <!-- Capability Cards -->
+            <div class="manufacturing-grid">
+                <div class="manufacturing-item">
+                    <div class="manufacturing-icon automation-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <div class="manufacturing-details">
+                        <h3>Automated Production Lines</h3>
+                        <p>State-of-the-art automated assembly lines ensure consistent quality and high production capacity for all capacitor models.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check-circle"></i> Robotic assembly stations</li>
+                            <li><i class="fas fa-check-circle"></i> Computer-controlled testing</li>
+                            <li><i class="fas fa-check-circle"></i> Continuous production flow</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="manufacturing-item">
+                    <div class="manufacturing-icon precision-icon">
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <div class="manufacturing-details">
+                        <h3>Precision Engineering</h3>
+                        <p>Advanced engineering capabilities allow us to produce high-precision aluminum electrolytic capacitors with tight tolerances.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check-circle"></i> ±5% capacitance tolerance</li>
+                            <li><i class="fas fa-check-circle"></i> Advanced formation process</li>
+                            <li><i class="fas fa-check-circle"></i> Precision winding technology</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="manufacturing-item">
+                    <div class="manufacturing-icon analytics-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="manufacturing-details">
+                        <h3>Big Data Analytics</h3>
+                        <p>Data-driven quality control system monitors production parameters in real-time to ensure optimal capacitor performance.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check-circle"></i> IoT-connected production</li>
+                            <li><i class="fas fa-check-circle"></i> Predictive maintenance</li>
+                            <li><i class="fas fa-check-circle"></i> Performance analytics</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="manufacturing-item">
+                    <div class="manufacturing-icon capacity-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <div class="manufacturing-details">
+                        <h3>High Production Capacity</h3>
+                        <p>With monthly production capacity of over 300 Thousand Pcs, we can fulfill large orders with short lead times.</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check-circle"></i> 24/7 production capability</li>
+                            <li><i class="fas fa-check-circle"></i> Multiple production lines</li>
+                            <li><i class="fas fa-check-circle"></i> Quick scaling for demand</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Manufacturing Process Flow -->
+            <div class="process-flow">
+                <h3>Our Manufacturing Process</h3>
+                <div class="process-steps">
+                    <div class="process-step">
+                        <div class="step-circle">1</div>
+                        <div class="step-content">
+                            <h4>Raw Material Preparation</h4>
+                            <p>Pure aluminum foil processing and electrolyte formulation</p>
+                        </div>
+                    </div>
+                    <div class="process-arrow"><i class="fas fa-arrow-right"></i></div>
+                    <div class="process-step">
+                        <div class="step-circle">2</div>
+                        <div class="step-content">
+                            <h4>Anode Formation</h4>
+                            <p>Chemical processing to create oxide layer</p>
+                        </div>
+                    </div>
+                    <div class="process-arrow"><i class="fas fa-arrow-right"></i></div>
+                    <div class="process-step">
+                        <div class="step-circle">3</div>
+                        <div class="step-content">
+                            <h4>Winding & Assembly</h4>
+                            <p>Precision winding of capacitor elements</p>
+                        </div>
+                    </div>
+                    <div class="process-arrow"><i class="fas fa-arrow-right"></i></div>
+                    <div class="process-step">
+                        <div class="step-circle">4</div>
+                        <div class="step-content">
+                            <h4>Quality Testing</h4>
+                            <p>Comprehensive performance verification</p>
                         </div>
                     </div>
                 </div>
@@ -861,13 +2007,13 @@
                             </div>
                             <div class="contact-text">
                                 <h4>Email</h4>
-                                <p>zuhu.liu@gmail.com</p>
+                                <p><a href="mailto:zuhu.liu@gmail.com" style="color: #3b82f6; text-decoration: none;">zuhu.liu@gmail.com</a></p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="map-container">
-                    <img src="https://space.coze.cn/api/coze_space/gen_image?image_size=landscape_16_9&prompt=Factory%20location%20map%20with%20pin%20showing%20capacitor%20manufacturer%20facility%20in%20industrial%20area&sign=b725ebbaf0b55872c13374e15e48860f" alt="Our location map">
+                    <img src="https://capacitormanufacturer.com/images/map.png" alt="capacitor manufacturer map">
                 </div>
             </div>
         </div>
@@ -923,16 +2069,14 @@
                     <ul>
                         <li><a href="#products">Snap-in Capacitors</a></li>
                         <li><a href="#products">Screw Terminal Capacitors</a></li>
-                        <li><a href="#products">Low ESR Capacitors</a></li>
-                        <li><a href="#products">Long Life Capacitors</a></li>
                     </ul>
                 </div>
                 <div class="footer-links">
                     <h3>Contact Us</h3>
                     <ul>
                         <li>Zhangzhishan Town, Nantong City, Jiangsu Province, China</li>
-                        <li>+86 189 1224 1508</li>
-                        <li>zuhu.liu@gmail.com</li>
+                        <li>Wechat / Whatsapp :<br> +86 189 1224 1508</li>
+                        <li><a href="mailto:zuhu.liu@gmail.com" style="color: rgba(255, 255, 255, 0.7); text-decoration: none;">zuhu.liu@gmail.com</a></li>
                     </ul>
                 </div>
             </div>
@@ -984,6 +2128,41 @@
                 }
             });
         });
+        
+        // Number counter animation for statistics
+        function animateNumbers() {
+            const counters = document.querySelectorAll('.stat-number');
+            const speed = 200;
+            
+            counters.forEach(counter => {
+                const target = +counter.getAttribute('data-count');
+                const count = +counter.innerText;
+                
+                const increment = target / speed;
+                
+                if (count < target) {
+                    counter.innerText = Math.ceil(count + increment);
+                    setTimeout(() => animateNumbers(), 20);
+                } else {
+                    counter.innerText = target;
+                }
+            });
+        }
+        
+        // Intersection Observer to trigger animation when element is in view
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => animateNumbers(), 300);
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+        
+        const statsSection = document.querySelector('.manufacturing-stats');
+        if (statsSection) {
+            observer.observe(statsSection);
+        }
     </script>
 </body>
 </html>
