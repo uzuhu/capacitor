@@ -2,7 +2,7 @@
 
 Nantong HUAYU Electronics Co., Ltd. — Professional aluminum electrolytic capacitor manufacturer since 1987.
 
-**Live site:** [https://uzuhu.github.io/cap2605/](https://uzuhu.github.io/cap2605/)
+**Live site:** [https://capacitormanufacturer.com](https://capacitormanufacturer.com)
 
 ---
 
@@ -34,7 +34,7 @@ author: "Your Name"
 4. Write your article content in **Markdown** below the `---` line
 5. **Commit** the file to the `main` branch
 7. Wait **1–2 minutes** — GitHub Pages will automatically rebuild the site
-8. Your article will appear at: `https://uzuhu.github.io/cap2605/blog/`
+8. Your article will appear at: `https://capacitormanufacturer.com/blog/`
 
 ---
 
