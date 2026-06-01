@@ -34,7 +34,7 @@ description: "Stay updated with HUAYU capacitor product news, technical articles
           </div>
           {% endif %}
           <div style="flex:1; min-width:250px;">
-            <div class="post-meta" style="margin-bottom:8px;">
+            <div class="blog-list-meta" style="margin-bottom:8px;">
               {% if post.categories %}
                 <span style="margin-left:0;">🏷️ {{ post.categories | join: ", " }}</span>
               {% endif %}
@@ -43,9 +43,8 @@ description: "Stay updated with HUAYU capacitor product news, technical articles
               <a href="{{ post.url | relative_url }}" style="color:var(--gray-800); text-decoration:none;">{{ post.title }}</a>
             </h2>
             <p style="color:var(--gray-600); font-size:0.92rem; line-height:1.7;">
-              {{ post.excerpt | strip_html | truncate: 200 }}
+              {{ post.excerpt | strip_html | truncate: 180 }} <a href="{{ post.url | relative_url }}" style="color:var(--blue-mid); font-weight:600; font-size:0.9rem; text-decoration:none; white-space:nowrap;">Read More &rarr;</a>
             </p>
-            <a href="{{ post.url | relative_url }}" style="color:var(--blue-mid); font-weight:600; font-size:0.9rem; text-decoration:none;">Read More &rarr;</a>
           </div>
         </div>
       </article>
