@@ -6,6 +6,7 @@ categories: [Technical Guide, Reliability]
 author: "HUAYU Engineering Team"
 excerpt: "Learn how to predict aluminum electrolytic capacitor lifetime and improve reliability. Covering Arrhenius law, acceleration factors, and design guidelines."
 tags: [capacitor lifetime, capacitor reliability, Arrhenius law, aluminum electrolytic capacitor, end-of-life prediction, capacitor aging]
+---
 
 Aluminum electrolytic capacitors have a **limited lifetime** that depends on operating conditions. Understanding lifetime prediction helps you design more reliable equipment and avoid unexpected failures.
 

@@ -6,6 +6,7 @@ categories: [Technical Guide, VFD Applications]
 author: "HUAYU Engineering Team"
 excerpt: "A comprehensive guide on selecting the right aluminum electrolytic capacitors for Variable Frequency Drive (VFD) applications. Learn about voltage rating, ripple current, and lifetime considerations."
 tags: [VFD capacitor, frequency inverter capacitor, aluminum electrolytic capacitor, DC-link capacitor, snap-in capacitor, ripple current, capacitor for VFD]
+---
 
 Variable Frequency Drives (VFDs) are essential in industrial automation, controlling AC motor speed by varying the frequency and voltage of power supplied. The **DC-link capacitor** is a critical component in VFD design, responsible for smoothing the rectified AC into stable DC and handling motor regeneration energy.
 

@@ -6,6 +6,7 @@ categories: [Technical Guide, General Knowledge]
 author: "HUAYU Engineering Team"
 excerpt: "A comprehensive guide to aluminum electrolytic capacitors - types, key parameters, selection criteria, and applications. Essential reading for engineers and procurement professionals."
 tags: [aluminum electrolytic capacitor, capacitor types, capacitor selection, snap-in capacitor, screw terminal capacitor, HUAYU capacitor, capacitor manufacturer]
+---
 
 Aluminum electrolytic capacitors are the **workhorses of power electronics**. From consumer electronics to industrial equipment, these capacitors provide high capacitance values in compact packages at competitive costs.
 
