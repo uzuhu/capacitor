@@ -1,7 +1,13 @@
 ---
 layout: default
 ---
-<section class="post-hero">
+{% if page.image %}
+<section class="post-banner">
+  <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" loading="lazy">
+</section>
+{% endif %}
+
+<section class="post-header">
   <div class="container">
     {% if page.categories %}
     <div class="post-categories">
@@ -11,15 +17,10 @@ layout: default
     </div>
     {% endif %}
     <h1>{{ page.title }}</h1>
-    <div class="post-hero-meta">
+    <div class="post-meta">
       <span class="post-author">By {{ page.author | default: "HUAYU Team" }}</span>
     </div>
   </div>
-  {% if page.image %}
-  <div class="post-hero-banner">
-    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" loading="lazy">
-  </div>
-  {% endif %}
 </section>
 
 <!-- Breadcrumb -->

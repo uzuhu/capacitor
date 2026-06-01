@@ -35,9 +35,8 @@ description: "Stay updated with HUAYU capacitor product news, technical articles
           {% endif %}
           <div style="flex:1; min-width:250px;">
             <div class="post-meta" style="margin-bottom:8px;">
-              <span>📅 {{ post.date | date: "%B %d, %Y" }}</span>
               {% if post.categories %}
-                <span style="margin-left:12px;">🏷️ {{ post.categories | join: ", " }}</span>
+                <span style="margin-left:0;">🏷️ {{ post.categories | join: ", " }}</span>
               {% endif %}
             </div>
             <h2 style="font-size:1.4rem; margin-bottom:10px;">
