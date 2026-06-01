@@ -494,9 +494,9 @@ li { margin-bottom: 0.3rem; }
 .blog-card-title { font-size: 1.15rem; line-height: 1.45; margin-bottom: 10px; }
 .blog-card-title a { color: var(--gray-800); }
 .blog-card-title a:hover { color: var(--orange); }
-.blog-card-excerpt { font-size: 0.88rem; color: var(--gray-600); line-height: 1.7; flex: 1; margin-bottom: 14px; }
-.blog-read-more { font-size: 0.85rem; font-weight: 600; color: var(--blue-mid); letter-spacing: 0.3px; }
-.blog-read-more:hover { color: var(--orange); }
+.blog-card-excerpt { font-size: 0.88rem; color: var(--gray-600); line-height: 1.7; flex: 1; margin-bottom: 0; }
+.blog-card-excerpt .blog-read-more { font-size: 0.85rem; font-weight: 600; color: var(--blue-mid); letter-spacing: 0.3px; white-space: nowrap; margin-left: 4px; }
+.blog-card-excerpt .blog-read-more:hover { color: var(--orange); }
 
 /* --- Blog Grid --- */
 .blog-grid {

@@ -78,11 +78,11 @@ In a variable frequency drive, the DC link capacitor:
 3. Filters high-frequency ripple from the inverter stage
 
 **Selection checklist for VFD design:**
-- [ ] Voltage rating ≥ 1.2–1.3 × peak DC bus voltage
-- [ ] Ripple current rating ≥ calculated RMS ripple (check at fundamental frequency)
-- [ ] Temperature rating = 105°C minimum for industrial environments
-- [ ] Expected lifespan matches your equipment design life
-- [ ] Case size fits your enclosure + clearance for ventilation
+-  Voltage rating ≥ 1.2–1.3 × peak DC bus voltage
+-  Ripple current rating ≥ calculated RMS ripple (check at fundamental frequency)
+-  Temperature rating = 105°C minimum for industrial environments
+-  Expected lifespan matches your equipment design life
+-  Case size fits your enclosure + clearance for ventilation
 
 ## Why HUAYU?
 
@@ -102,10 +102,6 @@ Need capacitors for your specific application? Send us:
 4. Expected ripple current
 5. Quantity and delivery timeline
 
-📧 **Email**: [zuwho@hotmail.com](mailto:zuwho@hotmail.com)  
-📞 **Tel**: [+86-513-86310599](tel:+8651386310599)  
-📱 **Mobile/WhatsApp**: [+86-18912241508](tel:+8618912241508)
-
 ---
 
-*Next article: **"How to Read a Capacitor Datasheet"** — subscribe to our blog for updates.*
+

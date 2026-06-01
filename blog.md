@@ -47,10 +47,7 @@ permalink: /blog/
           <h2 class="blog-card-title">
             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
           </h2>
-          <p class="blog-card-excerpt">
-            {{ post.excerpt | strip_html | truncate: 160 }}
-          </p>
-          <a href="{{ post.url | relative_url }}" class="blog-read-more">Read More &rarr;</a>
+          <p class="blog-card-excerpt">{{ post.excerpt | strip_html | truncate: 160 }} <a href="{{ post.url | relative_url }}" class="blog-read-more">Read More &rarr;</a></p>
         </div>
       </article>
       {% endfor %}
