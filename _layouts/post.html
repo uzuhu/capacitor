@@ -1,11 +1,6 @@
 ---
 layout: default
 ---
-{% if page.image %}
-<section class="post-banner">
-  <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" loading="lazy">
-</section>
-{% endif %}
 
 <section class="post-header">
   <div class="container">
@@ -35,6 +30,12 @@ layout: default
 <section class="section">
   <div class="container" style="max-width:800px;">
     <article class="post-article">
+      {% if page.image %}
+      <div class="post-featured-image">
+        <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" loading="lazy">
+      </div>
+      {% endif %}
+
       <div class="post-content">
         {{ content }}
       </div>
