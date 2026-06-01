@@ -2,11 +2,11 @@
 layout: default
 ---
 <section class="post-hero">
-  <div class="container" style="max-width:1100px;">
+  <div class="container">
     {% if page.categories %}
     <div class="post-categories">
       {% for cat in page.categories %}
-      <a href="{{ '/blog/' | relative_url }}" class="post-cat-tag">{{ cat }}</a>
+        <a href="{{ '/blog/' | relative_url }}" class="post-cat-tag">{{ cat }}</a>
       {% endfor %}
     </div>
     {% endif %}
@@ -16,7 +16,7 @@ layout: default
     </div>
   </div>
   {% if page.image %}
-  <div class="post-hero-image">
+  <div class="post-hero-img">
     <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" loading="lazy">
   </div>
   {% endif %}
@@ -47,9 +47,6 @@ layout: default
         {% endfor %}
       </div>
       {% endif %}
-
-      <!-- SEO hidden date for search engines only -->
-      <meta itemprop="datePublished" content="{{ page.date | date: '%Y-%m-%d' }}">
     </article>
 
     <div class="post-nav">
