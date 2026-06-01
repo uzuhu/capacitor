@@ -490,7 +490,7 @@ li { margin-bottom: 0.3rem; }
   margin-right: 6px;
   transition: var(--transition);
 }
-.blog-card:hover .blog-tag { background: var(--blue-mid); color: var(--white); }
+.blog-card:hover .blog-tag { background: var(--blue-dark); color: var(--white); }
 .blog-card-title { font-size: 1.15rem; line-height: 1.45; margin-bottom: 10px; }
 .blog-card-title a { color: var(--gray-800); }
 .blog-card-title a:hover { color: var(--orange); }

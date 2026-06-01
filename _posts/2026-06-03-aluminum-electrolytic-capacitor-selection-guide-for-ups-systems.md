@@ -5,7 +5,7 @@ date: 2026-06-03 09:00:00 +0800
 categories: [Technical Guide, UPS Systems]
 author: "HUAYU Engineering Team"
 excerpt: "Learn how to select the right aluminum electrolytic capacitors for Uninterruptible Power Supply (UPS) systems. Covering voltage rating, ripple current, and reliability considerations."
----
+tags: [UPS capacitor, uninterruptible power supply, aluminum electrolytic capacitor, screw terminal capacitor, long life capacitor, DC-link capacitor]
 
 Uninterruptible Power Supply (UPS) systems are critical for protecting sensitive equipment from power interruptions. The **DC-link capacitor** in UPS systems plays a vital role in energy storage and voltage stabilization.
 

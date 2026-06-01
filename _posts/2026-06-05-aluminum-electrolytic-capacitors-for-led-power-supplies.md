@@ -5,7 +5,7 @@ date: 2026-06-05 09:00:00 +0800
 categories: [LED Drivers, Technical Guide]
 author: "HUAYU Engineering Team"
 excerpt: "Learn how to select aluminum electrolytic capacitors for LED power supplies and drivers. Covering high-temperature operation, long lifetime, and reliability for LED lighting applications."
----
+tags: [LED power supply capacitor, LED driver capacitor, aluminum electrolytic capacitor, long life capacitor, high temperature capacitor, lighting capacitor]
 
 LED lighting has become the dominant lighting technology worldwide, and **LED power supplies** (drivers) require reliable aluminum electrolytic capacitors for stable operation and long lifespan.
 
