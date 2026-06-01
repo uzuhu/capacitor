@@ -6,6 +6,7 @@ categories: [Technical Guide]
 author: "HUAYU Engineering Team"
 excerpt: "A comprehensive guide to understanding aluminum electrolytic capacitors — how they work, key parameters, and how to select the right one for your application."
 image: "/assets/images/posts/Guide.jpg"
+tags: [aluminum electrolytic capacitor, snap-in capacitor, VFD capacitor, high ripple current, capacitor selection]
 ---
 
 Aluminum electrolytic capacitors are the workhorses of power electronics. If you've ever opened a frequency inverter, UPS, or welding machine, you've seen them — those cylindrical cans with snap-in or screw terminals.
