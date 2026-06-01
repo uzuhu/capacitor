@@ -149,10 +149,6 @@ Need capacitors for your LED driver design? Send us:
 6. **Ripple current** requirements*
 7. **Quantity and delivery timeline**
 
-📧 **Email**: [zuwho@hotmail.com](mailto:zuwho@hotmail.com)  
-📞 **Tel**: [+86-513-86310599](tel:+8651386310599)  
-📱 **Mobile/WhatsApp**: [+86-18912241508](tel:+8618912241508)
-
----
+*Contact our engineering team to discuss your capacitor requirements and request a custom quote.*
 
 *Next article: **"Capacitor Reliability and Lifetime Prediction"** — subscribe to our blog for updates.*

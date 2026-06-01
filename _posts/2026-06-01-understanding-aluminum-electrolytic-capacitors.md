@@ -145,16 +145,6 @@ Since 1987, we've focused on **large-can aluminum electrolytic capacitors** — 
 - **Global export experience**: serving customers in 50+ countries
 - **OEM/ODM services**: Full customization with your brand
 
-## Get a Custom Quote
-
-Need capacitors for your specific application? Send us:
-
-1. Required voltage and capacitance
-2. Case size constraints
-3. Operating temperature range
-4. Expected ripple current
-5. Quantity and delivery timeline
-
----
+*Contact our engineering team to discuss your capacitor requirements and request a custom quote.*
 
 *Next article: **"How to Select Aluminum Electrolytic Capacitors for VFD Applications"** — subscribe to our blog for updates.*

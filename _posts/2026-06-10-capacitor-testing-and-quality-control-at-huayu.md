@@ -153,10 +153,6 @@ Need **custom testing services** for your application? Send us:
 3. **Required certifications** (UL, CE, etc.)
 4. **Testing timeline** and delivery requirements
 
-📧 **Email**: [zuwho@hotmail.com](mailto:zuwho@hotmail.com)  
-📞 **Tel**: [+86-513-86310599](tel:+8651386310599)  
-📱 **Mobile/WhatsApp**: [+86-18912241508](tel:+8618912241508)
-
----
+*Contact our engineering team to discuss your capacitor requirements and request a custom quote.*
 
 *Next article: **"OEM/ODM Services for Aluminum Electrolytic Capacitors"** — subscribe to our blog for updates.*
