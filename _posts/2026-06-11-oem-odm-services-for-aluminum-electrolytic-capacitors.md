@@ -48,27 +48,27 @@ This article explains our OEM/ODM capabilities and process.
 
 ## OEM/ODM Process Flowchart
 
-```
-Inquiry & Requirements
-        ↓
-Technical Review & Feasibility Study
-        ↓
-Quotation & Lead Time
-        ↓
-Sample Order (10-100 pcs)
-        ↓
-Sample Approval & Testing
-        ↓
-Production Order (MOQ applies)
-        ↓
-Manufacturing & Testing
-        ↓
-Quality Inspection & Certification
-        ↓
-Packaging & Shipping
-        ↓
-After-Sales Support
-```
+<div style="max-width:520px; margin:24px auto; text-align:center;">
+  <div style="background:linear-gradient(135deg, #1a5276, #2980b9); color:#fff; padding:14px 20px; border-radius:8px; font-weight:600; font-size:0.95rem; margin-bottom:6px;">Inquiry & Requirements</div>
+  <div style="color:#2980b9; font-size:1.3rem; line-height:1;">▼</div>
+  <div style="background:linear-gradient(135deg, #1a5276, #2980b9); color:#fff; padding:14px 20px; border-radius:8px; font-weight:600; font-size:0.95rem; margin:6px 0;">Technical Review & Feasibility Study</div>
+  <div style="color:#2980b9; font-size:1.3rem; line-height:1;">▼</div>
+  <div style="background:linear-gradient(135deg, #1a5276, #2980b9); color:#fff; padding:14px 20px; border-radius:8px; font-weight:600; font-size:0.95rem; margin:6px 0;">Quotation & Lead Time</div>
+  <div style="color:#2980b9; font-size:1.3rem; line-height:1;">▼</div>
+  <div style="background:linear-gradient(135deg, #1a5276, #2980b9); color:#fff; padding:14px 20px; border-radius:8px; font-weight:600; font-size:0.95rem; margin:6px 0;">Sample Order (10–100 pcs)</div>
+  <div style="color:#2980b9; font-size:1.3rem; line-height:1;">▼</div>
+  <div style="background:linear-gradient(135deg, #1a5276, #2980b9); color:#fff; padding:14px 20px; border-radius:8px; font-weight:600; font-size:0.95rem; margin:6px 0;">Sample Approval & Testing</div>
+  <div style="color:#2980b9; font-size:1.3rem; line-height:1;">▼</div>
+  <div style="background:linear-gradient(135deg, #1a5276, #2980b9); color:#fff; padding:14px 20px; border-radius:8px; font-weight:600; font-size:0.95rem; margin:6px 0;">Production Order (MOQ applies)</div>
+  <div style="color:#2980b9; font-size:1.3rem; line-height:1;">▼</div>
+  <div style="background:linear-gradient(135deg, #1a5276, #2980b9); color:#fff; padding:14px 20px; border-radius:8px; font-weight:600; font-size:0.95rem; margin:6px 0;">Manufacturing & Testing</div>
+  <div style="color:#2980b9; font-size:1.3rem; line-height:1;">▼</div>
+  <div style="background:linear-gradient(135deg, #1a5276, #2980b9); color:#fff; padding:14px 20px; border-radius:8px; font-weight:600; font-size:0.95rem; margin:6px 0;">Quality Inspection & Certification</div>
+  <div style="color:#2980b9; font-size:1.3rem; line-height:1;">▼</div>
+  <div style="background:linear-gradient(135deg, #1a5276, #2980b9); color:#fff; padding:14px 20px; border-radius:8px; font-weight:600; font-size:0.95rem; margin:6px 0;">Packaging & Shipping</div>
+  <div style="color:#2980b9; font-size:1.3rem; line-height:1;">▼</div>
+  <div style="background:linear-gradient(135deg, #1a5276, #2980b9); color:#fff; padding:14px 20px; border-radius:8px; font-weight:600; font-size:0.95rem; margin-top:6px;">After-Sales Support</div>
+</div>
 
 ## Minimum Order Quantity (MOQ)
 
