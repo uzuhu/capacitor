@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<section class="post-hero">
+  <div class="container" style="max-width:1100px;">
+    {% if page.categories %}
+    <div class="post-categories">
+      {% for cat in page.categories %}
+      <a href="{{ '/blog/' | relative_url }}" class="post-cat-tag">{{ cat }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+    <h1>{{ page.title }}</h1>
+    <div class="post-hero-meta">
+      <span class="post-author">By {{ page.author | default: "HUAYU Team" }}</span>
+    </div>
+  </div>
+  {% if page.image %}
+  <div class="post-hero-image">
+    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" loading="lazy">
+  </div>
+  {% endif %}
+</section>
+
+<!-- Breadcrumb -->
+<div class="breadcrumb">
+  <div class="container">
+    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span>
+    <a href="{{ '/blog/' | relative_url }}">Blog</a> <span>&rsaquo;</span>
+    {{ page.title | truncate: 40 }}
+  </div>
+</div>
+
+<section class="section">
+  <div class="container" style="max-width:800px;">
+    <article class="post-article">
+      <div class="post-content">
+        {{ content }}
+      </div>
+
+      <!-- Keyword Tags -->
+      {% if page.tags %}
+      <div class="post-keyword-tags">
+        <span class="keyword-label">Keywords:</span>
+        {% for tag in page.tags %}
+        <span class="keyword-tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      <!-- SEO hidden date for search engines only -->
+      <meta itemprop="datePublished" content="{{ page.date | date: '%Y-%m-%d' }}">
+    </article>
+
+    <div class="post-nav">
+      <a href="{{ '/blog/' | relative_url }}">&larr; Back to Blog</a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,27 @@
+# Ignored by Jekyll (do NOT delete!)
+.sass-cache/
+.jekyl-metadata
+.jekyl-cache/
+_site/
+
+# Ruby / Gem
+Gemfile.lock
+.bundle/
+
+# Node
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# WorkBuddy
+.workbuddy/

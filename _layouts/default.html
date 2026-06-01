@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  {% seo %}
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ '/sitemap.xml' | relative_url }}">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "{{ site.company_name }}",
+    "alternateName": "{{ site.title }}",
+    "url": "{{ site.url }}{{ site.baseurl }}",
+    "logo": "{{ site.url }}{{ site.baseurl }}/assets/images/logo.png",
+    "description": "{{ site.description }}",
+    "foundingDate": "{{ site.company_founded }}",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "No. 60 Zhangchuan Road, Zhangzhishan Town, Tongzhou District",
+      "addressLocality": "Nantong",
+      "addressRegion": "Jiangsu",
+      "postalCode": "{{ site.company_address_zip }}",
+      "addressCountry": "CN"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "{{ site.company_tel }}",
+      "contactType": "sales",
+      "email": "{{ site.company_email }}",
+      "availableLanguage": ["English", "Chinese"]
+    }
+  }
+  </script>
+</head>
+<body>
+
+<!-- Top Bar -->
+<div class="top-bar">
+  <div class="container">
+    <a href="mailto:{{ site.company_email }}">{{ site.company_email }}</a>
+    <a href="tel:{{ site.company_tel | replace: '-', '' }}">{{ site.company_tel }}</a>
+    <a href="tel:{{ site.company_mobile | replace: '-', '' }}">{{ site.company_mobile }}</a>
+  </div>
+</div>
+
+<!-- Navigation -->
+<nav class="navbar">
+  <div class="container">
+    <a href="{{ '/' | relative_url }}" class="nav-logo">HUAYU<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a></li>
+      <li><a href="{{ '/about/' | relative_url }}" {% if page.url contains '/about/' %}class="active"{% endif %}>About Us</a></li>
+      <li><a href="{{ '/products/' | relative_url }}" {% if page.url contains '/products/' %}class="active"{% endif %}>Products</a></li>
+      <li><a href="{{ '/technical/' | relative_url }}" {% if page.url contains '/technical/' %}class="active"{% endif %}>Technical</a></li>
+      <li><a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog/' %}class="active"{% endif %}>Blog</a></li>
+      <li><a href="{{ '/contact/' | relative_url }}" {% if page.url contains '/contact/' %}class="active"{% endif %}>Contact</a></li>
+    </ul>
+    <div class="hamburger"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+
+<!-- Main Content -->
+<main>
+  {{ content }}
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">HUAYU<span>.</span></div>
+        <p>{{ site.company_name }} is a professional manufacturer of snap-in and screw terminal aluminum electrolytic capacitors, specializing in custom specifications for industrial applications since {{ site.company_founded }}.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="{{ '/about/' | relative_url }}">About Us</a></li>
+          <li><a href="{{ '/products/' | relative_url }}">Products</a></li>
+          <li><a href="{{ '/technical/' | relative_url }}">Technical</a></li>
+          <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+          <li><a href="{{ '/contact/' | relative_url }}">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Products</h4>
+        <ul class="footer-links">
+          <li><a href="{{ '/products/#snap-in' | relative_url }}">Snap-In Capacitors</a></li>
+          <li><a href="{{ '/products/#screw' | relative_url }}">Screw Terminal Capacitors</a></li>
+          <li><a href="{{ '/technical/' | relative_url }}">Terminal Dimensions</a></li>
+          <li><a href="{{ '/pdf/catalogue.pdf' | relative_url }}" target="_blank">Full Catalogue (PDF)</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact Info</h4>
+        <p>{{ site.company_address }}</p>
+        <p style="margin-top:10px;">
+          Tel: <a href="tel:{{ site.company_tel | replace: '-', '' }}" style="color:var(--gray-300);">{{ site.company_tel }}</a><br>
+          Mobile: <a href="tel:{{ site.company_mobile | replace: '-', '' }}" style="color:var(--gray-300);">{{ site.company_mobile }}</a><br>
+          Email: <a href="mailto:{{ site.company_email }}" style="color:var(--gray-300);">{{ site.company_email }}</a>
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; {{ 'now' | date: '%Y' }} {{ site.company_name }}. All Rights Reserved.
+    </div>
+  </div>
+</footer>
+
+<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>
