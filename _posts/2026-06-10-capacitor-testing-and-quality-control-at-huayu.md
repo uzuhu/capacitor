@@ -14,19 +14,19 @@ This article explains our comprehensive **quality control process**.
 
 ## Quality Control Flowchart
 
-```
-Raw Material Inspection
-        ↓
-Formation Test (Oxide Layer Verification)
-        ↓
-Aging Test (Electrical Stabilization)
-        ↓
-Electrical Testing (100% Testing)
-        ↓
-Visual Inspection & Dimensional Check
-        ↓
-Packaging & Shipping
-```
+<div style="max-width:520px; margin:24px auto; text-align:center; font-size:0.92rem;">
+  <div style="background:linear-gradient(135deg, #1a5276, #2980b9); color:#fff; padding:13px 18px; border-radius:8px; font-weight:600;">Raw Material Inspection</div>
+  <div style="color:#2980b9; font-size:1.2rem; line-height:1.2;">▼</div>
+  <div style="background:linear-gradient(135deg, #1a5276, #2980b9); color:#fff; padding:13px 18px; border-radius:8px; font-weight:600;">Formation Test (Oxide Layer Verification)</div>
+  <div style="color:#2980b9; font-size:1.2rem; line-height:1.2;">▼</div>
+  <div style="background:linear-gradient(135deg, #1a5276, #2980b9); color:#fff; padding:13px 18px; border-radius:8px; font-weight:600;">Aging Test (Electrical Stabilization)</div>
+  <div style="color:#2980b9; font-size:1.2rem; line-height:1.2;">▼</div>
+  <div style="background:linear-gradient(135deg, #1a5276, #2980b9); color:#fff; padding:13px 18px; border-radius:8px; font-weight:600;">Electrical Testing (100% Testing)</div>
+  <div style="color:#2980b9; font-size:1.2rem; line-height:1.2;">▼</div>
+  <div style="background:linear-gradient(135deg, #1a5276, #2980b9); color:#fff; padding:13px 18px; border-radius:8px; font-weight:600;">Visual Inspection & Dimensional Check</div>
+  <div style="color:#2980b9; font-size:1.2rem; line-height:1.2;">▼</div>
+  <div style="background:linear-gradient(135deg, #1a5276, #2980b9); color:#fff; padding:13px 18px; border-radius:8px; font-weight:600;">Packaging & Shipping</div>
+</div>
 
 ## 1. Raw Material Inspection
 

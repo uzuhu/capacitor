@@ -17,22 +17,42 @@ This comprehensive guide covers everything you need to know about aluminum elect
 An aluminum electrolytic capacitor consists of:
 - **Anode**: Aluminum foil, electrochemically etched to increase surface area
 - **Electrolyte**: Liquid or solid conductive medium that acts as the cathode
-- **Oxide layer**: A thin Al₂O₃ film formed on the anode — this is the actual dielectric
+- **Oxide layer**: A thin Al₂O₃ film formed on the anode — this is the actual dielectric*
 
 > The oxide layer is **self-healing**: if a defect occurs, the electrolyte reforms the oxide at the fault site, restoring insulation.
 
-## Key Parameters You Must Understand
+## Key Parameters You Must Understand*
 
 ### 1. Rated Voltage (V)
 The maximum continuous DC voltage the capacitor can withstand.  
 **Rule of thumb**: Choose a rating **20-30% above** your maximum operating voltage.
 
-| Application Voltage | Recommended Rating |
-|---|---|
-| 12V DC | 16V or 25V |
-| 24V DC | 35V |
-| 48V system | 63V |
-| 400V DC bus | 500V |
+<table style="width:100%; max-width:520px; margin:1.2rem auto; border-collapse:collapse; font-size:0.92rem; box-shadow:0 2px 8px rgba(0,0,0,0.08); border-radius:8px; overflow:hidden;">
+  <thead>
+    <tr style="background:linear-gradient(135deg, #1a5276, #2980b9); color:#fff;">
+      <th style="padding:12px 16px; text-align:left; font-weight:600;">Application Voltage</th>
+      <th style="padding:12px 16px; text-align:left; font-weight:600;">Recommended Rating</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#fff;">
+      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7;">12V DC</td>
+      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7; font-weight:600; color:#1a5276;">16V or 25V</td>
+    </tr>
+    <tr style="background:#f8fafc;">
+      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7;">24V DC</td>
+      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7; font-weight:600; color:#1a5276;">35V</td>
+    </tr>
+    <tr style="background:#fff;">
+      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7;">48V system</td>
+      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7; font-weight:600; color:#1a5276;">63V</td>
+    </tr>
+    <tr style="background:#f8fafc;">
+      <td style="padding:11px 16px;">400V DC bus</td>
+      <td style="padding:11px 16px; font-weight:600; color:#1a5276;">500V</td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2. Capacitance (µF)
 Larger capacitance = more energy storage and better ripple filtering.  
@@ -47,22 +67,22 @@ This is the **most critical parameter** for power electronics. The capacitor mus
 Lower ESR = less heat generation and better high-frequency performance.  
 Snap-in and screw-terminal capacitors typically have ESR in the **mΩ range**.
 
-### 5. Operating Temperature & Lifetime
+### 5. Operating Temperature & Lifetime*
 Standard ratings:
 - **85°C / 2,000h** (economy grade)
-- **105°C / 2,000h-5,000h** (industrial grade)
-- **125°C / 2,000h-5,000h** (high-reliability)
+- **105°C / 2,000h–5,000h** (industrial grade)
+- **125°C / 2,000h–5,000h** (high-reliability)
 
 **Lifetime doubles for every 10°C reduction in operating temperature** (Arrhenius law).  
 A 105°C / 5,000h capacitor running at 65°C can last **80,000+ hours** (>9 years).
 
-## Types of Aluminum Electrolytic Capacitors
+## Types of Aluminum Electrolytic Capacitors*
 
 ### 1. Snap-In Terminal Capacitors
 - **Diameter range**: 22-90 mm
 - **Mounting**: PCB or chassis snap-in
 - **Current capability**: Up to ~10A ripple
-- **Applications**: VFD output stage, SMPS, LED drivers
+- **Applications**: VFD output stage, SMPS, LED drivers*
 
 **HUAYU series**: CD17FX, CD292, CD293, CD294, CD295, CD296, CD297, CD298
 
@@ -70,43 +90,43 @@ A 105°C / 5,000h capacitor running at 65°C can last **80,000+ hours** (>9 year
 - **Diameter range**: 35-115 mm
 - **Mounting**: Busbar or heavy-duty screw
 - **Current capability**: 10A+ ripple
-- **Applications**: UPS, welding equipment, large inverters
+- **Applications**: UPS, welding equipment, large inverters*
 
 **HUAYU series**: CD92, CD92L, CD98SK, CD135, CD136, CD13L, CD13N, CD13HL, CD13NH
 
 ### 3. Radial Lead Capacitors
 - **Diameter range**: 3-22 mm
 - **Mounting**: PCB radial leads
-- **Applications**: Consumer electronics, power supplies
+- **Applications**: Consumer electronics, power supplies*
 
-## Applications of Aluminum Electrolytic Capacitors
+## Applications of Aluminum Electrolytic Capacitors*
 
 ### 1. Power Supplies (SMPS)
 - **Function**: Output filtering, energy storage
 - **Key requirements**: Low ESR, high ripple current
-- **HUAYU solution**: CD17FX, CD292 series
+- **HUAYU solution**: CD17FX, CD292 series*
 
 ### 2. Variable Frequency Drives (VFD)
 - **Function**: DC-link capacitor, smoothing rectified AC
 - **Key requirements**: High ripple current, long lifetime
-- **HUAYU solution**: CD292-CD298, CD135, CD136 series
+- **HUAYU solution**: CD292-CD298, CD135, CD136 series*
 
 ### 3. UPS Systems
 - **Function**: Energy storage, voltage stabilization
 - **Key requirements**: High reliability, long lifetime
-- **HUAYU solution**: CD92, CD98SK, CD135 series
+- **HUAYU solution**: CD92, CD98SK, CD135 series*
 
 ### 4. Welding Equipment
 - **Function**: Energy storage, current smoothing
 - **Key requirements**: Ultra-high ripple current, low ESR
-- **HUAYU solution**: CD135, CD136 series
+- **HUAYU solution**: CD135, CD136 series*
 
 ### 5. LED Drivers
 - **Function**: Output filtering, current smoothing
 - **Key requirements**: Long lifetime, high temperature rating
-- **HUAYU solution**: CD17FX, CD292 series
+- **HUAYU solution**: CD17FX, CD292 series*
 
-## Selection Checklist for Engineers
+## Selection Checklist for Engineers*
 
 - [ ] **Voltage rating** ≥ 1.2-1.3 × maximum operating voltage
 - [ ] **Ripple current rating** ≥ calculated RMS ripple
@@ -114,7 +134,7 @@ A 105°C / 5,000h capacitor running at 65°C can last **80,000+ hours** (>9 year
 - [ ] **Lifetime** matches equipment design life
 - [ ] **ESR** is sufficiently low for application
 - [ ] **Case size** fits enclosure with proper ventilation
-- [ ] **Certification requirements** (UL, CE, etc.)
+- [ ] **Certification requirements** (UL, CE, etc.)*
 
 ## Why HUAYU?
 
@@ -124,9 +144,9 @@ Since 1987, we've focused on **large-can aluminum electrolytic capacitors** — 
 - **Custom specifications**: Non-standard voltage, capacitance, case size, terminal configuration
 - **Rigorous testing**: Each capacitor undergoes formation, aging, and electrical testing before shipment
 - **Global export experience**: Serving customers in 50+ countries
-- **OEM/ODM services**: Full customization with your brand
+- **OEM/ODM services**: Full customization with your brand*
 
-## Get a Custom Quote
+## Get a Custom Quote*
 
 Need capacitors for your specific application? Send us:
 

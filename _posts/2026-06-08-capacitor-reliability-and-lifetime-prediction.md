@@ -18,9 +18,9 @@ This guide explains the science behind capacitor lifetime and how to predict it 
 
 Capacitor lifetime follows the **Arrhenius equation**:
 
-```
-L = L₀ × 2^((T₀ - T)/10)
-```
+<div style="background:#f4f6f8; border-left:4px solid #2980b9; padding:14px 18px; border-radius:0 8px 8px 0; margin:1rem 0; font-size:0.95rem; font-family:'Fira Code','Consolas',monospace; color:var(--gray-800);">
+  L = L₀ × 2^((T₀ - T)/10)
+</div>
 
 Where:
 - **L** = Expected lifetime at operating temperature T
@@ -32,12 +32,32 @@ Where:
 
 ### Acceleration Factors
 
-| Temperature Reduction | Lifetime Multiplier |
-|---|---|
-| 10°C | 2× |
-| 20°C | 4× |
-| 30°C | 8× |
-| 40°C | 16× |
+<table style="width:100%; max-width:520px; margin:1.2rem auto; border-collapse:collapse; font-size:0.92rem; box-shadow:0 2px 8px rgba(0,0,0,0.08); border-radius:8px; overflow:hidden;">
+  <thead>
+    <tr style="background:linear-gradient(135deg, #1a5276, #2980b9); color:#fff;">
+      <th style="padding:11px 14px; text-align:center; font-weight:600;">Temperature Reduction</th>
+      <th style="padding:11px 14px; text-align:center; font-weight:600;">Lifetime Multiplier</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#fff;">
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center;">10°C</td>
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center; font-weight:600; color:#1a5276;">2×</td>
+    </tr>
+    <tr style="background:#f8fafc;">
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center;">20°C</td>
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center; font-weight:600; color:#1a5276;">4×</td>
+    </tr>
+    <tr style="background:#fff;">
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center;">30°C</td>
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center; font-weight:600; color:#1a5276;">8×</td>
+    </tr>
+    <tr style="background:#f8fafc;">
+      <td style="padding:10px 14px; text-align:center;">40°C</td>
+      <td style="padding:10px 14px; text-align:center; font-weight:600; color:#1a5276;">16×</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Real-World Lifetime Examples
 

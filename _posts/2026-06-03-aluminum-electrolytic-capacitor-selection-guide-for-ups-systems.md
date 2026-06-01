@@ -30,11 +30,32 @@ The DC-link capacitor must handle:
 
 ### 1. Voltage Rating
 
-| UPS Output Voltage | DC Bus Voltage | Recommended Capacitor Rating |
-|---|---|---|
-| 220V AC | ~310V DC | 400V |
-| 380V AC | ~537V DC | 600V |
-| 480V AC | ~678V DC | 800V |
+<table style="width:100%; max-width:520px; margin:1.2rem auto; border-collapse:collapse; font-size:0.92rem; box-shadow:0 2px 8px rgba(0,0,0,0.08); border-radius:8px; overflow:hidden;">
+  <thead>
+    <tr style="background:linear-gradient(135deg, #1a5276, #2980b9); color:#fff;">
+      <th style="padding:12px 16px; text-align:left; font-weight:600;">UPS Output Voltage</th>
+      <th style="padding:12px 16px; text-align:left; font-weight:600;">DC Bus Voltage</th>
+      <th style="padding:12px 16px; text-align:left; font-weight:600;">Recommended Capacitor Rating</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#fff;">
+      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7;">220V AC</td>
+      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7;">~310V DC</td>
+      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7; font-weight:600; color:#1a5276;">400V</td>
+    </tr>
+    <tr style="background:#f8fafc;">
+      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7;">380V AC</td>
+      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7;">~537V DC</td>
+      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7; font-weight:600; color:#1a5276;">600V</td>
+    </tr>
+    <tr style="background:#fff;">
+      <td style="padding:11px 16px;">480V AC</td>
+      <td style="padding:11px 16px;">~678V DC</td>
+      <td style="padding:11px 16px; font-weight:600; color:#1a5276;">800V</td>
+    </tr>
+  </tbody>
+</table>
 
 **Important**: Consider **battery voltage variation** during discharge. The DC bus voltage can drop significantly, requiring capacitors with appropriate voltage rating.
 
@@ -43,7 +64,7 @@ The DC-link capacitor must handle:
 UPS systems generate substantial ripple current from:
 - **Rectifier switching** (100-360 Hz depending on rectifier type)
 - **Inverter switching** (2-20 kHz)
-- **Battery charging/discharging** cycles
+- **Battery charging/discharging** cycles**
 
 **Calculation example**:
 - For a 10 kVA UPS with 90% efficiency, the ripple current can reach **15-20A RMS**
@@ -65,7 +86,7 @@ The required capacitance depends on:
 UPS systems often operate continuously in:
 - **Server rooms** with controlled temperature (20-25°C)
 - **Industrial environments** with higher ambient temperature (up to 40°C)
-- **Outdoor installations** with extreme temperature variations
+- **Outdoor installations** with extreme temperature variations**
 
 **HUAYU recommendation**: Use **105°C rated capacitors** with **5,000-hour lifetime** at 105°C. For critical applications, consider **125°C rated capacitors** with extended lifetime.
 

@@ -8,7 +8,7 @@ excerpt: "A comprehensive guide on selecting the right aluminum electrolytic cap
 tags: [VFD capacitor, frequency inverter capacitor, aluminum electrolytic capacitor, DC-link capacitor, snap-in capacitor, ripple current, capacitor for VFD]
 ---
 
-Variable Frequency Drives (VFDs) are essential in industrial automation, controlling AC motor speed by varying the frequency and voltage of power supplied. The **DC-link capacitor** is a critical component in VFD design, responsible for smoothing the rectified AC into stable DC and handling motor regeneration energy.
+Variable Frequency Drives (VFDS) are essential in industrial automation, controlling AC motor speed by varying the frequency and voltage of power supplied. The **DC-link capacitor** is a critical component in VFD design, responsible for smoothing the rectified AC into stable DC and handling motor regeneration energy.
 
 This guide explains how to select the right **aluminum electrolytic capacitors** for your VFD design.
 
@@ -28,11 +28,32 @@ The DC-link capacitor must handle:
 
 ### 1. Voltage Rating
 
-| Input Voltage | DC Bus Voltage (Peak) | Recommended Capacitor Rating |
-|---|---|---|
-| 220V AC | ~310V DC | 400V |
-| 380V AC | ~537V DC | 600V |
-| 480V AC | ~678V DC | 800V |
+<table style="width:100%; max-width:520px; margin:1.2rem auto; border-collapse:collapse; font-size:0.92rem; box-shadow:0 2px 8px rgba(0,0,0,0.08); border-radius:8px; overflow:hidden;">
+  <thead>
+    <tr style="background:linear-gradient(135deg, #1a5276, #2980b9); color:#fff;">
+      <th style="padding:12px 16px; text-align:left; font-weight:600;">Input Voltage</th>
+      <th style="padding:12px 16px; text-align:left; font-weight:600;">DC Bus Voltage (Peak)</th>
+      <th style="padding:12px 16px; text-align:left; font-weight:600;">Recommended Capacitor Rating</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#fff;">
+      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7;">220V AC</td>
+      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7;">~310V DC</td>
+      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7; font-weight:600; color:#1a5276;">400V</td>
+    </tr>
+    <tr style="background:#f8fafc;">
+      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7;">380V AC</td>
+      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7;">~537V DC</td>
+      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7; font-weight:600; color:#1a5276;">600V</td>
+    </tr>
+    <tr style="background:#fff;">
+      <td style="padding:11px 16px;">480V AC</td>
+      <td style="padding:11px 16px;">~678V DC</td>
+      <td style="padding:11px 16px; font-weight:600; color:#1a5276;">800V</td>
+    </tr>
+  </tbody>
+</table>
 
 **Rule of thumb**: Choose a voltage rating **20-30% above** the maximum DC bus voltage.
 
@@ -49,7 +70,7 @@ This is the **most critical parameter** for VFD applications. The capacitor must
 ### 3. Capacitance Value
 
 The required capacitance depends on:
-- **DC voltage ripple tolerance** (typically 3-5% for industrial VFDs)
+- **DC voltage ripple tolerance** (typically 3-5% for industrial VFDS)
 - **Regeneration energy handling**
 - **Size and cost constraints**
 
@@ -57,7 +78,7 @@ The required capacitance depends on:
 
 ### 4. Operating Temperature & Lifetime
 
-Industrial VFDs often operate in harsh environments:
+Industrial VFDS often operate in harsh environments:
 - **Ambient temperature**: Up to 50°C in enclosed panels
 - **Capacitor internal temperature**: Can reach 70-80°C
 
@@ -65,11 +86,32 @@ Industrial VFDs often operate in harsh environments:
 
 ### 5. Snap-In vs. Screw Terminal
 
-| VFD Power Range | Recommended Type | HUAYU Series |
-|---|---|---|
-| < 5 kW | Snap-In | CD17FX, CD292-CD298 |
-| 5-50 kW | Snap-In or Screw Terminal | CD92, CD98SK |
-| > 50 kW | Screw Terminal | CD135, CD136 |
+<table style="width:100%; max-width:520px; margin:1.2rem auto; border-collapse:collapse; font-size:0.92rem; box-shadow:0 2px 8px rgba(0,0,0,0.08); border-radius:8px; overflow:hidden;">
+  <thead>
+    <tr style="background:linear-gradient(135deg, #1a5276, #2980b9); color:#fff;">
+      <th style="padding:11px 14px; text-align:left; font-weight:600;">VFD Power Range</th>
+      <th style="padding:11px 14px; text-align:left; font-weight:600;">Recommended Type</th>
+      <th style="padding:11px 14px; text-align:left; font-weight:600;">HUAYU Series</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#fff;">
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7;">< 5 kW</td>
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7;">Snap-In</td>
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; font-weight:600; color:#1a5276;">CD17FX, CD292-CD298</td>
+    </tr>
+    <tr style="background:#f8fafc;">
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7;">5-50 kW</td>
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7;">Snap-In or Screw Terminal</td>
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; font-weight:600; color:#1a5276;">CD92, CD98SK</td>
+    </tr>
+    <tr style="background:#fff;">
+      <td style="padding:10px 14px;">50+ kW</td>
+      <td style="padding:10px 14px;">Screw Terminal</td>
+      <td style="padding:10px 14px; font-weight:600; color:#1a5276;">CD135, CD136</td>
+    </tr>
+  </tbody>
+</table>
 
 ## HUAYU Solutions for VFD Applications
 

@@ -18,34 +18,80 @@ Welding machines (MIG, TIG, arc welding) operate by:
 1. **Rectifying AC** to DC
 2. **Storing energy** in DC-link capacitors
 3. **Switching high current** to create welding arc
-4. **Handling current pulses** up to hundreds of amperes
+4. **Handling current pulses** up to hundreds of amperes**
 
 This creates extreme stress on capacitors:
 - **Ultra-high ripple current** (50-200A RMS)
 - **Rapid temperature cycling** during welding pulses
 - **High ambient temperature** from welding heat
-- **Mechanical vibration** from welding operation
+- **Mechanical vibration** from welding operation**
 
 ## Key Selection Criteria for Welding Capacitors
 
 ### 1. Ripple Current Rating - The #1 Priority
 
-| Welding Current | Required Ripple Current Rating | HUAYU Series |
-|---|---|---|
-| 100-200A | 15-25A RMS | CD135, CD136 |
-| 200-400A | 25-50A RMS | CD135, CD136 (parallel) |
-| 400A+ | 50A+ RMS | CD136 (multiple parallel) |
+<table style="width:100%; max-width:520px; margin:1.2rem auto; border-collapse:collapse; font-size:0.92rem; box-shadow:0 2px 8px rgba(0,0,0,0.08); border-radius:8px; overflow:hidden;">
+  <thead>
+    <tr style="background:linear-gradient(135deg, #1a5276, #2980b9); color:#fff;">
+      <th style="padding:11px 14px; text-align:left; font-weight:600;">Welding Current</th>
+      <th style="padding:11px 14px; text-align:left; font-weight:600;">Required Ripple Current</th>
+      <th style="padding:11px 14px; text-align:left; font-weight:600;">HUAYU Series</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#fff;">
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7;">100-200A</td>
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7;">15-25A RMS</td>
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; font-weight:600; color:#1a5276;">CD135, CD136</td>
+    </tr>
+    <tr style="background:#f8fafc;">
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7;">200-400A</td>
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7;">25-50A RMS</td>
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; font-weight:600; color:#1a5276;">CD135, CD136 (parallel)</td>
+    </tr>
+    <tr style="background:#fff;">
+      <td style="padding:10px 14px;">400A+</td>
+      <td style="padding:10px 14px;">50A+ RMS</td>
+      <td style="padding:10px 14px; font-weight:600; color:#1a5276;">CD136 (multiple parallel)</td>
+    </tr>
+  </tbody>
+</table>
 
 **Critical**: Underspecifying ripple current leads to **rapid capacitor failure** from overheating.
 
 ### 2. Voltage Rating
 
-| Welding Voltage | DC Bus Voltage | Recommended Rating |
-|---|---|---|
-| 24-36V | ~50V DC | 63V |
-| 48-60V | ~85V DC | 100V |
-| 80-100V | ~140V DC | 160V |
-| 200V+ | ~280V DC | 350V |
+<table style="width:100%; max-width:520px; margin:1.2rem auto; border-collapse:collapse; font-size:0.92rem; box-shadow:0 2px 8px rgba(0,0,0,0.08); border-radius:8px; overflow:hidden;">
+  <thead>
+    <tr style="background:linear-gradient(135deg, #1a5276, #2980b9); color:#fff;">
+      <th style="padding:11px 14px; text-align:left; font-weight:600;">Welding Voltage</th>
+      <th style="padding:11px 14px; text-align:left; font-weight:600;">DC Bus Voltage</th>
+      <th style="padding:11px 14px; text-align:left; font-weight:600;">Recommended Rating</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#fff;">
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7;">24-36V</td>
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7;">~50V DC</td>
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; font-weight:600; color:#1a5276;">63V</td>
+    </tr>
+    <tr style="background:#f8fafc;">
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7;">48-60V</td>
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7;">~85V DC</td>
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; font-weight:600; color:#1a5276;">100V</td>
+    </tr>
+    <tr style="background:#fff;">
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7;">80-100V</td>
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7;">~140V DC</td>
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; font-weight:600; color:#1a5276;">160V</td>
+    </tr>
+    <tr style="background:#f8fafc;">
+      <td style="padding:10px 14px;">200V+</td>
+      <td style="padding:10px 14px;">~280V DC</td>
+      <td style="padding:10px 14px; font-weight:600; color:#1a5276;">350V</td>
+    </tr>
+  </tbody>
+</table>
 
 ### 3. ESR (Equivalent Series Resistance)
 
@@ -64,11 +110,32 @@ Welding capacitors **generate substantial heat**:
 
 ### 5. Case Size and Mounting
 
-| Welding Power | Recommended Type | Diameter Range |
-|---|---|---|
-| < 10 kW | Screw Terminal | 35-50 mm |
-| 10-50 kW | Screw Terminal | 50-80 mm |
-| > 50 kW | Screw Terminal | 80-115 mm |
+<table style="width:100%; max-width:520px; margin:1.2rem auto; border-collapse:collapse; font-size:0.92rem; box-shadow:0 2px 8px rgba(0,0,0,0.08); border-radius:8px; overflow:hidden;">
+  <thead>
+    <tr style="background:linear-gradient(135deg, #1a5276, #2980b9); color:#fff;">
+      <th style="padding:11px 14px; text-align:left; font-weight:600;">Welding Power</th>
+      <th style="padding:11px 14px; text-align:left; font-weight:600;">Recommended Type</th>
+      <th style="padding:11px 14px; text-align:left; font-weight:600;">Diameter Range</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background:#fff;">
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7;">< 10 kW</td>
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7;">Screw Terminal</td>
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; font-weight:600; color:#1a5276;">35-50 mm</td>
+    </tr>
+    <tr style="background:#f8fafc;">
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7;">10-50 kW</td>
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7;">Screw Terminal</td>
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; font-weight:600; color:#1a5276;">50-80 mm</td>
+    </tr>
+    <tr style="background:#fff;">
+      <td style="padding:10px 14px;">50+ kW</td>
+      <td style="padding:10px 14px;">Screw Terminal</td>
+      <td style="padding:10px 14px; font-weight:600; color:#1a5276;">80-115 mm</td>
+    </tr>
+  </tbody>
+</table>
 
 ## HUAYU Solutions for Welding Applications
 

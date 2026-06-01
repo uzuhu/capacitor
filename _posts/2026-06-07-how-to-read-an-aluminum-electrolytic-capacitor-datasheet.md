@@ -25,10 +25,11 @@ A typical aluminum electrolytic capacitor datasheet includes:
 The maximum continuous DC voltage the capacitor can withstand.
 
 **Example from datasheet**:
-```
-Rated Voltage: 450V DC
-Test Condition: +20°C, 120 Hz
-```
+
+<div style="background:#f4f6f8; border-left:4px solid #2980b9; padding:14px 18px; border-radius:0 8px 8px 0; margin:1rem 0; font-size:0.9rem; font-family:'Fira Code','Consolas',monospace; color:var(--gray-800);">
+  Rated Voltage: 450V DC<br>
+  Test Condition: +20°C, 120 Hz
+</div>
 
 **Interpretation**: The capacitor is designed to operate continuously at up to 450V DC at 20°C.
 
@@ -36,10 +37,11 @@ Test Condition: +20°C, 120 Hz
 The nominal capacitance value with tolerance.
 
 **Example**:
-```
-Nominal Capacitance: 10,000 µF
-Tolerance: ±20% (M)
-```
+
+<div style="background:#f4f6f8; border-left:4px solid #2980b9; padding:14px 18px; border-radius:0 8px 8px 0; margin:1rem 0; font-size:0.9rem; font-family:'Fira Code','Consolas',monospace; color:var(--gray-800);">
+  Nominal Capacitance: 10,000 µF<br>
+  Tolerance: ±20% (M)
+</div>
 
 **Interpretation**: Actual capacitance will be between 8,000 µF and 12,000 µF.
 
@@ -47,10 +49,11 @@ Tolerance: ±20% (M)
 The maximum RMS ripple current at specified frequency and temperature.
 
 **Example**:
-```
-Rated Ripple Current: 8.5A rms
-Test Condition: 105°C, 100-120 Hz
-```
+
+<div style="background:#f4f6f8; border-left:4px solid #2980b9; padding:14px 18px; border-radius:0 8px 8px 0; margin:1rem 0; font-size:0.9rem; font-family:'Fira Code','Consolas',monospace; color:var(--gray-800);">
+  Rated Ripple Current: 8.5A rms<br>
+  Test Condition: 105°C, 100-120 Hz
+</div>
 
 **Important**: Ripple current capability **increases with frequency** and **decreases with temperature**.
 
@@ -58,19 +61,20 @@ Test Condition: 105°C, 100-120 Hz
 A measure of power loss in the capacitor.
 
 **Example**:
-```
-tan δ (at 20°C, 120 Hz): 0.15 max
-```
+
+<div style="background:#f4f6f8; border-left:4px solid #2980b9; padding:14px 18px; border-radius:0 8px 8px 0; margin:1rem 0; font-size:0.9rem; font-family:'Fira Code','Consolas',monospace; color:var(--gray-800);">
+  tan δ (at 20°C, 120 Hz): 0.15 max
+</div>
 
 **Conversion to ESR**: ESR ≈ (tan δ) / (2πfC)
 
 ### 5. Leakage Current
 The DC current that flows when rated voltage is applied.
 
-**Example**:
-```
-Leakge Current: 0.01 CV or 3 µA, whichever is greater
-```
+| Leakage Current Test | Value |
+|---|---|
+| Test Condition | Rated voltage, 20°C |
+| Acceptance Criteria | < 0.01 CV or 3 µA |
 
 ## Performance Curves - How to Read Them
 
@@ -87,10 +91,11 @@ Shows how ripple current capability changes with frequency.
 ### 2. Capacitance Change vs. Temperature
 Shows how capacitance varies with temperature.
 
-**Typical values**:
-- At -25°C: ~85% of nominal
-- At +20°C: 100% of nominal
-- At +105°C: ~90% of nominal
+| Temperature | Capacitance (% of nominal) |
+|---|---|
+| -25°C | ~85% |
+| +20°C | 100% |
+| +105°C | ~90% |
 
 ### 3. Lifetime vs. Temperature (Arrhenius Plot)
 Shows expected lifetime at different operating temperatures.
@@ -117,19 +122,20 @@ Datasheets include detailed dimensions:
 
 Understanding the part numbering system helps you order the right capacitor.
 
-**Example - HUAYU part number**:
-```
-CD 292  M  4  7  10  000  E
-│   │   │  │  │  │   │    │
-│   │   │  │  │  │   │    └─ Tolerance code
-│   │   │  │  │  │   └─ Capacitance code (10,000 µF)
-│   │   │  │  │  └─ Voltage code (47 = 450V)
-│   │   │  │  └─ Terminal/lead style
-│   │   │  └─ Case size code
-│   │   └─ Tolerance (M = ±20%)
-│   └─ Series code (CD292)
-└─ Product family (CD = Snap-In)
-```
+**HUAYU part number format**:
+
+<div style="background:#f4f6f8; border:1px solid #d0d7e0; border-radius:8px; padding:16px 20px; margin:1rem 0; font-size:0.86rem; font-family:'Fira Code','Consolas',monospace; color:var(--gray-800); line-height:1.9;">
+
+<pre style="margin:0; padding:0; background:transparent; border:none; font-size:inherit; color:inherit;">CD 292  –  M  4  7  10  000  E
+│       │    │  │  │    │     │
+│       │    │  │  │    │     └─ Tolerance code (E)
+│       │    │  │  │    └─ Capacitance code (10,000 µF)
+│       │    │  │  └─ Voltage code (47 = 450V)
+│       │    │  └─ Terminal/lead style
+│       │    └─ Case size code
+│       └─ Tolerance (M = ±20%)
+└─ Series code (CD292 = Snap-In)</pre>
+</div>
 
 ## Datasheet Checklist for Engineers
 
