@@ -13,7 +13,7 @@ layout: default
     {% endif %}
     <h1>{{ page.title }}</h1>
     <div class="post-meta">
-      <span class="post-author">By {{ page.author | default: "HUAYU Team" }}</span>
+      <span class="post-author">By {{ page.author | default: "HUAYU Engineering Team" }}</span>
     </div>
   </div>
 </section>
@@ -26,6 +26,38 @@ layout: default
     {{ page.title | truncate: 40 }}
   </div>
 </div>
+
+<!-- Article Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ page.title | replace: '"', '\"' }}",
+  "description": "{{ page.excerpt | strip_html | strip_newlines | truncate: 200 | replace: '"', '\"' }}",
+  "image": "{{ page.image | default: site.default_image | absolute_url }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.date | date_to_xmlschema }}",
+  "author": {
+    "@type": "Organization",
+    "name": "{{ site.company_name }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.company_name }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}{{ site.baseurl }}/assets/images/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.url | absolute_url }}"
+  }
+  {% if page.tags %}
+  ,"keywords": "{{ page.tags | join: ', ' }}"
+  {% endif %}
+}
+</script>
 
 <section class="section">
   <div class="container" style="max-width:800px;">

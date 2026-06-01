@@ -22,6 +22,15 @@ google_analytics: ""
 google_site_verification: ""
 baidu_site_verification: ""
 
+# Site Social (Open Graph / Twitter Card)
+twitter_username: ""
+facebook_app_id: ""
+default_image: "/assets/images/og-default.jpg"
+
+# Webmaster Tools Verification (fill in as needed)
+google_verification: ""
+bing_verification: ""
+
 # Build settings
 markdown: kramdown
 highlighter: rouge

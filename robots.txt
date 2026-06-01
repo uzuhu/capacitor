@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://capacitormanufacturer.com/sitemap.xml
+
+# Disallow admin/private paths (add as needed)
+Disallow: /admin/
+Disallow: /.git/
+Disallow: /.workbuddy/
+Disallow: /Gemfile
+Disallow: /Gemfile.lock
