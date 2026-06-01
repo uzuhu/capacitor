@@ -57,20 +57,6 @@ description: "Contact Nantong HUAYU Electronics Co., Ltd. for snap-in and screw 
           </div>
         </div>
 
-        <div class="contact-info-card">
-          <div class="contact-icon">🕒</div>
-          <div>
-            <h4>Working Hours</h4>
-            <p>Monday &ndash; Saturday: 8:00 AM &ndash; 5:30 PM (CST, UTC+8)</p>
-            <p>Sunday: Closed</p>
-          </div>
-        </div>
-
-        <div class="img-placeholder" style="height:200px;margin-top:16px;">
-          <div>📷</div>
-          <div>Replace with factory location map or aerial photo</div>
-          <div class="size-hint">Recommended: 560 &times; 200px</div>
-        </div>
       </div>
 
       <!-- Right: Inquiry Form -->
@@ -140,10 +126,6 @@ description: "Contact Nantong HUAYU Electronics Co., Ltd. for snap-in and screw 
       <div class="feature-card">
         <h3>🏭 OEM / ODM Service</h3>
         <p>We provide full OEM and ODM services. Capacitors can be manufactured with your brand and custom packaging.</p>
-      </div>
-      <div class="feature-card">
-        <h3>🌐 International Shipping</h3>
-        <p>We ship globally via sea freight and air freight. Standard packaging includes individual carton boxes with moisture barrier bags.</p>
       </div>
     </div>
   </div>
