@@ -64,7 +64,7 @@ description: "Contact Nantong HUAYU Electronics Co., Ltd. for snap-in and screw 
         <h2 style="margin-bottom:20px;">Send an Inquiry</h2>
         <p style="color:var(--gray-600);margin-bottom:20px;">Fill out the form below and we will get back to you within 24 hours. For faster response, email us directly at <a href="mailto:{{ site.company_email }}">{{ site.company_email }}</a>.</p>
 
-        <form action="https://formspree.io/f/{% if site.formspree_id %}{{ site.formspree_id }}{% else %}your-formspree-id{% endif %}" method="POST" class="contact-form">
+        <form class="contact-form" id="inquiry-form">
           <div class="form-row">
             <div class="form-group">
               <label for="name">Full Name *</label>
@@ -78,7 +78,7 @@ description: "Contact Nantong HUAYU Electronics Co., Ltd. for snap-in and screw 
           <div class="form-row">
             <div class="form-group">
               <label for="email">Email Address *</label>
-              <input type="email" id="email" name="_replyto" placeholder="your@email.com" required>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required>
             </div>
             <div class="form-group">
               <label for="phone">Phone / WhatsApp</label>
@@ -89,11 +89,11 @@ description: "Contact Nantong HUAYU Electronics Co., Ltd. for snap-in and screw 
             <label for="product">Product Interest</label>
             <select id="product" name="product_interest">
               <option value="">-- Select a product category --</option>
-              <option value="snap-in">Snap-In Terminal Capacitors</option>
-              <option value="screw">Screw Terminal Capacitors</option>
-              <option value="custom">Custom Specification Capacitors</option>
-              <option value="samples">Sample Request</option>
-              <option value="other">Other / General Inquiry</option>
+              <option value="Snap-In Terminal Capacitors">Snap-In Terminal Capacitors</option>
+              <option value="Screw Terminal Capacitors">Screw Terminal Capacitors</option>
+              <option value="Custom Specification Capacitors">Custom Specification Capacitors</option>
+              <option value="Sample Request">Sample Request</option>
+              <option value="Other / General Inquiry">Other / General Inquiry</option>
             </select>
           </div>
           <div class="form-group">
@@ -101,7 +101,33 @@ description: "Contact Nantong HUAYU Electronics Co., Ltd. for snap-in and screw 
             <textarea id="message" name="message" rows="6" placeholder="Please describe your requirements: capacitance, voltage, case size, quantity, delivery timeline..." required></textarea>
           </div>
           <button type="submit" class="btn btn-primary" style="width:100%;">Send Inquiry</button>
+          <p style="font-size:0.75rem;color:var(--gray-300);margin-top:10px;text-align:center;">
+            Your email app will open with the inquiry pre-filled. Just click Send.
+          </p>
         </form>
+
+        <script>
+        document.getElementById('inquiry-form').addEventListener('submit', function(e) {
+          e.preventDefault();
+          var name    = document.getElementById('name').value;
+          var company = document.getElementById('company').value;
+          var email   = document.getElementById('email').value;
+          var phone   = document.getElementById('phone').value;
+          var product = document.getElementById('product');
+          var productText = product.options[product.selectedIndex].text;
+          var msg     = document.getElementById('message').value;
+
+          var body = "Inquiry from: " + name + "\n";
+          body += "Company: " + company + "\n";
+          body += "Email: " + email + "\n";
+          if (phone) body += "Phone: " + phone + "\n";
+          if (product.value) body += "Product Interest: " + productText + "\n";
+          body += "\n" + msg;
+
+          var mailto = "mailto:{{ site.company_email }}?subject=" + encodeURIComponent("Inquiry from " + name) + "&body=" + encodeURIComponent(body);
+          window.location.href = mailto;
+        });
+        </script>
       </div>
     </div>
   </div>
@@ -116,8 +142,8 @@ description: "Contact Nantong HUAYU Electronics Co., Ltd. for snap-in and screw 
     </div>
     <div class="features-grid">
       <div class="feature-card">
-        <h3>📦 Custom Specification Request</h3>
-        <p>Need a capacitor with non-standard parameters? Provide us with your target capacitance, voltage, case size, ripple current, operating temperature, and expected lifespan.</p>
+        <h3>📦 Custom Request</h3>
+        <p>Need a capacitor with non-standard parameters? Provide us with your target capacitance, voltage, case size, ripple current, operating temperature.</p>
       </div>
       <div class="feature-card">
         <h3>📬 Sample Request</h3>
