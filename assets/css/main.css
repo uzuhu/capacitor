@@ -454,7 +454,7 @@ li { margin-bottom: 0.3rem; }
 .blog-card-thumb {
   display: block;
   width: 100%;
-  height: 260px;
+  aspect-ratio: 4/3;
   overflow: hidden;
   background: var(--gray-100);
 }
@@ -563,20 +563,18 @@ li { margin-bottom: 0.3rem; }
 
 /* --- Post Featured Image (inside article, before content) --- */
 .post-featured-image {
-  max-height: 300px;
+  width: 100%;
+  aspect-ratio: 4/3;
   overflow: hidden;
   border-radius: var(--radius);
   background: var(--gray-100);
   margin-bottom: 1.5rem;
 }
 .post-featured-image img {
-  max-width: 100%;
-  max-height: 300px;
-  width: auto;
-  height: auto;
-  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   display: block;
-  margin: 0 auto;
 }
 
 /* --- Post Content Images (inline images in body) --- */
@@ -584,17 +582,16 @@ li { margin-bottom: 0.3rem; }
   border-radius: var(--radius);
   margin: 1.2rem 0;
   max-width: 100%;
-  max-height: 400px;
-  height: auto;
-  object-fit: contain;
+  aspect-ratio: 4/3;
+  object-fit: cover;
 }
 
 @media (max-width: 600px) {
   .post-header { padding: 24px 0 12px; }
   .post-header h1 { font-size: 1.6rem; }
   .post-cat-tag { font-size: 0.68rem; padding: 3px 10px; }
-  .post-featured-image { max-height: 220px; }
-  .post-featured-image img { max-height: 220px; width: auto; height: auto; }
+  .post-featured-image { aspect-ratio: 4/3; }
+  .post-featured-image img { width: 100%; height: 100%; object-fit: cover; }
 }
 /* --- Rouge / Code Block Theme --- */
 /* Light background with subtle border (best for technical articles) */
@@ -742,7 +739,7 @@ figure.highlight {
 }
 @media (max-width: 600px) {
   .blog-grid { grid-template-columns: 1fr; }
-  .blog-card-thumb { height: 200px; }
+  .blog-card-thumb { aspect-ratio: 4/3; }
   .post-hero h1 { font-size: 1.7rem; }
   .post-hero { padding: 50px 0; }
   .post-hero h1 { font-size: 1.7rem; }
@@ -796,7 +793,8 @@ figure.highlight {
   .timeline-img { flex: none; width: 100%; }
   .post-header { padding: 24px 0 12px; }
   .post-header h1 { font-size: 1.6rem; }
-  .post-featured-image img { max-height: 220px; }
+  .post-featured-image { aspect-ratio: 4/3; }
+  .post-featured-image img { width: 100%; height: 100%; object-fit: cover; }
   .post-cat-tag { font-size: 0.68rem; padding: 3px 10px; }
 }
 /* rebuilt 1780291574 */
