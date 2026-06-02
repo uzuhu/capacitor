@@ -563,11 +563,11 @@ li { margin-bottom: 0.3rem; }
 /* --- Post Featured Image (inside article, before content) --- */
 .post-featured-image {
   width: 100%;
-  max-height: 450px;
+  max-width: 900px;
+  margin: 0 auto 1.5rem;
   overflow: hidden;
   border-radius: var(--radius);
   background: var(--gray-100);
-  margin-bottom: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -576,7 +576,7 @@ li { margin-bottom: 0.3rem; }
   width: auto;
   max-width: 100%;
   height: auto;
-  max-height: 450px;
+  max-height: 420px;
   object-fit: contain;
   display: block;
 }
@@ -585,9 +585,9 @@ li { margin-bottom: 0.3rem; }
 .post-content img {
   border-radius: var(--radius);
   margin: 1rem auto;
-  max-width: 100%;
+  max-width: 720px;
   height: auto;
-  max-height: 500px;
+  max-height: 420px;
   display: block;
 }
 
