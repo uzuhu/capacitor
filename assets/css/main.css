@@ -452,14 +452,19 @@ li { margin-bottom: 0.3rem; }
 .blog-card:hover { box-shadow: var(--shadow-lg); transform: translateY(-3px); }
 /* --- Blog Card Thumbnail (shared: homepage + listing) --- */
 .blog-card-thumb {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
+  max-height: 220px;
   overflow: hidden;
   background: var(--gray-100);
 }
 .blog-card-thumb img {
-  width: 100%;
-  height: 100%;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 220px;
   object-fit: contain;
   transition: transform 0.4s ease;
 }
@@ -512,7 +517,7 @@ li { margin-bottom: 0.3rem; }
   padding: 50px 0 18px;
   border-bottom: none;
 }
-.post-header .container { max-width: 1100px; }
+.post-header .container { max-width: var(--max-width); }
 .post-header h1 { color: var(--white); }
 .post-meta { color: rgba(255,255,255,0.8); }
 .blog-list-meta { color: var(--gray-600); font-size: 0.88rem; font-weight: 500; }
@@ -534,10 +539,10 @@ li { margin-bottom: 0.3rem; }
 .post-cat-tag:hover { background: var(--orange); color: var(--white); }
 /* --- Post Article --- */
 .post-article { margin-top: 10px; }
-.post-content { line-height: 1.85; font-size: 1rem; color: var(--gray-700); }
-.post-content h2 { margin-top: 2.2rem; margin-bottom: 1rem; font-size: 1.6rem; }
-.post-content h3 { margin-top: 1.6rem; margin-bottom: 0.8rem; font-size: 1.25rem; }
-.post-content p { margin-bottom: 1.1rem; }
+.post-content { line-height: 1.7; font-size: 1rem; color: var(--gray-700); }
+.post-content h2 { margin-top: 1.6rem; margin-bottom: 0.8rem; font-size: 1.5rem; }
+.post-content h3 { margin-top: 1.2rem; margin-bottom: 0.6rem; font-size: 1.2rem; }
+.post-content p { margin-bottom: 0.9rem; }
 .post-content ul, .post-content ol { padding-left: 1.5rem; margin-bottom: 1.1rem; }
 .post-content li { margin-bottom: 0.4rem; }
 
@@ -555,22 +560,23 @@ li { margin-bottom: 0.3rem; }
   .post-content thead th, .post-content tbody td { padding:9px 10px; }
 }
 
-/* --- Post Content: Inline code & code blocks --- */
-.post-content code { background:var(--gray-50); color:#c7254e; padding:2px 7px; border-radius:4px; font-size:0.88em; border:1px solid var(--gray-200); font-family:'Fira Code','Consolas',monospace; }
-.post-content pre { background:#f4f6f8; border:1px solid var(--gray-200); border-radius:var(--radius); padding:16px; overflow-x:auto; margin:1.2rem 0; font-size:0.88rem; line-height:1.65; }
-.post-content pre code { background:transparent; color:var(--gray-800); padding:0; border:none; font-size:inherit; }
-
 /* --- Post Featured Image (inside article, before content) --- */
 .post-featured-image {
   width: 100%;
+  max-height: 450px;
   overflow: hidden;
   border-radius: var(--radius);
   background: var(--gray-100);
   margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .post-featured-image img {
-  width: 100%;
-  height: 100%;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 450px;
   object-fit: contain;
   display: block;
 }
@@ -578,9 +584,11 @@ li { margin-bottom: 0.3rem; }
 /* --- Post Content Images (inline images in body) --- */
 .post-content img {
   border-radius: var(--radius);
-  margin: 1.2rem 0;
+  margin: 1rem auto;
   max-width: 100%;
   height: auto;
+  max-height: 500px;
+  display: block;
 }
 
 @media (max-width: 600px) {
@@ -680,7 +688,7 @@ figure.highlight {
   font-size: 0.88em;
   border: 1px solid var(--gray-200);
 }
-.post-content pre { background: var(--gray-800); color: var(--gray-100); padding: 16px; border-radius: var(--radius); overflow-x: auto; margin: 1.2rem 0; font-size: 0.88rem; line-height: 1.6; }
+.post-content pre { background: var(--gray-800); color: var(--gray-100); padding: 12px; border-radius: var(--radius); overflow-x: auto; margin: 1rem 0; font-size: 0.88rem; line-height: 1.55; }
 
 /* --- Keyword Tags (SEO) --- */
 .post-keyword-tags {

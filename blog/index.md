@@ -21,7 +21,7 @@ description: "Stay updated with HUAYU capacitor product news, technical articles
 
 <!-- Blog Listing -->
 <section class="section">
-  <div class="container" style="max-width:900px;">
+  <div class="container">
 
     {% assign posts = site.posts %}
     {% if posts.size > 0 %}

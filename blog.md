@@ -22,7 +22,7 @@ permalink: /blog/
 
 <!-- Blog Listing -->
 <section class="section">
-  <div class="container" style="max-width:1100px;">
+  <div class="container">
 
     <div class="blog-grid">
       {% for post in paginator.posts %}
