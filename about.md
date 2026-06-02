@@ -30,11 +30,7 @@ description: "Learn about HUAYU's 37-year history as a specialized aluminum elec
         <p>Today, HUAYU capacitors are trusted by manufacturers of frequency inverters, welding equipment, UPS systems, power supplies, and industrial automation equipment across more than 50 countries worldwide.</p>
       </div>
       <div>
-        <div class="img-placeholder" style="height:340px;">
-          <div>📷</div>
-          <div>Replace with factory exterior or production line photo</div>
-          <div class="size-hint">Recommended: 560 &times; 340px</div>
-        </div>
+        <img src="{{ '/assets/images/huayu.jpg' | relative_url }}" alt="HUAYU factory exterior" style="width:100%;height:auto;border-radius:var(--radius);">
       </div>
     </div>
   </div>
@@ -49,13 +45,11 @@ description: "Learn about HUAYU's 37-year history as a specialized aluminum elec
     </div>
     <div class="timeline">
       <div class="timeline-item">
-        <div class="timeline-img">
-          <div class="img-placeholder" style="height:180px;">
-            <div>📷</div>
-            <div>1987 - Factory founding photo</div>
-            <div class="size-hint">Recommended: 280 &times; 180px</div>
-          </div>
+      <div class="timeline-img">
+        <div style="height:180px;overflow:hidden;border-radius:var(--radius);display:flex;align-items:center;justify-content:center;background:var(--gray-50);">
+          <img src="{{ '/assets/images/1987.jpg' | relative_url }}" alt="1987 Factory founding" style="max-width:100%;max-height:100%;width:auto;height:auto;">
         </div>
+      </div>
         <div class="timeline-body">
           <div class="year">1987</div>
           <h3>The Beginning — Founded in Nantong, China</h3>
@@ -63,13 +57,11 @@ description: "Learn about HUAYU's 37-year history as a specialized aluminum elec
         </div>
       </div>
       <div class="timeline-item">
-        <div class="timeline-img">
-          <div class="img-placeholder" style="height:180px;">
-            <div>📷</div>
-            <div>1990s - Production workshop photo</div>
-            <div class="size-hint">Recommended: 280 &times; 180px</div>
-          </div>
+      <div class="timeline-img">
+        <div style="height:180px;overflow:hidden;border-radius:var(--radius);display:flex;align-items:center;justify-content:center;background:var(--gray-50);">
+          <img src="{{ '/assets/images/1990.jpg' | relative_url }}" alt="1990s Production workshop" style="max-width:100%;max-height:100%;width:auto;height:auto;">
         </div>
+      </div>
         <div class="timeline-body">
           <div class="year">1990s</div>
           <h3>Expansion & Quality System</h3>
@@ -77,13 +69,11 @@ description: "Learn about HUAYU's 37-year history as a specialized aluminum elec
         </div>
       </div>
       <div class="timeline-item">
-        <div class="timeline-img">
-          <div class="img-placeholder" style="height:180px;">
-            <div>📷</div>
-            <div>2000s - Export / trade show photo</div>
-            <div class="size-hint">Recommended: 280 &times; 180px</div>
-          </div>
+      <div class="timeline-img">
+        <div style="height:180px;overflow:hidden;border-radius:var(--radius);display:flex;align-items:center;justify-content:center;background:var(--gray-50);">
+          <img src="{{ '/assets/images/2000.JPG' | relative_url }}" alt="2000s Export trade show" style="max-width:100%;max-height:100%;width:auto;height:auto;">
         </div>
+      </div>
         <div class="timeline-body">
           <div class="year">2000s</div>
           <h3>Going Global</h3>
@@ -91,13 +81,11 @@ description: "Learn about HUAYU's 37-year history as a specialized aluminum elec
         </div>
       </div>
       <div class="timeline-item">
-        <div class="timeline-img">
-          <div class="img-placeholder" style="height:180px;">
-            <div>📷</div>
-            <div>2010s - New products / equipment upgrade photo</div>
-            <div class="size-hint">Recommended: 280 &times; 180px</div>
-          </div>
+      <div class="timeline-img">
+        <div style="height:180px;overflow:hidden;border-radius:var(--radius);display:flex;align-items:center;justify-content:center;background:var(--gray-50);">
+          <img src="{{ '/assets/images/2010.png' | relative_url }}" alt="2010s New products equipment upgrade" style="max-width:100%;max-height:100%;width:auto;height:auto;">
         </div>
+      </div>
         <div class="timeline-body">
           <div class="year">2010s</div>
           <h3>Innovation & Market Expansion</h3>
@@ -105,13 +93,11 @@ description: "Learn about HUAYU's 37-year history as a specialized aluminum elec
         </div>
       </div>
       <div class="timeline-item">
-        <div class="timeline-img">
-          <div class="img-placeholder" style="height:180px;">
-            <div>📷</div>
-            <div>Present - Modern factory / team photo</div>
-            <div class="size-hint">Recommended: 280 &times; 180px</div>
-          </div>
+      <div class="timeline-img">
+        <div style="height:180px;overflow:hidden;border-radius:var(--radius);display:flex;align-items:center;justify-content:center;background:var(--gray-50);">
+          <img src="{{ '/assets/images/today.png' | relative_url }}" alt="Today Modern factory team" style="max-width:100%;max-height:100%;width:auto;height:auto;">
         </div>
+      </div>
         <div class="timeline-body">
           <div class="year">Today</div>
           <h3>Trusted by Manufacturers Worldwide</h3>
