@@ -100,11 +100,7 @@ description: "Huayu is a leading aluminum electrolytic capacitor manufacturer in
     </div>
     <div class="features-grid">
       <div class="feature-card" style="border-top:3px solid var(--orange);">
-        <div class="img-placeholder" style="height:160px;margin-bottom:14px;">
-          <div>📷</div>
-          <div>Snap-In product photo</div>
-          <div class="size-hint">Recommended: 340 &times; 160px</div>
-        </div>
+        <img src="{{ '/assets/images/Snap-in.png' | relative_url }}" alt="Snap-In Terminal Capacitors" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--radius);margin-bottom:14px;">
         <h3 style="color:var(--blue-dark);font-size:1.5rem;">Snap-In Terminal Capacitors</h3>
         <p>Compact mounting with snap-in terminals for easy PCB or chassis installation. Ideal for inverter output filtering, frequency drives, and switching power supplies.</p>
         <p><strong>Series:</strong> CD17FX, CD292, CD293, CD294, CD295, CD296, CD297, CD298</p>
@@ -112,11 +108,7 @@ description: "Huayu is a leading aluminum electrolytic capacitor manufacturer in
         <a href="{{ '/products/#snap-in' | relative_url }}" class="btn btn-sm btn-secondary" style="margin-top:10px;">View Specifications &rarr;</a>
       </div>
       <div class="feature-card" style="border-top:3px solid var(--blue-dark);">
-        <div class="img-placeholder" style="height:160px;margin-bottom:14px;">
-          <div>📷</div>
-          <div>Screw Terminal product photo</div>
-          <div class="size-hint">Recommended: 340 &times; 160px</div>
-        </div>
+        <img src="{{ '/assets/images/Screw.png' | relative_url }}" alt="Screw Terminal Capacitors" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--radius);margin-bottom:14px;">
         <h3 style="color:var(--blue-dark);font-size:1.5rem;">Screw Terminal Capacitors</h3>
         <p>Robust screw terminal connection for high-reliability applications. Designed for UPS systems, welding equipment, and heavy-duty industrial power electronics.</p>
         <p><strong>Series:</strong> CD92, CD92L, CD98SK, CD135, CD136, CD13L, CD13N, CD13HL, CD13NH</p>
@@ -124,11 +116,7 @@ description: "Huayu is a leading aluminum electrolytic capacitor manufacturer in
         <a href="{{ '/products/#screw' | relative_url }}" class="btn btn-sm btn-secondary" style="margin-top:10px;">View Specifications &rarr;</a>
       </div>
       <div class="feature-card" style="border-top:3px solid var(--gray-300);">
-        <div class="img-placeholder" style="height:160px;margin-bottom:14px;">
-          <div>📷</div>
-          <div>Custom / special order photo</div>
-          <div class="size-hint">Recommended: 340 &times; 160px</div>
-        </div>
+        <img src="{{ '/assets/images/Custom.png' | relative_url }}" alt="Custom Specifications" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--radius);margin-bottom:14px;">
         <h3 style="color:var(--blue-dark);font-size:1.5rem;">Custom Specifications</h3>
         <p>Need non-standard capacitance, voltage, case size, or terminal configuration? Our engineering team works with you to design and produce capacitors tailored to your exact requirements.</p>
         <a href="{{ '/technical/' | relative_url }}" class="btn btn-sm btn-secondary" style="margin-top:10px;">View Resources &rarr;</a>
