@@ -26,8 +26,8 @@ This guide compares **snap-in** and **screw terminal** capacitors to help you ch
   <tbody>
     <tr style="background:#fff;">
       <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; font-weight:600; color:var(--blue-dark);">Diameter range</td>
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center;">22–90 mm</td>
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center;">35–115 mm</td>
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center;">22–40 mm</td>
+      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center;">35–100 mm</td>
     </tr>
     <tr style="background:#f8fafc;">
       <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; font-weight:600; color:var(--blue-dark);">Current capability</td>
@@ -78,7 +78,7 @@ This guide compares **snap-in** and **screw terminal** capacitors to help you ch
 
 ### HUAYU Snap-In Series
 - **CD17FX**: Compact series, 22–35 mm diameter
-- **CD292–CD298**: Standard industrial series, 22–90 mm diameter
+- **CD292–CD298**: Standard industrial series, 22–40 mm diameter
 - **Voltage range**: 16V to 500V DC
 - **Ripple current**: Up to 10A RMS at 105°C
 - **Lifetime**: 5,000 hours at 105°C
@@ -88,7 +88,7 @@ This guide compares **snap-in** and **screw terminal** capacitors to help you ch
 ### Advantages
 - **High current capability**: 10A+ ripple current handling
 - **Robust connection**: Secure screw terminals for high-vibration environments
-- **Large case sizes**: Up to 115 mm diameter for high capacitance values
+- **Large case sizes**: Up to 100 mm diameter for high capacitance values
 - **Excellent thermal performance**: Better heat dissipation
 
 ### Disadvantages
@@ -106,7 +106,7 @@ This guide compares **snap-in** and **screw terminal** capacitors to help you ch
 - **CD92, CD92L**: General-purpose screw terminal series
 - **CD98SK**: High-ripple current series
 - **CD135, CD136**: Ultra-high ripple current series
-- **Voltage range**: 16V to 800V DC
+- **Voltage range**: 16V to 500V DC
 - **Ripple current**: 10A+ RMS at 105°C
 - **Lifetime**: 5,000 hours at 105°C
 
