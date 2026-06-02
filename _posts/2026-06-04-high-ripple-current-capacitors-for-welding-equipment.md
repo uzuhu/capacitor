@@ -142,14 +142,14 @@ Welding capacitors **generate substantial heat**:
 HUAYU specializes in **high-ripple current capacitors** for welding equipment:
 
 ### CD135 Series - High Ripple Current
-- **Diameter**: 35-90 mm
-- **Voltage**: 63V, 100V, 160V, 200V, 250V, 350V, 400V, 450V
+- **Diameter**: 35-100 mm
+- **Voltage**: 63V, 100V, 160V, 200V, 250V, 350V, 400V, 450V, 500V
 - **Ripple current**: Up to 15A RMS at 105°C
 - **ESR**: Optimized for low heat generation
 - **Lifetime**: 5,000 hours at 105°C
 
 ### CD136 Series - Ultra-High Ripple Current
-- **Diameter**: 50-115 mm
+- **Diameter**: 50-100 mm
 - **Voltage**: 63V, 100V, 160V, 200V, 250V, 350V, 400V, 450V
 - **Ripple current**: 15A+ RMS at 105°C
 - **ESR**: Ultra-low for minimal heat generation

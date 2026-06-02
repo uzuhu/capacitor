@@ -118,25 +118,25 @@ Industrial VFDS often operate in harsh environments:
 HUAYU specializes in **large-can aluminum electrolytic capacitors** for industrial applications. Our VFD-optimized series include:
 
 ### Snap-In Series (CD17FX, CD292-CD298)
-- **Diameter**: 22-90 mm
-- **Voltage**: 400V, 500V, 600V, 800V
+- **Diameter**: 22-40 mm
+- **Voltage**: Up to 500V
 - **Ripple current**: Up to 10A RMS at 105°C
 - **Lifetime**: 5,000 hours at 105°C
 
 ### Screw Terminal Series (CD92, CD98SK, CD135, CD136)
-- **Diameter**: 35-115 mm
-- **Voltage**: Up to 800V
+- **Diameter**: 35-100 mm
+- **Voltage**: Up to 500V
 - **Ripple current**: 10A+ RMS
 - **Terminals**: M5, M6, or custom
 
 ## Design Checklist for VFD Engineers
 
-- [ ] Voltage rating ≥ 1.2-1.3 × peak DC bus voltage
-- [ ] Ripple current rating ≥ calculated RMS ripple (check at fundamental frequency)
-- [ ] Temperature rating = 105°C minimum
-- [ ] Expected lifespan matches equipment design life
-- [ ] Case size fits enclosure with proper ventilation
-- [ ] Consider parallel capacitors for higher ripple current handling
+-  Voltage rating ≥ 1.2-1.3 × peak DC bus voltage
+-  Ripple current rating ≥ calculated RMS ripple (check at fundamental frequency)
+-  Temperature rating = 105°C minimum
+-  Expected lifespan matches equipment design life
+-  Case size fits enclosure with proper ventilation
+-  Consider parallel capacitors for higher ripple current handling
 
 ## Get a Custom Quote
 

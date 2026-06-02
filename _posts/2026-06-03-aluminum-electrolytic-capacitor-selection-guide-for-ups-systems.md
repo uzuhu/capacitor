@@ -103,14 +103,14 @@ UPS systems require **high reliability** components:
 HUAYU provides **reliable aluminum electrolytic capacitors** for UPS systems:
 
 ### Snap-In Series (CD17FX, CD292-CD298)
-- **Diameter**: 22-90 mm
-- **Voltage**: 400V, 500V, 600V, 800V
+- **Diameter**: 22-40 mm
+- **Voltage**: 400V, 500V
 - **Ripple current**: Up to 10A RMS at 105°C
 - **Lifetime**: 5,000 hours at 105°C
 - **ESR**: Optimized for low heat generation
 
 ### Screw Terminal Series (CD92, CD98SK, CD135, CD136)
-- **Diameter**: 35-115 mm
+- **Diameter**: 35-100 mm
 - **Voltage**: Up to 800V
 - **Ripple current**: 10A+ RMS
 - **Terminals**: M5, M6, or custom
@@ -118,13 +118,13 @@ HUAYU provides **reliable aluminum electrolytic capacitors** for UPS systems:
 
 ## Design Checklist for UPS Engineers
 
-- [ ] Voltage rating considers battery voltage variation
-- [ ] Ripple current rating ≥ calculated RMS ripple at operating frequency
-- [ ] Temperature rating = 105°C minimum (125°C for critical applications)
-- [ ] Expected lifespan matches UPS design life (10-15 years)
-- [ ] Low ESR for reduced heat generation
-- [ ] Consider parallel capacitors for higher ripple current handling
-- [ ] Verify capacitor specifications with HUAYU engineering team
+-  Voltage rating considers battery voltage variation
+-  Ripple current rating ≥ calculated RMS ripple at operating frequency
+-  Temperature rating = 105°C minimum (125°C for critical applications)
+-  Expected lifespan matches UPS design life (10-15 years)
+-  Low ESR for reduced heat generation
+-  Consider parallel capacitors for higher ripple current handling
+-  Verify capacitor specifications with HUAYU engineering team
 
 ## Get a Custom Quote
 

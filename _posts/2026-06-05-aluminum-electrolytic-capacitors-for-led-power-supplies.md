@@ -112,7 +112,7 @@ HUAYU provides **high-reliability capacitors** for LED lighting:
 - **ESR**: Optimized for low heat generation
 
 ### CD292-CD298 Series - Standard Snap-In
-- **Diameter**: 22-90 mm*
+- **Diameter**: 22-40 mm*
 - **Voltage**: 25V to 500V*
 - **Ripple current**: Up to 10A RMS at 105°C*
 - **Lifetime**: 5,000 hours at 105°C*
@@ -120,13 +120,13 @@ HUAYU provides **high-reliability capacitors** for LED lighting:
 
 ## Design Checklist for LED Driver Engineers*
 
-- [ ] Temperature rating = 105°C minimum (125°C for premium designs)
-- [ ] Expected lifespan matches LED design life (50,000+ hours)
-- [ ] Ripple current rating ≥ calculated RMS ripple
-- [ ] Voltage rating ≥ 1.2-1.3 × maximum operating voltage
-- [ ] Low ESR for improved performance
-- [ ] Consider parallel capacitors for higher ripple current handling
-- [ ] Verify capacitor specifications with HUAYU engineering team*
+-  Temperature rating = 105°C minimum (125°C for premium designs)
+-  Expected lifespan matches LED design life (50,000+ hours)
+-  Ripple current rating ≥ calculated RMS ripple
+-  Voltage rating ≥ 1.2-1.3 × maximum operating voltage
+-  Low ESR for improved performance
+-  Consider parallel capacitors for higher ripple current handling
+-  Verify capacitor specifications with HUAYU engineering team*
 
 ## HUAYU Custom Solutions for LED Lighting*
 
