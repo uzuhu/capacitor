@@ -6,6 +6,7 @@ categories: [Quality Control, Manufacturing]
 author: "HUAYU Quality Team"
 excerpt: "Learn about HUAYU's rigorous capacitor testing and quality control processes. Ensuring reliable aluminum electrolytic capacitors for global customers."
 tags: [capacitor testing, quality control, HUAYU capacitor, aluminum electrolytic capacitor, reliability testing, capacitor manufacturer]
+image: "/assets/images/posts/package2.jpg"
 ---
 
 At HUAYU, **quality is our top priority**. Every aluminum electrolytic capacitor undergoes **rigorous testing** before shipment to ensure reliable performance in demanding applications.
