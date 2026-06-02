@@ -101,21 +101,21 @@ description: "Huayu is a leading aluminum electrolytic capacitor manufacturer in
     <div class="features-grid">
       <div class="feature-card" style="border-top:3px solid var(--orange);">
         <img src="{{ '/assets/images/Snap-in.png' | relative_url }}" alt="Snap-In Capacitors" style="width:100%;height:auto;border-radius:var(--radius);margin-bottom:14px;">
-        <h3 style="color:var(--blue-dark);font-size:1.5rem;">Snap-In Terminal Capacitors</h3>
+        <h3 style="color:var(--blue-dark);font-size:1.5rem;">Snap-In Capacitors</h3>
         <p>Compact mounting with snap-in terminals for easy PCB or chassis installation. Ideal for inverter output filtering, frequency drives, and switching power supplies.</p>
 
         <a href="{{ '/products/#snap-in' | relative_url }}" class="btn btn-sm btn-secondary" style="margin-top:10px;">View Specifications &rarr;</a>
       </div>
       <div class="feature-card" style="border-top:3px solid var(--blue-dark);">
         <img src="{{ '/assets/images/Screw.png' | relative_url }}" alt="Screw Capacitors" style="width:100%;height:auto;border-radius:var(--radius);margin-bottom:14px;">
-        <h3 style="color:var(--blue-dark);font-size:1.5rem;">Screw Terminal Capacitors</h3>
+        <h3 style="color:var(--blue-dark);font-size:1.5rem;">Screw Capacitors</h3>
         <p>Robust screw terminal connection for high-reliability applications. Designed for UPS systems, welding equipment, and heavy-duty industrial power electronics.</p>
                 <a href="{{ '/products/#screw' | relative_url }}" class="btn btn-sm btn-secondary" style="margin-top:10px;">View Specifications &rarr;</a>
       </div>
       <div class="feature-card" style="border-top:3px solid var(--gray-300);">
         <img src="{{ '/assets/images/Custom.png' | relative_url }}" alt="Custom Specifications" style="width:100%;height:auto;border-radius:var(--radius);margin-bottom:14px;">
         <h3 style="color:var(--blue-dark);font-size:1.5rem;">Custom Capacitors</h3>
-        <p>Need non-standard capacitance, voltage, case size, or terminal configuration? Our engineering team works with you to design and produce capacitors tailored to your exact requirements.</p>
+        <p>Need non-standard capacitance, voltage, case size? Our engineering team works with you to design and produce capacitors tailored to your exact requirements.</p>
         <a href="{{ '/technical/' | relative_url }}" class="btn btn-sm btn-secondary" style="margin-top:10px;">View Resources &rarr;</a>
       </div>
     </div>
