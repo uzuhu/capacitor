@@ -28,10 +28,8 @@ description: "Browse HUAYU's full range of snap-in and screw terminal aluminum e
         <p style="color:var(--gray-600);font-size:0.92rem;margin-bottom:16px;line-height:1.7;">Browse all 17 product series including snap-in and screw terminal capacitors with detailed electrical specifications, mechanical dimensions, and ordering information.</p>
         <a href="{{ '/pdf/catalogue.pdf' | relative_url }}" target="_blank" class="btn btn-secondary">📄 Download Full Catalogue (PDF)</a>
       </div>
-      <div class="img-placeholder" style="flex:1.6;min-width:300px;min-height:210px;">
-        <div>📷</div>
-        <div>Full series capacitor product photo</div>
-        <div class="size-hint">Recommended: 580 &times; 210px</div>
+      <div style="flex:1.6;min-width:300px;min-height:210px;">
+        <img src="{{ '/assets/images/Full-capacitor.png' | relative_url }}" alt="Full series capacitor products" style="width:100%;height:auto;border-radius:var(--radius);">
       </div>
     </div>
   </div>
@@ -45,15 +43,11 @@ description: "Browse HUAYU's full range of snap-in and screw terminal aluminum e
       <p style="color:var(--gray-600);margin-bottom:20px;">Snap-in terminal capacitors feature a secure press-fit mounting design that eliminates the need for screws or additional hardware. Our snap-in series covers diameters from 22mm to 90mm, with voltage ratings up to 500V.</p>
 
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:24px;">
-        <div class="img-placeholder" style="height:180px;">
-          <div>📷</div>
-          <div>Snap-In product photo 1</div>
-          <div class="size-hint">Recommended: 340 &times; 180px</div>
+        <div style="height:180px;overflow:hidden;border-radius:var(--radius);display:flex;align-items:center;justify-content:center;background:var(--gray-50);">
+          <img src="{{ '/assets/images/snap1.png' | relative_url }}" alt="Snap-In product photo 1" style="max-width:100%;max-height:100%;width:auto;height:auto;">
         </div>
-        <div class="img-placeholder" style="height:180px;">
-          <div>📷</div>
-          <div>Snap-In product photo 2</div>
-          <div class="size-hint">Recommended: 340 &times; 180px</div>
+        <div style="height:180px;overflow:hidden;border-radius:var(--radius);display:flex;align-items:center;justify-content:center;background:var(--gray-50);">
+          <img src="{{ '/assets/images/snap2.png' | relative_url }}" alt="Snap-In product photo 2" style="max-width:100%;max-height:100%;width:auto;height:auto;">
         </div>
       </div>
 
@@ -123,15 +117,11 @@ description: "Browse HUAYU's full range of snap-in and screw terminal aluminum e
       <p style="color:var(--gray-600);margin-bottom:20px;">Screw terminal capacitors provide a robust, vibration-resistant connection ideal for high-power industrial applications. Our screw terminal series spans diameters from 30mm to 115mm.</p>
 
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:24px;">
-        <div class="img-placeholder" style="height:180px;">
-          <div>📷</div>
-          <div>Screw Terminal product photo 1</div>
-          <div class="size-hint">Recommended: 340 &times; 180px</div>
+        <div style="height:180px;overflow:hidden;border-radius:var(--radius);display:flex;align-items:center;justify-content:center;background:var(--gray-50);">
+          <img src="{{ '/assets/images/screw1.png' | relative_url }}" alt="Screw Terminal product photo 1" style="max-width:100%;max-height:100%;width:auto;height:auto;">
         </div>
-        <div class="img-placeholder" style="height:180px;">
-          <div>📷</div>
-          <div>Screw Terminal product photo 2</div>
-          <div class="size-hint">Recommended: 340 &times; 180px</div>
+        <div style="height:180px;overflow:hidden;border-radius:var(--radius);display:flex;align-items:center;justify-content:center;background:var(--gray-50);">
+          <img src="{{ '/assets/images/screw2.png' | relative_url }}" alt="Screw Terminal product photo 2" style="max-width:100%;max-height:100%;width:auto;height:auto;">
         </div>
       </div>
 
