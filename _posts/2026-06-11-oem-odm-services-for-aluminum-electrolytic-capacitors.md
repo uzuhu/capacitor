@@ -27,7 +27,7 @@ This article explains our OEM/ODM capabilities and process.
 ## Customization Options
 
 ### 1. Electrical Specifications
-- **Voltage rating**: Custom voltage from 10V to 800V DC
+- **Voltage rating**: Custom voltage from 10V to 500V DC
 - **Capacitance**: Custom capacitance values and tolerance
 - **Ripple current**: Enhanced ripple current capability
 - **ESR**: Low ESR options for high-frequency applications
@@ -121,8 +121,8 @@ This article explains our OEM/ODM capabilities and process.
 ## Success Stories
 
 ### Case 1: European VFD Manufacturer
-- **Requirement**: Custom 600V, 2,200 µF capacitor for 45 kW VFD
-- **Solution**: Custom CD298 series with enhanced ripple current
+- **Requirement**: Custom 500V, 2,200 µF capacitor for 45 kW VFD
+- **Solution**: Custom CD135 series with enhanced ripple current
 - **Result**: 30% longer lifetime, 15% lower ESR
 
 ### Case 2: Asian Welding Equipment Maker
