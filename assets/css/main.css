@@ -563,7 +563,7 @@ li { margin-bottom: 0.3rem; }
 /* --- Post Featured Image (inside article, before content) --- */
 .post-featured-image {
   width: 100%;
-  max-width: 900px;
+  max-width: 720px;
   margin: 0 auto 1.5rem;
   overflow: hidden;
   border-radius: var(--radius);
