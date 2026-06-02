@@ -40,7 +40,7 @@ description: "Browse HUAYU's full range of snap-in and screw terminal aluminum e
   <div class="container">
     <div class="product-section">
       <h3>🔲 Snap-In Terminal Aluminum Electrolytic Capacitors</h3>
-      <p style="color:var(--gray-600);margin-bottom:20px;">Snap-in terminal capacitors feature a secure press-fit mounting design that eliminates the need for screws or additional hardware. Our snap-in series covers diameters from 22mm to 90mm, with voltage ratings up to 500V.</p>
+      <p style="color:var(--gray-600);margin-bottom:20px;">Snap-in terminal capacitors feature a secure press-fit mounting design that eliminates the need for screws or additional hardware. Our snap-in series covers diameters from 22mm to 40mm, with voltage ratings up to 500V.</p>
 
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:24px;">
         <div style="height:180px;overflow:hidden;border-radius:var(--radius);display:flex;align-items:center;justify-content:center;background:var(--gray-50);">
@@ -114,7 +114,7 @@ description: "Browse HUAYU's full range of snap-in and screw terminal aluminum e
   <div class="container">
     <div class="product-section">
       <h3>🔲 Screw Terminal Aluminum Electrolytic Capacitors</h3>
-      <p style="color:var(--gray-600);margin-bottom:20px;">Screw terminal capacitors provide a robust, vibration-resistant connection ideal for high-power industrial applications. Our screw terminal series spans diameters from 30mm to 115mm.</p>
+      <p style="color:var(--gray-600);margin-bottom:20px;">Screw terminal capacitors provide a robust, vibration-resistant connection ideal for high-power industrial applications. Our screw terminal series spans diameters from 35mm to 100mm.</p>
 
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:24px;">
         <div style="height:180px;overflow:hidden;border-radius:var(--radius);display:flex;align-items:center;justify-content:center;background:var(--gray-50);">
