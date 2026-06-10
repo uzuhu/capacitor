@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ultimate Guide to Aluminum Electrolytic Capacitors: Types, Selection, and Applications"
+title: "Aluminum Electrolytic Capacitor Types and Selection Guide"
 date: 2026-06-06 09:00:00 +0800
 categories: [Technical Guide, General Knowledge]
 author: "HUAYU Engineering Team"
