@@ -23,9 +23,14 @@ permalink: /applications/
 <!-- Intro -->
 <section class="section" style="padding-bottom:30px;">
   <div class="container">
-    <p style="color:var(--gray-600);font-size:1rem;line-height:1.8;max-width:900px;">
-      HUAYU aluminum electrolytic capacitors are widely used in industrial automation, new energy, medical equipment, power electronics, and many other fields. We provide professional selection advice and highly reliable product solutions tailored to different application scenarios.
-    </p>
+    <div style="max-width:900px;margin:0 auto;">
+      <p style="color:var(--gray-700);font-size:1.08rem;line-height:1.85;margin-bottom:12px;">
+        HUAYU aluminum electrolytic capacitors are widely used in <strong>industrial automation</strong>, <strong>new energy</strong>, <strong>medical equipment</strong>, <strong>power electronics</strong>, and many other fields.
+      </p>
+      <p style="color:var(--gray-600);font-size:0.95rem;line-height:1.8;">
+        We provide professional selection advice and highly reliable product solutions tailored to different application scenarios. Select a field below to explore recommended series, key requirements, and selection guidelines.
+      </p>
+    </div>
   </div>
 </section>
 
