@@ -116,7 +116,7 @@ description: "Huayu is a leading aluminum electrolytic capacitor manufacturer in
         <img src="{{ '/assets/images/Custom.png' | relative_url }}" alt="Custom Specifications" style="width:100%;height:auto;border-radius:var(--radius);margin-bottom:14px;">
         <h3 style="color:var(--blue-dark);font-size:1.5rem;">Custom Capacitors</h3>
         <p>Need non-standard capacitance, voltage, case size? Our engineering team works with you to design and produce capacitors tailored to your exact requirements.</p>
-        <a href="{{ '/technical/' | relative_url }}" class="btn btn-sm btn-secondary" style="margin-top:10px;">View Resources &rarr;</a>
+        <a href="{{ '/applications/' | relative_url }}" class="btn btn-sm btn-secondary" style="margin-top:10px;">View Applications &rarr;</a>
       </div>
     </div>
   </div>
