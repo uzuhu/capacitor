@@ -12,21 +12,7 @@ description: "Screw terminal aluminum electrolytic capacitors from HUAYU — 9 s
   </div>
 </section>
 
-<!-- Breadcrumb -->
-<div class="breadcrumb">
-  <div class="container">
-    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span> <a href="{{ '/products/' | relative_url }}">Products</a> <span>&rsaquo;</span> Screw Terminal Capacitors
-  </div>
-</div>
 
-<!-- Summary -->
-<section class="section" style="padding-bottom:0;">
-  <div class="container">
-    <p style="font-size:1.1rem;color:var(--gray-700);line-height:1.8;max-width:800px;">
-      <strong>Summary:</strong> HUAYU offers 9 series of screw terminal aluminum electrolytic capacitors ranging from 35mm to 100mm diameter. Screw terminal capacitors provide robust threaded connections for high-vibration environments and high-current applications. Series include standard (CD92, CD13N), long-life (CD92L, CD13L), high ripple (CD98SK, CD13HL, CD13NH), large-can (CD135), and high-voltage (CD136) options engineered for UPS systems, welding equipment, industrial drives, and heavy-duty power electronics.
-    </p>
-  </div>
-</section>
 
 <!-- Photos -->
 <section class="section">

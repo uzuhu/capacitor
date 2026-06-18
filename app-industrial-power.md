@@ -22,21 +22,7 @@ permalink: /applications/industrial-power/
   </div>
 </section>
 
-<!-- Breadcrumb -->
-<div class="breadcrumb">
-  <div class="container">
-    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span> <a href="{{ '/applications/' | relative_url }}">Applications</a> <span>&rsaquo;</span> Industrial Power Supplies
-  </div>
-</div>
 
-<!-- Overview -->
-<section class="section">
-  <div class="container">
-    <h2 style="margin-bottom:16px;">Overview</h2>
-    <p style="color:var(--gray-600);line-height:1.8;">Industrial power supplies are the backbone of modern manufacturing and process control systems. Switching Mode Power Supplies (SMPS), DC-DC converters, and Power Factor Correction (PFC) circuits demand capacitors with <strong>low ESR</strong>, <strong>high ripple current capability</strong>, and <strong>long operational life</strong> under continuous duty cycles.</p>
-    <p style="color:var(--gray-600);line-height:1.8;margin-top:12px;">Aluminum electrolytic capacitors in these applications serve as input filtering, output smoothing, and energy storage elements. Their performance directly impacts power supply efficiency, output voltage stability, and overall system reliability.</p>
-  </div>
-</section>
 
 <!-- Key Requirements -->
 <section class="section section-alt">

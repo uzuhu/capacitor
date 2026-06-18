@@ -22,21 +22,7 @@ permalink: /applications/inverters/
   </div>
 </section>
 
-<!-- Breadcrumb -->
-<div class="breadcrumb">
-  <div class="container">
-    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span> <a href="{{ '/applications/' | relative_url }}">Applications</a> <span>&rsaquo;</span> Inverters
-  </div>
-</div>
 
-<!-- Overview -->
-<section class="section">
-  <div class="container">
-    <h2 style="margin-bottom:16px;">Overview</h2>
-    <p style="color:var(--gray-600);line-height:1.8;">Inverters convert DC power to AC power and are fundamental to industrial automation, renewable energy, and power electronics. The DC-link aluminum electrolytic capacitor is the energy reservoir that stabilizes the intermediate DC bus between the rectifier and inverter stages, absorbing ripple current from both sides and providing ride-through capability during load transients.</p>
-    <p style="color:var(--gray-600);line-height:1.8;margin-top:12px;">General inverter applications span a wide range of power levels &mdash; from fractional horsepower motor drives to multi-megawatt industrial systems. Selecting the right capacitor requires careful consideration of voltage rating, ripple current, expected lifetime, and physical mounting constraints.</p>
-  </div>
-</section>
 
 <!-- Capacitor Roles -->
 <section class="section section-alt">

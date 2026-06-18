@@ -22,21 +22,7 @@ permalink: /applications/ups-systems/
   </div>
 </section>
 
-<!-- Breadcrumb -->
-<div class="breadcrumb">
-  <div class="container">
-    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span> <a href="{{ '/applications/' | relative_url }}">Applications</a> <span>&rsaquo;</span> UPS Systems
-  </div>
-</div>
 
-<!-- Overview -->
-<section class="section">
-  <div class="container">
-    <h2 style="margin-bottom:16px;">Overview</h2>
-    <p style="color:var(--gray-600);line-height:1.8;">Uninterruptible Power Supplies (UPS) provide backup power when the utility supply fails or degrades. Aluminum electrolytic capacitors are used in multiple stages of a UPS system &mdash; input rectifier filtering, DC-link energy storage, and output inverter filtering. Their reliability directly impacts the UPS system's ability to deliver clean, uninterrupted power to critical loads such as data centers, hospitals, and industrial processes.</p>
-    <p style="color:var(--gray-600);line-height:1.8;margin-top:12px;">UPS systems typically operate 24/7 for 10&ndash;15 years, making capacitor lifetime and reliability paramount. The most common UPS failure mode is capacitor degradation, which underscores the importance of proper selection and preventive maintenance.</p>
-  </div>
-</section>
 
 <!-- Capacitor Roles in UPS -->
 <section class="section section-alt">

@@ -12,26 +12,7 @@ description: "Frequently asked questions about aluminum electrolytic capacitors,
   </div>
 </section>
 
-<!-- Breadcrumb -->
-<div class="breadcrumb">
-  <div class="container">
-    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span> FAQ
-  </div>
-</div>
 
-<!-- Category Jump Navigation -->
-<section class="section" style="padding-bottom:0;">
-  <div class="container" style="max-width:800px;">
-    <div class="faq-nav">
-      <span class="faq-nav-label">Jump to:</span>
-      <a href="#faq-products" class="faq-nav-link">Products &amp; Specs</a>
-      <a href="#faq-custom" class="faq-nav-link">Custom &amp; OEM</a>
-      <a href="#faq-quality" class="faq-nav-link">Quality</a>
-      <a href="#faq-ordering" class="faq-nav-link">Ordering</a>
-      <a href="#faq-support" class="faq-nav-link">Tech Support</a>
-    </div>
-  </div>
-</section>
 
 <!-- FAQ Content -->
 <section class="section">

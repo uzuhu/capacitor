@@ -12,21 +12,7 @@ description: "Step-by-step guide to selecting the right aluminum electrolytic ca
   </div>
 </section>
 
-<!-- Breadcrumb -->
-<div class="breadcrumb">
-  <div class="container">
-    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span> <a href="{{ '/technical/' | relative_url }}">Technical Resources</a> <span>&rsaquo;</span> Selection Guide
-  </div>
-</div>
 
-<!-- Summary -->
-<section class="section" style="padding-bottom:0;">
-  <div class="container">
-    <p style="font-size:1.1rem;color:var(--gray-700);line-height:1.8;max-width:800px;">
-      <strong>Summary:</strong> Selecting the correct aluminum electrolytic capacitor requires balancing multiple parameters: rated voltage, capacitance value, ripple current capability, operating temperature range, expected lifetime, and physical case size. This guide provides a structured approach to capacitor selection for industrial power electronics applications such as frequency inverters, UPS systems, welding equipment, solar inverters, and motor drives.
-    </p>
-  </div>
-</section>
 
 <!-- Selection Steps -->
 <section class="section">

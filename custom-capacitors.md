@@ -12,21 +12,7 @@ description: "Custom-designed snap-in and screw terminal aluminum electrolytic c
   </div>
 </section>
 
-<!-- Breadcrumb -->
-<div class="breadcrumb">
-  <div class="container">
-    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span> <a href="{{ '/products/' | relative_url }}">Products</a> <span>&rsaquo;</span> Custom Capacitors
-  </div>
-</div>
 
-<!-- Summary -->
-<section class="section" style="padding-bottom:0;">
-  <div class="container">
-    <p style="font-size:1.1rem;color:var(--gray-700);line-height:1.8;max-width:800px;">
-      <strong>Summary:</strong> HUAYU specializes in custom-designed aluminum electrolytic capacitors for industrial applications that cannot be satisfied by standard off-the-shelf products. With 17 base product series and nearly four decades of manufacturing expertise, we routinely modify capacitance values, voltage ratings, case dimensions, terminal configurations, and sleeve printing to match customer requirements. OEM/ODM services include private labeling, custom packaging, and brand-specific quality specifications.
-    </p>
-  </div>
-</section>
 
 <!-- What We Can Customize -->
 <section class="section">

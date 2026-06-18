@@ -22,21 +22,7 @@ permalink: /applications/new-energy/
   </div>
 </section>
 
-<!-- Breadcrumb -->
-<div class="breadcrumb">
-  <div class="container">
-    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span> <a href="{{ '/applications/' | relative_url }}">Applications</a> <span>&rsaquo;</span> New Energy
-  </div>
-</div>
 
-<!-- Overview -->
-<section class="section">
-  <div class="container">
-    <h2 style="margin-bottom:16px;">Overview</h2>
-    <p style="color:var(--gray-600);line-height:1.8;">The new energy sector demands capacitors that can operate reliably under extreme temperature fluctuations, high humidity, and continuous high-ripple-current conditions. Whether in photovoltaic string inverters mounted on rooftops, wind turbine nacelle converters, or grid-scale energy storage systems, the DC-link capacitor is critical for power conversion efficiency and system uptime.</p>
-    <p style="color:var(--gray-600);line-height:1.8;margin-top:12px;">HUAYU's ultra-long-life series are specifically engineered for these demanding environments, with enhanced electrolyte formulations and robust sealing technologies that ensure stable performance over 10,000+ hours at rated temperature.</p>
-  </div>
-</section>
 
 <!-- Application Scenarios -->
 <section class="section section-alt">

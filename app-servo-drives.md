@@ -22,21 +22,7 @@ permalink: /applications/servo-drives/
   </div>
 </section>
 
-<!-- Breadcrumb -->
-<div class="breadcrumb">
-  <div class="container">
-    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span> <a href="{{ '/applications/' | relative_url }}">Applications</a> <span>&rsaquo;</span> Servo Drives
-  </div>
-</div>
 
-<!-- Overview -->
-<section class="section">
-  <div class="container">
-    <h2 style="margin-bottom:16px;">Overview</h2>
-    <p style="color:var(--gray-600);line-height:1.8;">Servo drives are precision motor controllers used in CNC machines, robotics, packaging equipment, and semiconductor manufacturing. Unlike general-purpose VFDs, servo drives operate at higher switching frequencies (20&ndash;50 kHz), have faster dynamic response requirements, and experience frequent acceleration/deceleration cycles that generate high regenerative energy pulses.</p>
-    <p style="color:var(--gray-600);line-height:1.8;margin-top:12px;">The DC-link capacitor in a servo drive must deliver low ESR at high switching frequencies, handle repeated high-amplitude ripple current transients, and fit within the compact enclosure typical of multi-axis servo systems.</p>
-  </div>
-</section>
 
 <!-- Key Requirements -->
 <section class="section section-alt">

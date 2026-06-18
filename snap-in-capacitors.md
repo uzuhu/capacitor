@@ -12,21 +12,7 @@ description: "Snap-in terminal aluminum electrolytic capacitors from HUAYU — 8
   </div>
 </section>
 
-<!-- Breadcrumb -->
-<div class="breadcrumb">
-  <div class="container">
-    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span> <a href="{{ '/products/' | relative_url }}">Products</a> <span>&rsaquo;</span> Snap-In Capacitors
-  </div>
-</div>
 
-<!-- Summary -->
-<section class="section" style="padding-bottom:0;">
-  <div class="container">
-    <p style="font-size:1.1rem;color:var(--gray-700);line-height:1.8;max-width:800px;">
-      <strong>Summary:</strong> HUAYU offers 8 series of snap-in terminal aluminum electrolytic capacitors ranging from 22mm to 40mm diameter with voltage ratings up to 500V. Snap-in capacitors feature quick-mount press-fit terminals for easy PCB or chassis installation without additional hardware. Series include standard (CD292), high ripple (CD293, CD294), high voltage (CD295), compact (CD17FX, CD296), long-life (CD297), and large diameter (CD298) options to suit diverse industrial applications.
-    </p>
-  </div>
-</section>
 
 <!-- Photos -->
 <section class="section">

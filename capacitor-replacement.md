@@ -12,21 +12,7 @@ description: "Find HUAYU replacement capacitors for Nichicon, Rubycon, Panasonic
   </div>
 </section>
 
-<!-- Breadcrumb -->
-<div class="breadcrumb">
-  <div class="container">
-    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span> <a href="{{ '/products/' | relative_url }}">Products</a> <span>&rsaquo;</span> Replacement Solutions
-  </div>
-</div>
 
-<!-- Summary -->
-<section class="section" style="padding-bottom:0;">
-  <div class="container">
-    <p style="font-size:1.1rem;color:var(--gray-700);line-height:1.8;max-width:800px;">
-      <strong>Summary:</strong> HUAYU provides cost-effective replacement solutions for aluminum electrolytic capacitors from Nichicon, Rubycon, Panasonic, EPCOS/TDK, Cornell Dubilier, United Chemi-Con, Hitachi, and other major brands. With 17 product series spanning snap-in and screw terminal types, we can match or exceed the specifications of most standard and custom capacitors. Simply provide the original part number and datasheet, and our engineering team will identify the best HUAYU equivalent.
-    </p>
-  </div>
-</section>
 
 <!-- Why Replace -->
 <section class="section">

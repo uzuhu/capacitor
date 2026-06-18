@@ -22,21 +22,7 @@ permalink: /applications/frequency-inverters/
   </div>
 </section>
 
-<!-- Breadcrumb -->
-<div class="breadcrumb">
-  <div class="container">
-    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span> <a href="{{ '/applications/' | relative_url }}">Applications</a> <span>&rsaquo;</span> Frequency Inverters
-  </div>
-</div>
 
-<!-- Overview -->
-<section class="section">
-  <div class="container">
-    <h2 style="margin-bottom:16px;">Overview</h2>
-    <p style="color:var(--gray-600);line-height:1.8;">Variable Frequency Drives (VFDs) control AC motor speed and torque by varying the frequency and voltage of the power supplied. The DC-link aluminum electrolytic capacitor bank is the largest and most critical passive component in a VFD, directly determining the drive's performance, reliability, and service life.</p>
-    <p style="color:var(--gray-600);line-height:1.8;margin-top:12px;">VFDs present some of the most demanding capacitor applications in industry: high ripple current from both the input rectifier and output inverter stages, wide temperature ranges in motor control cabinets, and the expectation of 10+ years continuous operation. HUAYU's capacitor series are designed specifically for these conditions.</p>
-  </div>
-</section>
 
 <!-- VFD Architecture -->
 <section class="section section-alt">

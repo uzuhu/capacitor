@@ -12,21 +12,7 @@ description: "HUAYU's 5-stage quality control system for aluminum electrolytic c
   </div>
 </section>
 
-<!-- Breadcrumb -->
-<div class="breadcrumb">
-  <div class="container">
-    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span> <a href="{{ '/about/' | relative_url }}">About Us</a> <span>&rsaquo;</span> Quality Control
-  </div>
-</div>
 
-<!-- Summary -->
-<section class="section" style="padding-bottom:0;">
-  <div class="container">
-    <p style="font-size:1.1rem;color:var(--gray-700);line-height:1.8;max-width:800px;">
-      <strong>Summary:</strong> HUAYU Electronics implements a rigorous 5-stage quality control system for every aluminum electrolytic capacitor manufactured at our Nantong, China factory. From incoming raw material verification through automated in-process monitoring, accelerated aging screening, 100% parametric testing, to full batch traceability — multiple inspection gates ensure that every snap-in and screw terminal capacitor meets or exceeds its rated specifications before shipment.
-    </p>
-  </div>
-</section>
 
 <!-- 5-Stage QC -->
 <section class="section">

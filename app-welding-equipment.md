@@ -22,21 +22,7 @@ permalink: /applications/welding-equipment/
   </div>
 </section>
 
-<!-- Breadcrumb -->
-<div class="breadcrumb">
-  <div class="container">
-    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span> <a href="{{ '/applications/' | relative_url }}">Applications</a> <span>&rsaquo;</span> Welding Equipment
-  </div>
-</div>
 
-<!-- Overview -->
-<section class="section">
-  <div class="container">
-    <h2 style="margin-bottom:16px;">Overview</h2>
-    <p style="color:var(--gray-600);line-height:1.8;">Modern inverter welding machines have replaced traditional transformer-based welders with compact, efficient switch-mode designs. Aluminum electrolytic capacitors in welding inverters face extreme operating conditions: very high ripple current during welding arcs, rapid load cycling between open-circuit and short-circuit states, high ambient temperatures in enclosed chassis, and exposure to conductive dust and metal particles in industrial environments.</p>
-    <p style="color:var(--gray-600);line-height:1.8;margin-top:12px;">The DC-link capacitor bank must handle the high pulsed current demand of the welding process while maintaining voltage stability. Insufficient capacitance or degraded capacitors result in unstable arc characteristics and poor weld quality.</p>
-  </div>
-</section>
 
 <!-- Welding Types -->
 <section class="section section-alt">

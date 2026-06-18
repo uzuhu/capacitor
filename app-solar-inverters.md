@@ -22,21 +22,7 @@ permalink: /applications/solar-inverters/
   </div>
 </section>
 
-<!-- Breadcrumb -->
-<div class="breadcrumb">
-  <div class="container">
-    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span> <a href="{{ '/applications/' | relative_url }}">Applications</a> <span>&rsaquo;</span> Solar Inverters
-  </div>
-</div>
 
-<!-- Overview -->
-<section class="section">
-  <div class="container">
-    <h2 style="margin-bottom:16px;">Overview</h2>
-    <p style="color:var(--gray-600);line-height:1.8;">Solar photovoltaic inverters convert DC power from solar panels into grid-synchronized AC power. The DC-link aluminum electrolytic capacitor is one of the most critical components, performing input ripple smoothing, energy buffering, and supporting the inverter's MPPT (Maximum Power Point Tracking) algorithm.</p>
-    <p style="color:var(--gray-600);line-height:1.8;margin-top:12px;">Solar inverters face unique challenges: wide daily temperature cycling (rooftop installations can reach &minus;25&deg;C at night and +85&deg;C during the day), 10&ndash;15 year expected service life, and high-frequency switching ripple from the MPPT and inverter stages. Capacitor failure is the leading cause of solar inverter downtime, making correct selection essential.</p>
-  </div>
-</section>
 
 <!-- Key Requirements -->
 <section class="section section-alt">

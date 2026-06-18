@@ -12,21 +12,7 @@ description: "Long life aluminum electrolytic capacitors for UPS, solar inverter
   </div>
 </section>
 
-<!-- Breadcrumb -->
-<div class="breadcrumb">
-  <div class="container">
-    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span> <a href="{{ '/products/' | relative_url }}">Products</a> <span>&rsaquo;</span> Long Life Capacitors
-  </div>
-</div>
 
-<!-- Summary -->
-<section class="section" style="padding-bottom:0;">
-  <div class="container">
-    <p style="font-size:1.1rem;color:var(--gray-700);line-height:1.8;max-width:800px;">
-      <strong>Summary:</strong> HUAYU offers long life aluminum electrolytic capacitors designed for applications requiring 10+ years of continuous service. Available in snap-in terminal (22&phi;&ndash;40&phi;) and screw terminal (35&phi;&ndash;100&phi;) packages with 105&deg;C temperature ratings. Enhanced electrolyte formulations and optimized sealing technologies reduce evaporation rates, delivering 3000&ndash;5000 hours of rated life at maximum temperature — translating to decades of reliable service in typical operating conditions.
-    </p>
-  </div>
-</section>
 
 <!-- Content -->
 <section class="section">

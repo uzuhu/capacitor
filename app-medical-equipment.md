@@ -22,21 +22,7 @@ permalink: /applications/medical-equipment/
   </div>
 </section>
 
-<!-- Breadcrumb -->
-<div class="breadcrumb">
-  <div class="container">
-    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span> <a href="{{ '/applications/' | relative_url }}">Applications</a> <span>&rsaquo;</span> Medical Equipment
-  </div>
-</div>
 
-<!-- Overview -->
-<section class="section">
-  <div class="container">
-    <h2 style="margin-bottom:16px;">Overview</h2>
-    <p style="color:var(--gray-600);line-height:1.8;">Medical imaging and diagnostic equipment &mdash; including X-ray generators, CT scanners, MRI systems, and ultrasound machines &mdash; require power supplies with exceptional reliability and performance. The aluminum electrolytic capacitors in these systems must deliver stable operation over thousands of hours, often in controlled environments but with strict regulatory requirements for safety and electromagnetic compatibility.</p>
-    <p style="color:var(--gray-600);line-height:1.8;margin-top:12px;">Capacitor failure in medical equipment can lead to system downtime that directly impacts patient care. This makes capacitor selection, quality assurance, and preventive maintenance planning critical considerations in medical device design.</p>
-  </div>
-</section>
 
 <!-- Application Scenarios -->
 <section class="section section-alt">

@@ -12,21 +12,7 @@ description: "High ripple current aluminum electrolytic capacitors for inverter 
   </div>
 </section>
 
-<!-- Breadcrumb -->
-<div class="breadcrumb">
-  <div class="container">
-    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span> <a href="{{ '/products/' | relative_url }}">Products</a> <span>&rsaquo;</span> High Ripple Current
-  </div>
-</div>
 
-<!-- Summary -->
-<section class="section" style="padding-bottom:0;">
-  <div class="container">
-    <p style="font-size:1.1rem;color:var(--gray-700);line-height:1.8;max-width:800px;">
-      <strong>Summary:</strong> HUAYU offers a range of high ripple current aluminum electrolytic capacitors specifically designed for applications where the AC ripple component is a significant portion of the rated current. Our CD294, CD295, CD13HL, and CD13NH series feature optimized anode foil etching, low-ESR electrolyte systems, and enhanced thermal management to handle elevated ripple current without excessive internal heating. Available in both snap-in (22&phi;&ndash;40&phi;) and screw terminal (35&phi;&ndash;100&phi;) packages.
-    </p>
-  </div>
-</section>
 
 <!-- Content -->
 <section class="section">
