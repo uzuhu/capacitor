@@ -29,7 +29,7 @@ description: "Browse HUAYU's full range of snap-in and screw terminal aluminum e
 </section>
 
 <!-- Quick Links to Specialized Pages -->
-<div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:30px;">
+<div class="container" style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:30px;">
   <a href="{{ '/snap-in-capacitors/' | relative_url }}" class="btn btn-sm btn-secondary" style="padding:8px 20px;">&raquo; Snap-In Capacitors</a>
   <a href="{{ '/screw-terminal-capacitors/' | relative_url }}" class="btn btn-sm btn-secondary" style="padding:8px 20px;">&raquo; Screw Terminal Capacitors</a>
   <a href="{{ '/high-ripple-current-capacitors/' | relative_url }}" class="btn btn-sm btn-secondary" style="padding:8px 20px;">&raquo; High Ripple Current</a>
