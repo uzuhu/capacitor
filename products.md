@@ -209,9 +209,21 @@ description: "Browse HUAYU's full range of snap-in and screw terminal aluminum e
       <div class="divider"></div>
       <p>Technical references to help you select and use our capacitors correctly</p>
     </div>
-    <div class="features-grid">
+    <div class="features-grid" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));">
       <div class="feature-card" style="text-align:center;">
-        <div style="font-size:2rem;margin-bottom:10px;">📑</div>
+        <div style="font-size:2rem;margin-bottom:10px;">📏</div>
+        <h3>Snap-In Terminal Dimensions</h3>
+        <p>Detailed dimensional drawings for snap-in capacitor mounting, including pin pitch, case diameters, and terminal configurations.</p>
+        <a href="{{ '/pdf/Snap-in-Terminal-Dimensions.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">View PDF</a>
+      </div>
+      <div class="feature-card" style="text-align:center;">
+        <div style="font-size:2rem;margin-bottom:10px;">📏</div>
+        <h3>Screw Terminal Dimensions</h3>
+        <p>Complete screw terminal dimensional reference — thread sizes, terminal spacing, and mounting hole patterns.</p>
+        <a href="{{ '/pdf/Screw-Terminal-Dimensions.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">View PDF</a>
+      </div>
+      <div class="feature-card" style="text-align:center;">
+        <div style="font-size:2rem;margin-bottom:10px;">�</div>
         <h3>Part Number System</h3>
         <p>Learn how to decode HUAYU capacitor part numbers to identify voltage, capacitance, dimensions, and other specifications.</p>
         <a href="{{ '/pdf/Part-Number-System.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">View Document</a>
@@ -221,6 +233,12 @@ description: "Browse HUAYU's full range of snap-in and screw terminal aluminum e
         <h3>Guidelines for Using</h3>
         <p>Best practices for storage, mounting, soldering, and operation of aluminum electrolytic capacitors to ensure maximum lifespan.</p>
         <a href="{{ '/pdf/Guidelines-For-Using.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">View Document</a>
+      </div>
+      <div class="feature-card" style="text-align:center;">
+        <div style="font-size:2rem;margin-bottom:10px;">📒</div>
+        <h3>Application Guide</h3>
+        <p>Comprehensive capacitor selection and application guide covering circuit design, derating, and failure analysis.</p>
+        <a href="{{ '/pdf/GUIDE.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">View Document</a>
       </div>
       <div class="feature-card" style="text-align:center;">
         <div style="font-size:2rem;margin-bottom:10px;">📄</div>
