@@ -1,14 +1,14 @@
 ---
 layout: default
 title: "Resources - Blog & FAQ | HUAYU Capacitor"
-description: "Explore HUAYU's capacitor resources — technical blog articles, frequently asked questions, selection guides, and quality information."
+description: "Explore HUAYU's capacitor resources — technical blog, FAQs, selection guides, and quality information."
 ---
 
 <!-- Page Header -->
 <section class="page-header">
   <div class="container">
     <h1>Resources</h1>
-    <p>Technical blog, frequently asked questions, and guides for aluminum electrolytic capacitors</p>
+    <p>Technical articles, frequently asked questions, and guides for aluminum electrolytic capacitors</p>
   </div>
 </section>
 
@@ -19,94 +19,54 @@ description: "Explore HUAYU's capacitor resources — technical blog articles, f
   </div>
 </div>
 
-<!-- Quick Links -->
-<section class="section" style="padding-bottom:0;">
+<!-- Two Main Cards -->
+<section class="section">
   <div class="container">
-    <div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-bottom:20px;">
-      <a href="#blog" class="btn btn-primary" style="padding:10px 28px;">Blog Articles &darr;</a>
-      <a href="{{ '/faq/' | relative_url }}" class="btn btn-outline" style="padding:10px 28px;">FAQ &rarr;</a>
-      <a href="{{ '/selection-guide/' | relative_url }}" class="btn btn-outline" style="padding:10px 28px;">Selection Guide &rarr;</a>
-      <a href="{{ '/quality-control/' | relative_url }}" class="btn btn-outline" style="padding:10px 28px;">Quality Control &rarr;</a>
-    </div>
-  </div>
-</section>
+    <div class="resources-grid">
 
-<!-- Blog Section -->
-<section class="section section-alt" id="blog">
-  <div class="container">
-    <div class="section-title">
-      <h2>Technical Blog</h2>
-      <div class="divider"></div>
-      <p>In-depth articles about aluminum electrolytic capacitor selection, application, reliability, and testing</p>
-    </div>
-    <div class="blog-list">
-      {% for post in site.posts limit:10 %}
-      <article class="blog-card">
-        <div class="blog-card-body">
-          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-          <div class="blog-meta">
-            <span class="blog-date">{{ post.date | date: "%b %d, %Y" }}</span>
-            <span class="blog-category">{{ post.categories | join: ", " }}</span>
-          </div>
-          <p>{{ post.excerpt | strip_html | truncate: 200 }}</p>
-          <a href="{{ post.url | relative_url }}" class="btn btn-sm btn-secondary">Read More &rarr;</a>
+      <!-- Blog Card -->
+      <a href="{{ '/blog/' | relative_url }}" class="resource-card">
+        <div class="resource-icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+            <rect x="6" y="6" width="36" height="36" rx="6" stroke="#2471a3" stroke-width="2.5" fill="#eaf2f8"/>
+            <line x1="15" y1="17" x2="33" y2="17" stroke="#2471a3" stroke-width="2" stroke-linecap="round"/>
+            <line x1="15" y1="24" x2="33" y2="24" stroke="#2471a3" stroke-width="2" stroke-linecap="round"/>
+            <line x1="15" y1="31" x2="27" y2="31" stroke="#2471a3" stroke-width="2" stroke-linecap="round"/>
+          </svg>
         </div>
-      </article>
-      {% endfor %}
-    </div>
-    <div style="text-align:center;margin-top:30px;">
-      <a href="{{ '/blog/' | relative_url }}" class="btn btn-primary">View All Blog Posts &rarr;</a>
+        <h2>Technical Blog</h2>
+        <p>In-depth articles about capacitor selection, application, reliability, and testing. Written by our engineering team to help you make informed decisions.</p>
+        <span class="resource-meta">11 articles &rarr;</span>
+      </a>
+
+      <!-- FAQ Card -->
+      <a href="{{ '/faq/' | relative_url }}" class="resource-card">
+        <div class="resource-icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+            <circle cx="24" cy="24" r="18" stroke="#2471a3" stroke-width="2.5" fill="#eaf2f8"/>
+            <text x="24" y="30" text-anchor="middle" font-size="22" font-weight="bold" fill="#2471a3" font-family="sans-serif">?</text>
+          </svg>
+        </div>
+        <h2>Frequently Asked Questions</h2>
+        <p>Quick answers to the most common questions about HUAYU capacitors — products, custom orders, quality, ordering, and tech support.</p>
+        <span class="resource-meta">25 answers &rarr;</span>
+      </a>
+
     </div>
   </div>
 </section>
 
-<!-- FAQ Preview -->
-<section class="section" id="faq">
+<!-- Quick Links Row -->
+<section class="section section-alt">
   <div class="container">
     <div class="section-title">
-      <h2>Frequently Asked Questions</h2>
+      <h2>Additional Guides</h2>
       <div class="divider"></div>
-      <p>Quick answers to the most common questions about HUAYU capacitors</p>
     </div>
-    <div style="display:grid;gap:12px;max-width:700px;margin:0 auto;">
-      <div class="faq-preview-item">
-        <a href="{{ '/faq/' | relative_url }}#faq-products" class="faq-preview-link">
-          <span class="faq-preview-icon">🔲</span>
-          <span>Products &amp; Specifications</span>
-          <span class="faq-preview-arrow">&rarr;</span>
-        </a>
-      </div>
-      <div class="faq-preview-item">
-        <a href="{{ '/faq/' | relative_url }}#faq-custom" class="faq-preview-link">
-          <span class="faq-preview-icon">⚙️</span>
-          <span>Custom Orders &amp; OEM</span>
-          <span class="faq-preview-arrow">&rarr;</span>
-        </a>
-      </div>
-      <div class="faq-preview-item">
-        <a href="{{ '/faq/' | relative_url }}#faq-quality" class="faq-preview-link">
-          <span class="faq-preview-icon">✓</span>
-          <span>Quality &amp; Reliability</span>
-          <span class="faq-preview-arrow">&rarr;</span>
-        </a>
-      </div>
-      <div class="faq-preview-item">
-        <a href="{{ '/faq/' | relative_url }}#faq-ordering" class="faq-preview-link">
-          <span class="faq-preview-icon">📦</span>
-          <span>Ordering &amp; Shipping</span>
-          <span class="faq-preview-arrow">&rarr;</span>
-        </a>
-      </div>
-      <div class="faq-preview-item">
-        <a href="{{ '/faq/' | relative_url }}#faq-support" class="faq-preview-link">
-          <span class="faq-preview-icon">🔧</span>
-          <span>Technical Support</span>
-          <span class="faq-preview-arrow">&rarr;</span>
-        </a>
-      </div>
-    </div>
-    <div style="text-align:center;margin-top:24px;">
-      <a href="{{ '/faq/' | relative_url }}" class="btn btn-primary">View Full FAQ &rarr;</a>
+    <div style="display:flex;gap:16px;flex-wrap:wrap;justify-content:center;">
+      <a href="{{ '/selection-guide/' | relative_url }}" class="btn btn-secondary" style="padding:10px 28px;">Capacitor Selection Guide &rarr;</a>
+      <a href="{{ '/quality-control/' | relative_url }}" class="btn btn-secondary" style="padding:10px 28px;">Quality Control &rarr;</a>
+      <a href="{{ '/products/' | relative_url }}" class="btn btn-secondary" style="padding:10px 28px;">Product Datasheets &rarr;</a>
     </div>
   </div>
 </section>
@@ -121,35 +81,51 @@ description: "Explore HUAYU's capacitor resources — technical blog articles, f
 </section>
 
 <style>
-.faq-preview-item {
-  border: 1px solid var(--gray-200);
-  border-radius: var(--radius);
-  transition: box-shadow 0.2s, border-color 0.2s;
+.resources-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  max-width: 780px;
+  margin: 0 auto;
 }
-.faq-preview-item:hover {
-  box-shadow: var(--shadow);
-  border-color: var(--blue-light);
+@media (max-width: 640px) {
+  .resources-grid { grid-template-columns: 1fr; }
 }
-.faq-preview-link {
+.resource-card {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 14px;
-  padding: 16px 20px;
+  text-align: center;
+  padding: 40px 28px;
+  background: var(--white);
+  border: 2px solid var(--gray-200);
+  border-radius: 14px;
   text-decoration: none;
-  font-weight: 600;
-  font-size: 0.98rem;
-  color: var(--gray-800);
+  transition: all 0.25s;
 }
-.faq-preview-icon {
+.resource-card:hover {
+  border-color: var(--blue-light);
+  box-shadow: 0 8px 32px rgba(36,113,163,0.12);
+  transform: translateY(-3px);
+}
+.resource-icon {
+  margin-bottom: 18px;
+}
+.resource-card h2 {
+  margin: 0 0 12px;
   font-size: 1.3rem;
-  flex-shrink: 0;
+  color: var(--blue-dark);
 }
-.faq-preview-link span:not(.faq-preview-icon):not(.faq-preview-arrow) {
-  flex: 1;
+.resource-card p {
+  margin: 0 0 18px;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--gray-600);
 }
-.faq-preview-arrow {
+.resource-meta {
+  font-weight: 700;
+  font-size: 0.88rem;
   color: var(--blue-light);
-  font-size: 1.2rem;
-  flex-shrink: 0;
+  letter-spacing: 0.3px;
 }
 </style>

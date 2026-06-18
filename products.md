@@ -201,51 +201,15 @@ description: "Browse HUAYU's full range of snap-in and screw terminal aluminum e
   </div>
 </section>
 
-<!-- Reference Resources -->
-<section class="section section-alt">
+<!-- Technical References Strip -->
+<section class="section section-alt" style="padding:30px 0;">
   <div class="container">
-    <div class="section-title">
-      <h2>Reference Documents</h2>
-      <div class="divider"></div>
-      <p>Technical references to help you select and use our capacitors correctly</p>
-    </div>
-    <div class="features-grid" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr));">
-      <div class="feature-card" style="text-align:center;">
-        <div style="font-size:2rem;margin-bottom:10px;">📏</div>
-        <h3>Snap-In Terminal Dimensions</h3>
-        <p>Detailed dimensional drawings for snap-in capacitor mounting, including pin pitch, case diameters, and terminal configurations.</p>
-        <a href="{{ '/pdf/Snap-in-Terminal-Dimensions.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">View PDF</a>
-      </div>
-      <div class="feature-card" style="text-align:center;">
-        <div style="font-size:2rem;margin-bottom:10px;">📏</div>
-        <h3>Screw Terminal Dimensions</h3>
-        <p>Complete screw terminal dimensional reference — thread sizes, terminal spacing, and mounting hole patterns.</p>
-        <a href="{{ '/pdf/Screw-Terminal-Dimensions.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">View PDF</a>
-      </div>
-      <div class="feature-card" style="text-align:center;">
-        <div style="font-size:2rem;margin-bottom:10px;">�</div>
-        <h3>Part Number System</h3>
-        <p>Learn how to decode HUAYU capacitor part numbers to identify voltage, capacitance, dimensions, and other specifications.</p>
-        <a href="{{ '/pdf/Part-Number-System.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">View Document</a>
-      </div>
-      <div class="feature-card" style="text-align:center;">
-        <div style="font-size:2rem;margin-bottom:10px;">📁</div>
-        <h3>Guidelines for Using</h3>
-        <p>Best practices for storage, mounting, soldering, and operation of aluminum electrolytic capacitors to ensure maximum lifespan.</p>
-        <a href="{{ '/pdf/Guidelines-For-Using.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">View Document</a>
-      </div>
-      <div class="feature-card" style="text-align:center;">
-        <div style="font-size:2rem;margin-bottom:10px;">📒</div>
-        <h3>Application Guide</h3>
-        <p>Comprehensive capacitor selection and application guide covering circuit design, derating, and failure analysis.</p>
-        <a href="{{ '/pdf/GUIDE.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">View Document</a>
-      </div>
-      <div class="feature-card" style="text-align:center;">
-        <div style="font-size:2rem;margin-bottom:10px;">📄</div>
-        <h3>Full Product Catalogue</h3>
-        <p>Complete catalogue of all HUAYU snap-in and screw terminal capacitor series with detailed specifications and ordering information.</p>
-        <a href="{{ '/pdf/catalogue.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">Download Catalogue</a>
-      </div>
+    <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:24px;">
+      <span style="font-weight:700;color:var(--blue-dark);font-size:0.9rem;">Technical References:</span>
+      <a href="{{ '/pdf/Part-Number-System.pdf' | relative_url }}" target="_blank" class="download-link" style="font-size:0.88rem;">🔍 Part Number System</a>
+      <a href="{{ '/pdf/Guidelines-For-Using.pdf' | relative_url }}" target="_blank" class="download-link" style="font-size:0.88rem;">📁 Guidelines for Using</a>
+      <a href="{{ '/pdf/GUIDE.pdf' | relative_url }}" target="_blank" class="download-link" style="font-size:0.88rem;">📒 Application Guide</a>
+      <a href="{{ '/pdf/catalogue.pdf' | relative_url }}" target="_blank" class="download-link" style="font-size:0.88rem;">📄 Full Catalogue</a>
     </div>
   </div>
 </section>
