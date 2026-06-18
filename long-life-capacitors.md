@@ -61,7 +61,7 @@ description: "Long life aluminum electrolytic capacitors for UPS, solar inverter
       <div class="divider"></div>
     </div>
     <p>Aluminum electrolytic capacitor life doubles for every 10&deg;C reduction in core temperature (Arrhenius principle). Example for a 105&deg;C 5000h rated series:</p>
-    <div style="overflow-x:auto;margin-top:20px;">
+    <div class="table-wrap" style="margin-top:20px;">
       <table class="spec-table">
         <thead>
           <tr>

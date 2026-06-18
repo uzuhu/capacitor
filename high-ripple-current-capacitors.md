@@ -40,7 +40,7 @@ description: "High ripple current aluminum electrolytic capacitors for inverter 
       </div>
       <div>
         <h2>Recommended Series</h2>
-        <div class="product-table-container" style="overflow-x:auto;">
+        <div class="table-wrap">
           <table class="spec-table">
             <thead>
               <tr>

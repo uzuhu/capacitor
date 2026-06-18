@@ -44,7 +44,7 @@ description: "Screw terminal aluminum electrolytic capacitors from HUAYU — 9 s
       <h2>Screw Terminal Series Overview</h2>
       <div class="divider"></div>
     </div>
-    <div style="overflow-x:auto;">
+    <div class="table-wrap">
       <table class="spec-table">
         <thead>
           <tr>
