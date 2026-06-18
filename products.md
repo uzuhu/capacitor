@@ -30,14 +30,14 @@ description: "Browse HUAYU's full range of snap-in and screw terminal aluminum e
 
 <!-- Quick Links to Specialized Pages -->
 <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:30px;">
-  <a href="{{ '/snap-in-capacitors/' | relative_url }}" class="btn btn-sm btn-outline" style="padding:8px 20px;">&raquo; Snap-In Capacitors</a>
-  <a href="{{ '/screw-terminal-capacitors/' | relative_url }}" class="btn btn-sm btn-outline" style="padding:8px 20px;">&raquo; Screw Terminal Capacitors</a>
-  <a href="{{ '/high-ripple-current-capacitors/' | relative_url }}" class="btn btn-sm btn-outline" style="padding:8px 20px;">&raquo; High Ripple Current</a>
-  <a href="{{ '/long-life-capacitors/' | relative_url }}" class="btn btn-sm btn-outline" style="padding:8px 20px;">&raquo; Long Life Capacitors</a>
-  <a href="{{ '/quality-control/' | relative_url }}" class="btn btn-sm btn-outline" style="padding:8px 20px;">&raquo; Quality Control</a>
-  <a href="{{ '/selection-guide/' | relative_url }}" class="btn btn-sm btn-outline" style="padding:8px 20px;">&raquo; Selection Guide</a>
-  <a href="{{ '/capacitor-replacement/' | relative_url }}" class="btn btn-sm btn-outline" style="padding:8px 20px;">&raquo; Replacement Solutions</a>
-  <a href="{{ '/custom-capacitors/' | relative_url }}" class="btn btn-sm btn-outline" style="padding:8px 20px;">&raquo; Custom / OEM</a>
+  <a href="{{ '/snap-in-capacitors/' | relative_url }}" class="btn btn-sm btn-secondary" style="padding:8px 20px;">&raquo; Snap-In Capacitors</a>
+  <a href="{{ '/screw-terminal-capacitors/' | relative_url }}" class="btn btn-sm btn-secondary" style="padding:8px 20px;">&raquo; Screw Terminal Capacitors</a>
+  <a href="{{ '/high-ripple-current-capacitors/' | relative_url }}" class="btn btn-sm btn-secondary" style="padding:8px 20px;">&raquo; High Ripple Current</a>
+  <a href="{{ '/long-life-capacitors/' | relative_url }}" class="btn btn-sm btn-secondary" style="padding:8px 20px;">&raquo; Long Life Capacitors</a>
+  <a href="{{ '/quality-control/' | relative_url }}" class="btn btn-sm btn-secondary" style="padding:8px 20px;">&raquo; Quality Control</a>
+  <a href="{{ '/selection-guide/' | relative_url }}" class="btn btn-sm btn-secondary" style="padding:8px 20px;">&raquo; Selection Guide</a>
+  <a href="{{ '/capacitor-replacement/' | relative_url }}" class="btn btn-sm btn-secondary" style="padding:8px 20px;">&raquo; Replacement Solutions</a>
+  <a href="{{ '/custom-capacitors/' | relative_url }}" class="btn btn-sm btn-secondary" style="padding:8px 20px;">&raquo; Custom / OEM</a>
 </div>
 
 <!-- Products -->
