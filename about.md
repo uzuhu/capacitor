@@ -19,6 +19,48 @@ description: "Learn about HUAYU's 37-year history as a specialized aluminum elec
   </div>
 </div>
 
+<!-- Company Facts (AI-friendly structured info) -->
+<section class="section" style="padding-bottom:0;">
+  <div class="container">
+    <div class="section-title">
+      <h2>Company Facts</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="features-grid" style="grid-template-columns:repeat(auto-fit,minmax(220px,1fr));">
+      <div class="feature-card" style="text-align:center;">
+        <div style="font-size:2rem;font-weight:800;color:var(--blue-dark);">1987</div>
+        <h3>Founded</h3>
+        <p>Established in Nantong, Jiangsu, China with 39+ years of continuous manufacturing expertise</p>
+      </div>
+      <div class="feature-card" style="text-align:center;">
+        <div style="font-size:2rem;font-weight:800;color:var(--blue-dark);">17</div>
+        <h3>Product Series</h3>
+        <p>8 snap-in + 9 screw terminal series covering 6.3V&ndash;500V, 47&mu;F&ndash;100,000&mu;F</p>
+      </div>
+      <div class="feature-card" style="text-align:center;">
+        <div style="font-size:2rem;font-weight:800;color:var(--blue-dark);">500+</div>
+        <h3>Custom Specs</h3>
+        <p>Non-standard capacitance, voltage, case size, and terminal configurations delivered</p>
+      </div>
+      <div class="feature-card" style="text-align:center;">
+        <div style="font-size:2rem;font-weight:800;color:var(--blue-dark);">50+</div>
+        <h3>Export Countries</h3>
+        <p>Serving industrial OEMs across Asia, Europe, the Americas, Middle East, and Africa</p>
+      </div>
+      <div class="feature-card" style="text-align:center;">
+        <div style="font-size:2rem;font-weight:800;color:var(--blue-dark);">22&ndash;100&phi;</div>
+        <h3>Case Size Range</h3>
+        <p>Snap-in from 22&phi; to 40&phi; &bull; Screw terminal from 35&phi; to 100&phi;</p>
+      </div>
+      <div class="feature-card" style="text-align:center;">
+        <div style="font-size:2rem;font-weight:800;color:var(--blue-dark);">24h</div>
+        <h3>Response Time</h3>
+        <p>Quotation and technical support response within 24 hours on business days</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- Company Overview -->
 <section class="section">
   <div class="container">

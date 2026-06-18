@@ -81,7 +81,7 @@ author: "Your Name"
 | `products.md` | Product catalog page |
 | `about.md` | About Us page |
 | `contact.md` | Contact page |
-| `technial.md` | Technical resources page |
+| `technical.md` | Technical resources page |
 | `assets/css/main.css` | Main stylesheet |
 | `assets/js/main.js` | JavaScript (mobile menu, tabs) |
 

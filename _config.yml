@@ -17,19 +17,19 @@ company_address_zip: "226311"
 company_founded: "1987"
 company_website: "https://capacitormanufacturer.com"
 
-# SEO
-google_analytics: ""
-google_site_verification: ""
-baidu_site_verification: ""
+# SEO - Google & Search Console
+google_analytics: ""                # 📌 Fill in GA4 measurement ID (e.g. G-XXXXXXXXXX)
+google_site_verification: ""         # Google Search Console verification
+baidu_site_verification: ""          # Baidu webmaster (for China traffic)
 
 # Site Social (Open Graph / Twitter Card)
-twitter_username: ""
-facebook_app_id: ""
-default_image: "/assets/images/og-default.jpg"
+twitter_username: ""                 # e.g. "HuayuCapacitor"
+facebook_app_id: ""                  # For better Facebook/LinkedIn sharing
+default_image: "/assets/images/huayu.jpg"
 
-# Webmaster Tools Verification (fill in as needed)
-google_verification: ""
-bing_verification: ""
+# Webmaster Tools Verification
+google_verification: ""              # Google site verification content
+bing_verification: ""                # Bing site verification content
 
 # Build settings
 markdown: kramdown

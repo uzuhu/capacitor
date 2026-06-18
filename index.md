@@ -9,11 +9,11 @@ description: "Huayu is a leading aluminum electrolytic capacitor manufacturer in
   <div class="container">
     <div class="hero-grid">
       <div class="hero-text">
-        <h1>Professional <span>Aluminum Electrolytic Capacitor</span> Manufacturer Since 1987</h1>
-        <p>With over 37 years of specialized experience, HUAYU delivers high-quality snap-in and screw terminal aluminum electrolytic capacitors tailored to your exact specifications. Trusted by industrial manufacturers worldwide.</p>
+        <h1><span>Aluminum Electrolytic Capacitor</span> Manufacturer &mdash; Snap-In &amp; Screw Terminal Since 1987</h1>
+        <p>HUAYU is a specialized Chinese manufacturer of large-can aluminum electrolytic capacitors, founded in 1987 and based in Nantong, Jiangsu. We engineer snap-in (22&phi;&ndash;40&phi;) and screw terminal (35&phi;&ndash;100&phi;) capacitors for industrial frequency inverters, UPS systems, welding equipment, solar inverters, and custom power electronics applications.</p>
         <div style="display:flex;gap:12px;flex-wrap:wrap;">
-          <a href="{{ '/products/' | relative_url }}" class="btn btn-primary">View Products</a>
-          <a href="{{ '/contact/' | relative_url }}" class="btn btn-outline">Request a Quote</a>
+          <a href="{{ '/products/' | relative_url }}" class="btn btn-primary">View Products &amp; Datasheets &rarr;</a>
+          <a href="{{ '/contact/' | relative_url }}" class="btn btn-outline">Send Your Specifications &rarr;</a>
         </div>
       </div>
       <div class="hero-image">
@@ -51,9 +51,9 @@ description: "Huayu is a leading aluminum electrolytic capacitor manufacturer in
 <section class="section">
   <div class="container">
     <div class="section-title">
-      <h2>Why Choose HUAYU Capacitors</h2>
+      <h2>Why Choose HUAYU as Your Aluminum Electrolytic Capacitor Manufacturer</h2>
       <div class="divider"></div>
-      <p>Decades of expertise in manufacturing large-can aluminum electrolytic capacitors for demanding industrial applications</p>
+      <p>Nearly four decades of specialized expertise in large-can aluminum electrolytic capacitor design and manufacturing for demanding industrial power electronics</p>
     </div>
     <div class="features-grid">
       <div class="feature-card">
@@ -117,6 +117,15 @@ description: "Huayu is a leading aluminum electrolytic capacitor manufacturer in
         <h3 style="color:var(--blue-dark);font-size:1.5rem;">Custom Capacitors</h3>
         <p>Need non-standard capacitance, voltage, case size? Our engineering team works with you to design and produce capacitors tailored to your exact requirements.</p>
         <a href="{{ '/applications/' | relative_url }}" class="btn btn-sm btn-secondary" style="margin-top:10px;">View Applications &rarr;</a>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:30px;">
+      <p style="margin-bottom:14px;color:var(--gray-600);font-weight:600;">Specialized Product Lines:</p>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
+        <a href="{{ '/high-ripple-current-capacitors/' | relative_url }}" class="btn btn-sm btn-outline">High Ripple Current</a>
+        <a href="{{ '/long-life-capacitors/' | relative_url }}" class="btn btn-sm btn-outline">Long Life Capacitors</a>
+        <a href="{{ '/capacitor-replacement/' | relative_url }}" class="btn btn-sm btn-outline">Brand Replacement</a>
+        <a href="{{ '/custom-capacitors/' | relative_url }}" class="btn btn-sm btn-outline">Custom / OEM</a>
       </div>
     </div>
   </div>
@@ -192,8 +201,8 @@ description: "Huayu is a leading aluminum electrolytic capacitor manufacturer in
 <!-- CTA -->
 <section class="cta-banner">
   <div class="container">
-    <h2>Need Custom Capacitors for Your Application?</h2>
-    <p>Send us your specifications and our engineering team will provide a tailored solution within 24 hours.</p>
-    <a href="{{ '/contact/' | relative_url }}" class="btn btn-primary">Contact Us Now &rarr;</a>
+    <h2>Need Custom Capacitors or Technical Support?</h2>
+    <p>Send us your specifications (capacitance, voltage, case size, quantity) and our engineering team will respond with a tailored solution within 24 hours.</p>
+    <a href="{{ '/contact/' | relative_url }}" class="btn btn-primary">Request a Quote &rarr;</a>
   </div>
 </section>

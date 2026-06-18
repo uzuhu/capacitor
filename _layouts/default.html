@@ -108,9 +108,21 @@
   <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ '/sitemap.xml' | relative_url }}">
   <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="{{ '/feed.xml' | relative_url }}">
 
-  <!-- Favicon (placeholder - replace with real ones) -->
-  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
-  <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}">
+  <!-- Favicon -->
+  <link rel="icon" href="{{ '/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon" sizes="any">
+  <link rel="apple-touch-icon" href="{{ '/images/favicon.svg' | relative_url }}">
+
+  <!-- Google Analytics v4 (configure in _config.yml) -->
+  {% if site.google_analytics != "" %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics }}');
+  </script>
+  {% endif %}
 </head>
 <body>
 
@@ -123,6 +135,8 @@
       <li><a href="{{ '/about/' | relative_url }}" {% if page.url contains '/about/' %}class="active"{% endif %}>About Us</a></li>
       <li><a href="{{ '/products/' | relative_url }}" {% if page.url contains '/products/' %}class="active"{% endif %}>Products</a></li>
       <li><a href="{{ '/applications/' | relative_url }}" {% if page.url contains '/applications/' %}class="active"{% endif %}>Applications</a></li>
+      <li><a href="{{ '/technical/' | relative_url }}" {% if page.url contains '/technical/' %}class="active"{% endif %}>Technical</a></li>
+      <li><a href="{{ '/faq/' | relative_url }}" {% if page.url contains '/faq/' %}class="active"{% endif %}>FAQ</a></li>
       <li><a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog/' %}class="active"{% endif %}>Blog</a></li>
       <li><a href="{{ '/contact/' | relative_url }}" {% if page.url contains '/contact/' %}class="active"{% endif %}>Contact</a></li>
     </ul>
@@ -149,6 +163,8 @@
           <li><a href="{{ '/about/' | relative_url }}">About Us</a></li>
           <li><a href="{{ '/products/' | relative_url }}">Products</a></li>
           <li><a href="{{ '/applications/' | relative_url }}">Applications</a></li>
+          <li><a href="{{ '/technical/' | relative_url }}">Technical Resources</a></li>
+          <li><a href="{{ '/faq/' | relative_url }}">FAQ</a></li>
           <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
           <li><a href="{{ '/contact/' | relative_url }}">Contact Us</a></li>
         </ul>
@@ -158,7 +174,10 @@
         <ul class="footer-links">
           <li><a href="{{ '/products/#snap-in' | relative_url }}">Snap-In Capacitors</a></li>
           <li><a href="{{ '/products/#screw' | relative_url }}">Screw Terminal Capacitors</a></li>
-          <li><a href="{{ '/pdf/Snap-in-Terminal-Dimensions.pdf' | relative_url }}" target="_blank">Terminal Dimensions</a></li>
+          <li><a href="{{ '/high-ripple-current-capacitors/' | relative_url }}">High Ripple Current</a></li>
+          <li><a href="{{ '/long-life-capacitors/' | relative_url }}">Long Life Series</a></li>
+          <li><a href="{{ '/custom-capacitors/' | relative_url }}">Custom / OEM</a></li>
+          <li><a href="{{ '/capacitor-replacement/' | relative_url }}">Replacement Solutions</a></li>
           <li><a href="{{ '/pdf/catalogue.pdf' | relative_url }}" target="_blank">Full Catalogue (PDF)</a></li>
         </ul>
       </div>

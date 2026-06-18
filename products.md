@@ -35,6 +35,14 @@ description: "Browse HUAYU's full range of snap-in and screw terminal aluminum e
   </div>
 </section>
 
+<!-- Quick Links to Specialized Pages -->
+<div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:30px;">
+  <a href="{{ '/high-ripple-current-capacitors/' | relative_url }}" class="btn btn-sm btn-outline" style="padding:8px 20px;">&raquo; High Ripple Current Capacitors</a>
+  <a href="{{ '/long-life-capacitors/' | relative_url }}" class="btn btn-sm btn-outline" style="padding:8px 20px;">&raquo; Long Life Capacitors</a>
+  <a href="{{ '/capacitor-replacement/' | relative_url }}" class="btn btn-sm btn-outline" style="padding:8px 20px;">&raquo; Replacement Solutions</a>
+  <a href="{{ '/custom-capacitors/' | relative_url }}" class="btn btn-sm btn-outline" style="padding:8px 20px;">&raquo; Custom / OEM Capacitors</a>
+</div>
+
 <!-- Products -->
 <section class="section section-alt" id="snap-in">
   <div class="container">
