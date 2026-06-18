@@ -18,47 +18,18 @@ This guide compares **snap-in** and **screw terminal** capacitors to help you ch
 
 ## Quick Comparison Table
 
-<table style="width:100%; max-width:600px; margin:1.2rem auto; border-collapse:collapse; font-size:0.92rem; box-shadow:0 2px 8px rgba(0,0,0,0.08); border-radius:8px; overflow:hidden;">
-  <thead>
-    <tr style="background:linear-gradient(135deg, #1a5276, #2980b9); color:#fff;">
-      <th style="padding:11px 14px; text-align:left; font-weight:600;"></th>
-      <th style="padding:11px 14px; text-align:center; font-weight:600;">Snap-In</th>
-      <th style="padding:11px 14px; text-align:center; font-weight:600;">Screw Terminal</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="background:#fff;">
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; font-weight:600; color:var(--blue-dark);">Diameter range</td>
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center;">22–40 mm</td>
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center;">35–100 mm</td>
-    </tr>
-    <tr style="background:#f8fafc;">
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; font-weight:600; color:var(--blue-dark);">Current capability</td>
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center;">Up to ~10A ripple</td>
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center;">10A+ ripple</td>
-    </tr>
-    <tr style="background:#fff;">
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; font-weight:600; color:var(--blue-dark);">Mounting method</td>
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center;">PCB / chassis snap-in</td>
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center;">Busbar / heavy-duty screw</td>
-    </tr>
-    <tr style="background:#f8fafc;">
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; font-weight:600; color:var(--blue-dark);">Assembly</td>
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center;">Manual or automated insertion</td>
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center;">Screw terminal connection</td>
-    </tr>
-    <tr style="background:#fff;">
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; font-weight:600; color:var(--blue-dark);">Typical applications</td>
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center;">VFD output stage, SMPS</td>
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center;">UPS, welding, large inverters</td>
-    </tr>
-    <tr style="background:#f8fafc;">
-      <td style="padding:10px 14px; font-weight:600; color:var(--blue-dark);">HUAYU series</td>
-      <td style="padding:10px 14px; text-align:center;">CD17FX, CD292–CD298</td>
-      <td style="padding:10px 14px; text-align:center;">CD92, CD98SK, CD135, CD136</td>
-    </tr>
-  </tbody>
-</table>
+
+
+|  | Snap-In | Screw Terminal |
+| --- | --- | --- |
+| Diameter range | 22–40 mm | 35–100 mm |
+| Current capability | Up to ~10A ripple | 10A+ ripple |
+| Mounting method | PCB / chassis snap-in | Busbar / heavy-duty screw |
+| Assembly | Manual or automated insertion | Screw terminal connection |
+| Typical applications | VFD output stage, SMPS | UPS, welding, large inverters |
+| HUAYU series | CD17FX, CD292–CD298 | CD92, CD98SK, CD135, CD136 |
+
+
 
 ## Snap-In Terminal Capacitors
 
@@ -169,8 +140,10 @@ Not sure which type to choose? Our engineering team can help:
 *Contact our engineering team to discuss your capacitor requirements and request a custom quote.*
 
 *Next article: **"Capacitor Testing and Quality Control"** — subscribe to our blog for updates.*
-<br>
-<div style="background:#f8f9fa;padding:20px;border-radius:8px;border-left:4px solid #2471a3;margin-top:30px;">
+
+---
+
+<div class="post-cta">
   <strong>Need Help Selecting the Right Capacitor?</strong><br>
   Contact HUAYU's engineering team for technical support and custom capacitor solutions. <a href="https://capacitormanufacturer.com/contact/">Get a quote &rarr;</a>
 </div>

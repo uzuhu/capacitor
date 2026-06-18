@@ -30,32 +30,16 @@ An aluminum electrolytic capacitor consists of:
 The maximum continuous DC voltage the capacitor can withstand.  
 **Rule of thumb**: Choose a rating **20-30% above** your maximum operating voltage.
 
-<table style="width:100%; max-width:520px; margin:1.2rem auto; border-collapse:collapse; font-size:0.92rem; box-shadow:0 2px 8px rgba(0,0,0,0.08); border-radius:8px; overflow:hidden;">
-  <thead>
-    <tr style="background:linear-gradient(135deg, #1a5276, #2980b9); color:#fff;">
-      <th style="padding:12px 16px; text-align:left; font-weight:600;">Application Voltage</th>
-      <th style="padding:12px 16px; text-align:left; font-weight:600;">Recommended Rating</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="background:#fff;">
-      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7;">12V DC</td>
-      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7; font-weight:600; color:#1a5276;">16V or 25V</td>
-    </tr>
-    <tr style="background:#f8fafc;">
-      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7;">24V DC</td>
-      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7; font-weight:600; color:#1a5276;">35V</td>
-    </tr>
-    <tr style="background:#fff;">
-      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7;">48V system</td>
-      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7; font-weight:600; color:#1a5276;">63V</td>
-    </tr>
-    <tr style="background:#f8fafc;">
-      <td style="padding:11px 16px;">400V DC bus</td>
-      <td style="padding:11px 16px; font-weight:600; color:#1a5276;">500V</td>
-    </tr>
-  </tbody>
-</table>
+
+
+| Application Voltage | Recommended Rating |
+| --- | --- |
+| 12V DC | **16V or 25V** |
+| 24V DC | **35V** |
+| 48V system | **63V** |
+| 400V DC bus | **500V** |
+
+
 
 ### 2. Capacitance (µF)
 Larger capacitance = more energy storage and better ripple filtering.  
@@ -164,8 +148,10 @@ Need capacitors for your specific application? Send us:
 *Contact our engineering team to discuss your capacitor requirements and request a custom quote.*
 
 *Next article: **"How to Read a Capacitor Datasheet"** — subscribe to our blog for updates.*
-<br>
-<div style="background:#f8f9fa;padding:20px;border-radius:8px;border-left:4px solid #2471a3;margin-top:30px;">
+
+---
+
+<div class="post-cta">
   <strong>Need Help Selecting the Right Capacitor?</strong><br>
   Contact HUAYU's engineering team for technical support and custom capacitor solutions. <a href="https://capacitormanufacturer.com/contact/">Get a quote &rarr;</a>
 </div>

@@ -538,13 +538,82 @@ li { margin-bottom: 0.3rem; }
 }
 .post-cat-tag:hover { background: var(--orange); color: var(--white); }
 /* --- Post Article --- */
-.post-article { margin-top: 10px; }
-.post-content { line-height: 1.7; font-size: 1rem; color: var(--gray-700); }
+.post-article { margin-top: 10px; max-width: 800px; margin-left: auto; margin-right: auto; }
+.post-content { line-height: 1.75; font-size: 1rem; color: var(--gray-700); }
 .post-content h2 { margin-top: 1.6rem; margin-bottom: 0.8rem; font-size: 1.5rem; }
 .post-content h3 { margin-top: 1.2rem; margin-bottom: 0.6rem; font-size: 1.2rem; }
 .post-content p { margin-bottom: 0.9rem; }
 .post-content ul, .post-content ol { padding-left: 1.5rem; margin-bottom: 1.1rem; }
 .post-content li { margin-bottom: 0.4rem; }
+
+/* --- Post Content: Blockquote & Callouts --- */
+.post-content blockquote {
+  margin: 1.5rem 0;
+  padding: 14px 20px 14px 28px;
+  background: #f0f7ff;
+  border-left: 4px solid var(--blue-mid);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  color: var(--gray-700);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+.post-content blockquote p { margin-bottom: 0; }
+/* Info callout (contains ℹ️) */
+.post-content blockquote:first-child,
+.post-content blockquote p:first-child {  }
+/* Summary/Key Takeaway box (first blockquote in article, or containing "Summary") */
+.post-content > blockquote:first-of-type {
+  background: linear-gradient(135deg, #f0f7ff 0%, #e8f4fd 100%);
+  border-left-color: var(--blue-dark);
+  padding: 18px 24px;
+  font-size: 0.98rem;
+}
+
+/* --- Post Content: Horizontal Rule --- */
+.post-content hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--gray-200), transparent);
+  margin: 2rem 0;
+}
+
+/* --- Post Content: Lead Paragraph (first p after h1/h2 or featured image) --- */
+.post-content > p:first-of-type,
+.post-featured-image + .post-content p:first-of-type {
+  font-size: 1.08rem;
+  color: var(--gray-600);
+  line-height: 1.8;
+}
+
+/* --- Post Content: Strong / Bold --- */
+.post-content strong { color: var(--gray-800); font-weight: 600; }
+
+/* --- Post Content: Links --- */
+.post-content a { border-bottom: 1px solid transparent; transition: var(--transition); }
+.post-content a:hover { border-bottom-color: var(--orange); }
+
+/* --- CTA Box (reusable class for article CTAs) --- */
+.post-cta {
+  background: linear-gradient(135deg, #f0f7ff 0%, #e8f4fd 100%);
+  padding: 22px 28px;
+  border-radius: var(--radius);
+  border-left: 4px solid var(--blue-mid);
+  margin-top: 32px;
+  font-size: 0.96rem;
+  line-height: 1.7;
+}
+.post-cta strong { color: var(--blue-dark); }
+.post-cta a { font-weight: 600; color: var(--blue-mid); }
+.post-cta a:hover { color: var(--orange); }
+
+/* --- Next Article Hint --- */
+.post-next-hint {
+  display: block;
+  margin-top: 12px;
+  font-size: 0.88rem;
+  color: var(--gray-600);
+  font-style: italic;
+}
 
 /* --- Post Content: Tables (unified style) --- */
 .post-content table { width:100%; max-width:100%; border-collapse:collapse; font-size:0.92rem; margin:1.4rem 0; box-shadow:0 2px 10px rgba(0,0,0,0.08); border-radius:8px; overflow:hidden; }

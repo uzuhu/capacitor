@@ -32,28 +32,15 @@ An aluminum electrolytic capacitor consists of:
 The maximum continuous DC voltage the capacitor can withstand.  
 **Rule of thumb**: choose a rating **20–30% above** your maximum operating voltage.
 
-<table style="width:100%; max-width:520px; margin:1.2rem auto; border-collapse:collapse; font-size:0.92rem; box-shadow:0 2px 8px rgba(0,0,0,0.08); border-radius:8px; overflow:hidden;">
-  <thead>
-    <tr style="background:linear-gradient(135deg, #1a5276, #2980b9); color:#fff;">
-      <th style="padding:12px 16px; text-align:left; font-weight:600;">Application Voltage</th>
-      <th style="padding:12px 16px; text-align:left; font-weight:600;">Recommended Rating</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="background:#fff;">
-      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7;">400V DC bus</td>
-      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7; font-weight:600; color:#1a5276;">500V</td>
-    </tr>
-    <tr style="background:#f8fafc;">
-      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7;">24V DC link</td>
-      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7; font-weight:600; color:#1a5276;">35V</td>
-    </tr>
-    <tr style="background:#fff;">
-      <td style="padding:11px 16px;">48V system</td>
-      <td style="padding:11px 16px; font-weight:600; color:#1a5276;">63V</td>
-    </tr>
-  </tbody>
-</table>
+
+
+| Application Voltage | Recommended Rating |
+| --- | --- |
+| 400V DC bus | **500V** |
+| 24V DC link | **35V** |
+| 48V system | **63V** |
+
+
 
 ### 2. Capacitance (µF)
 
@@ -87,42 +74,17 @@ A 105°C / 5,000h capacitor running at 65°C can last **80,000+ hours** (>9 year
 
 ## Snap-In vs. Screw Terminal: Which to Choose?
 
-<table style="width:100%; max-width:600px; margin:1.2rem auto; border-collapse:collapse; font-size:0.9rem; box-shadow:0 2px 8px rgba(0,0,0,0.08); border-radius:8px; overflow:hidden;">
-  <thead>
-    <tr style="background:linear-gradient(135deg, #1a5276, #2980b9); color:#fff;">
-      <th style="padding:11px 14px; text-align:left; font-weight:600;"></th>
-      <th style="padding:11px 14px; text-align:center; font-weight:600;">Snap-In</th>
-      <th style="padding:11px 14px; text-align:center; font-weight:600;">Screw Terminal</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="background:#fff;">
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; font-weight:600; color:#1a5276;">Diameter</td>
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center;">22–90 mm</td>
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center;">35–115 mm</td>
-    </tr>
-    <tr style="background:#f8fafc;">
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; font-weight:600; color:#1a5276;">Current capability</td>
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center;">Up to ~10A ripple</td>
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center;">10A+ ripple</td>
-    </tr>
-    <tr style="background:#fff;">
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; font-weight:600; color:#1a5276;">Mounting</td>
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center;">PCB / chassis snap-in</td>
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center;">Busbar / heavy-duty screw</td>
-    </tr>
-    <tr style="background:#f8fafc;">
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; font-weight:600; color:#1a5276;">Typical use</td>
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center;">VFD output, SMPS</td>
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center;">UPS, welding, large inverters</td>
-    </tr>
-    <tr style="background:#fff;">
-      <td style="padding:10px 14px; font-weight:600; color:#1a5276;">HUAYU series</td>
-      <td style="padding:10px 14px; text-align:center;">CD17FX, CD292–CD298</td>
-      <td style="padding:10px 14px; text-align:center;">CD92, CD98SK, CD135, CD136</td>
-    </tr>
-  </tbody>
-</table>
+
+
+|  | Snap-In | Screw Terminal |
+| --- | --- | --- |
+| Diameter | 22–90 mm | 35–115 mm |
+| Current capability | Up to ~10A ripple | 10A+ ripple |
+| Mounting | PCB / chassis snap-in | Busbar / heavy-duty screw |
+| Typical use | VFD output, SMPS | UPS, welding, large inverters |
+| HUAYU series | CD17FX, CD292–CD298 | CD92, CD98SK, CD135, CD136 |
+
+
 
 ## Common Application: VFD DC Link
 
@@ -151,8 +113,10 @@ Since 1987, we've focused on **large-can aluminum electrolytic capacitors** — 
 *Contact our engineering team to discuss your capacitor requirements and request a custom quote.*
 
 *Next article: **"How to Select Aluminum Electrolytic Capacitors for VFD Applications"** — subscribe to our blog for updates.*
-<br>
-<div style="background:#f8f9fa;padding:20px;border-radius:8px;border-left:4px solid #2471a3;margin-top:30px;">
+
+---
+
+<div class="post-cta">
   <strong>Need Help Selecting the Right Capacitor?</strong><br>
   Contact HUAYU's engineering team for technical support and custom capacitor solutions. <a href="https://capacitormanufacturer.com/contact/">Get a quote &rarr;</a>
 </div>

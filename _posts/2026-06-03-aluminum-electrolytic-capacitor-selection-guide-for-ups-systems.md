@@ -33,32 +33,15 @@ The DC-link capacitor must handle:
 
 ### 1. Voltage Rating
 
-<table style="width:100%; max-width:520px; margin:1.2rem auto; border-collapse:collapse; font-size:0.92rem; box-shadow:0 2px 8px rgba(0,0,0,0.08); border-radius:8px; overflow:hidden;">
-  <thead>
-    <tr style="background:linear-gradient(135deg, #1a5276, #2980b9); color:#fff;">
-      <th style="padding:12px 16px; text-align:left; font-weight:600;">UPS Output Voltage</th>
-      <th style="padding:12px 16px; text-align:left; font-weight:600;">DC Bus Voltage</th>
-      <th style="padding:12px 16px; text-align:left; font-weight:600;">Recommended Capacitor Rating</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="background:#fff;">
-      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7;">220V AC</td>
-      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7;">~310V DC</td>
-      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7; font-weight:600; color:#1a5276;">400V</td>
-    </tr>
-    <tr style="background:#f8fafc;">
-      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7;">380V AC</td>
-      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7;">~537V DC</td>
-      <td style="padding:11px 16px; border-bottom:1px solid #eef2f7; font-weight:600; color:#1a5276;">600V</td>
-    </tr>
-    <tr style="background:#fff;">
-      <td style="padding:11px 16px;">480V AC</td>
-      <td style="padding:11px 16px;">~678V DC</td>
-      <td style="padding:11px 16px; font-weight:600; color:#1a5276;">800V</td>
-    </tr>
-  </tbody>
-</table>
+
+
+| UPS Output Voltage | DC Bus Voltage | Recommended Capacitor Rating |
+| --- | --- | --- |
+| 220V AC | ~310V DC | **400V** |
+| 380V AC | ~537V DC | **600V** |
+| 480V AC | ~678V DC | **800V** |
+
+
 
 **Important**: Consider **battery voltage variation** during discharge. The DC bus voltage can drop significantly, requiring capacitors with appropriate voltage rating.
 
@@ -144,8 +127,10 @@ Need capacitors for your UPS design? Send us:
 *Contact our engineering team to discuss your capacitor requirements and request a custom quote.*
 
 *Next article: **"Capacitor Solutions for Welding Equipment"** — subscribe to our blog for updates.*
-<br>
-<div style="background:#f8f9fa;padding:20px;border-radius:8px;border-left:4px solid #2471a3;margin-top:30px;">
+
+---
+
+<div class="post-cta">
   <strong>Need Help Selecting the Right Capacitor?</strong><br>
   Contact HUAYU's engineering team for technical support and custom capacitor solutions. <a href="https://capacitormanufacturer.com/contact/">Get a quote &rarr;</a>
 </div>

@@ -35,32 +35,16 @@ Where:
 
 ### Acceleration Factors
 
-<table style="width:100%; max-width:520px; margin:1.2rem auto; border-collapse:collapse; font-size:0.92rem; box-shadow:0 2px 8px rgba(0,0,0,0.08); border-radius:8px; overflow:hidden;">
-  <thead>
-    <tr style="background:linear-gradient(135deg, #1a5276, #2980b9); color:#fff;">
-      <th style="padding:11px 14px; text-align:center; font-weight:600;">Temperature Reduction</th>
-      <th style="padding:11px 14px; text-align:center; font-weight:600;">Lifetime Multiplier</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="background:#fff;">
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center;">10°C</td>
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center; font-weight:600; color:#1a5276;">2×</td>
-    </tr>
-    <tr style="background:#f8fafc;">
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center;">20°C</td>
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center; font-weight:600; color:#1a5276;">4×</td>
-    </tr>
-    <tr style="background:#fff;">
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center;">30°C</td>
-      <td style="padding:10px 14px; border-bottom:1px solid #eef2f7; text-align:center; font-weight:600; color:#1a5276;">8×</td>
-    </tr>
-    <tr style="background:#f8fafc;">
-      <td style="padding:10px 14px; text-align:center;">40°C</td>
-      <td style="padding:10px 14px; text-align:center; font-weight:600; color:#1a5276;">16×</td>
-    </tr>
-  </tbody>
-</table>
+
+
+| Temperature Reduction | Lifetime Multiplier |
+| --- | --- |
+| 10°C | 2× |
+| 20°C | 4× |
+| 30°C | 8× |
+| 40°C | 16× |
+
+
 
 ## Real-World Lifetime Examples
 
@@ -164,8 +148,10 @@ Every HUAYU capacitor undergoes:
 *Contact our engineering team to discuss your capacitor requirements and request a custom quote.*
 
 *Next article: **"Snap-In vs. Screw Terminal: Which to Choose?"** — subscribe to our blog for updates.*
-<br>
-<div style="background:#f8f9fa;padding:20px;border-radius:8px;border-left:4px solid #2471a3;margin-top:30px;">
+
+---
+
+<div class="post-cta">
   <strong>Need Help Selecting the Right Capacitor?</strong><br>
   Contact HUAYU's engineering team for technical support and custom capacitor solutions. <a href="https://capacitormanufacturer.com/contact/">Get a quote &rarr;</a>
 </div>

@@ -176,8 +176,10 @@ HUAYU provides **comprehensive datasheets** for all our series:
 *Contact our engineering team to discuss your capacitor requirements and request a custom quote.*
 
 *Next article: **"Capacitor Reliability and Lifetime Prediction"** — subscribe to our blog for updates.*
-<br>
-<div style="background:#f8f9fa;padding:20px;border-radius:8px;border-left:4px solid #2471a3;margin-top:30px;">
+
+---
+
+<div class="post-cta">
   <strong>Need Help Selecting the Right Capacitor?</strong><br>
   Contact HUAYU's engineering team for technical support and custom capacitor solutions. <a href="https://capacitormanufacturer.com/contact/">Get a quote &rarr;</a>
 </div>

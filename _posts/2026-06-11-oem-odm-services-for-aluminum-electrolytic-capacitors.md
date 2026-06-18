@@ -76,32 +76,15 @@ This article explains our OEM/ODM capabilities and process.
 
 ## Minimum Order Quantity (MOQ)
 
-<table style="width:100%; max-width:600px; margin:20px auto; border-collapse:collapse; font-size:0.92rem; box-shadow:0 2px 8px rgba(0,0,0,0.08); border-radius:8px; overflow:hidden;">
-  <thead>
-    <tr style="background:linear-gradient(135deg, #1a5276, #2980b9); color:#fff;">
-      <th style="padding:14px 16px; text-align:left; font-weight:600;">Service Type</th>
-      <th style="padding:14px 16px; text-align:center; font-weight:600;">MOQ</th>
-      <th style="padding:14px 16px; text-align:center; font-weight:600;">Lead Time</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr style="background:#fff;">
-      <td style="padding:12px 16px; border-bottom:1px solid #eef2f7; font-weight:600; color:#1a5276;">OEM (Standard Series)</td>
-      <td style="padding:12px 16px; border-bottom:1px solid #eef2f7; text-align:center;">1,000 pcs</td>
-      <td style="padding:12px 16px; border-bottom:1px solid #eef2f7; text-align:center;">2–4 weeks</td>
-    </tr>
-    <tr style="background:#f8fafc;">
-      <td style="padding:12px 16px; border-bottom:1px solid #eef2f7; font-weight:600; color:#1a5276;">ODM (Custom Design)</td>
-      <td style="padding:12px 16px; border-bottom:1px solid #eef2f7; text-align:center;">5,000 pcs</td>
-      <td style="padding:12px 16px; border-bottom:1px solid #eef2f7; text-align:center;">4–8 weeks</td>
-    </tr>
-    <tr style="background:#fff;">
-      <td style="padding:12px 16px; font-weight:600; color:#1a5276;">Prototype (ODM)</td>
-      <td style="padding:12px 16px; text-align:center;">50–100 pcs</td>
-      <td style="padding:12px 16px; text-align:center;">2–3 weeks</td>
-    </tr>
-  </tbody>
-</table>
+
+
+| Service Type | MOQ | Lead Time |
+| --- | --- | --- |
+| OEM (Standard Series) | 1,000 pcs | 2–4 weeks |
+| ODM (Custom Design) | 5,000 pcs | 4–8 weeks |
+| Prototype (ODM) | 50–100 pcs | 2–3 weeks |
+
+
 
 ## Technical Support for OEM/ODM Customers
 
@@ -153,8 +136,10 @@ Interested in OEM/ODM services? Send us:
 *Contact our engineering team to discuss your capacitor requirements and request a custom quote.*
 
 *Next article: **"Global Shipping and Logistics"** — subscribe to our blog for updates.*
-<br>
-<div style="background:#f8f9fa;padding:20px;border-radius:8px;border-left:4px solid #2471a3;margin-top:30px;">
+
+---
+
+<div class="post-cta">
   <strong>Need Help Selecting the Right Capacitor?</strong><br>
   Contact HUAYU's engineering team for technical support and custom capacitor solutions. <a href="https://capacitormanufacturer.com/contact/">Get a quote &rarr;</a>
 </div>
