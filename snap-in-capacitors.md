@@ -45,7 +45,7 @@ description: "Snap-in terminal aluminum electrolytic capacitors from HUAYU — 8
       <div class="divider"></div>
     </div>
     <div style="overflow-x:auto;">
-      <table class="product-table">
+      <table class="spec-table">
         <thead>
           <tr>
             <th>Series</th>

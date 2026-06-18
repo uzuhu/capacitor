@@ -35,7 +35,7 @@ description: "Step-by-step guide to selecting the right aluminum electrolytic ca
       <div class="feature-card" style="border-left:4px solid var(--blue-dark);">
         <h3 style="color:var(--blue-dark);">Step 1 &mdash; Determine Operating Voltage</h3>
         <p style="color:var(--gray-600);margin-top:8px;">The capacitor's rated voltage must be higher than the maximum DC bus voltage in your circuit, including ripple voltage peaks. A standard safety margin is <strong>20&ndash;30%</strong> above the nominal DC bus voltage.</p>
-        <table class="product-table" style="margin-top:12px;">
+        <table class="spec-table" style="margin-top:12px;">
           <thead>
             <tr><th>DC Bus Voltage</th><th>Recommended Capacitor Rated Voltage</th></tr>
           </thead>
@@ -108,7 +108,7 @@ description: "Step-by-step guide to selecting the right aluminum electrolytic ca
       <div class="divider"></div>
     </div>
     <div style="overflow-x:auto;">
-      <table class="product-table">
+      <table class="spec-table">
         <thead>
           <tr>
             <th>Application</th>
