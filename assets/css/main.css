@@ -216,8 +216,7 @@ li { margin-bottom: 0.3rem; }
 
 /* --- Product Table --- */
 .spec-table {
-  width: auto;
-  max-width: 100%;
+  width: 100%;
   border-collapse: collapse;
   margin-bottom: 24px;
   font-size: 0.9rem;
