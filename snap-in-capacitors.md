@@ -59,49 +59,49 @@ description: "Snap-in terminal aluminum electrolytic capacitors from HUAYU — 8
             <td><strong>CD17FX</strong></td>
             <td>Miniature snap-in, high reliability, long life</td>
             <td>Frequency converter output filtering, SMPS</td>
-            <td><a href="{{ '/pdf/snap-in/CD17FX.pdf' | relative_url }}" target="_blank" class="download-link">📄 PDF</a></td>
+            <td style="text-align:center;"><a href="{{ '/pdf/snap-in/CD17FX.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">📄 PDF</a></td>
           </tr>
           <tr>
             <td><strong>CD292</strong></td>
             <td>Standard snap-in, 105&deg;C, wide capacitance/voltage range</td>
             <td>General industrial, power supplies</td>
-            <td><a href="{{ '/pdf/snap-in/CD292.pdf' | relative_url }}" target="_blank" class="download-link">📄 PDF</a></td>
+            <td style="text-align:center;"><a href="{{ '/pdf/snap-in/CD292.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">📄 PDF</a></td>
           </tr>
           <tr>
             <td><strong>CD293</strong></td>
             <td>High ripple current, DC-link optimized</td>
             <td>Inverter DC-link, PFC circuits</td>
-            <td><a href="{{ '/pdf/snap-in/CD293.pdf' | relative_url }}" target="_blank" class="download-link">📄 PDF</a></td>
+            <td style="text-align:center;"><a href="{{ '/pdf/snap-in/CD293.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">📄 PDF</a></td>
           </tr>
           <tr>
             <td><strong>CD294</strong></td>
             <td>Extended life, ultra-low ESR</td>
             <td>Demanding industrial environments</td>
-            <td><a href="{{ '/pdf/snap-in/CD294.pdf' | relative_url }}" target="_blank" class="download-link">📄 PDF</a></td>
+            <td style="text-align:center;"><a href="{{ '/pdf/snap-in/CD294.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">📄 PDF</a></td>
           </tr>
           <tr>
             <td><strong>CD295</strong></td>
             <td>High voltage (up to 500V), robust</td>
             <td>High-voltage DC bus, industrial drives</td>
-            <td><a href="{{ '/pdf/snap-in/CD295.pdf' | relative_url }}" target="_blank" class="download-link">📄 PDF</a></td>
+            <td style="text-align:center;"><a href="{{ '/pdf/snap-in/CD295.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">📄 PDF</a></td>
           </tr>
           <tr>
             <td><strong>CD296</strong></td>
             <td>Compact, high capacitance density</td>
             <td>Space-constrained inverter designs</td>
-            <td><a href="{{ '/pdf/snap-in/CD296.pdf' | relative_url }}" target="_blank" class="download-link">📄 PDF</a></td>
+            <td style="text-align:center;"><a href="{{ '/pdf/snap-in/CD296.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">📄 PDF</a></td>
           </tr>
           <tr>
             <td><strong>CD297</strong></td>
             <td>Load-life optimized, high temperature</td>
             <td>Extended life under high temperature</td>
-            <td><a href="{{ '/pdf/snap-in/CD297.pdf' | relative_url }}" target="_blank" class="download-link">📄 PDF</a></td>
+            <td style="text-align:center;"><a href="{{ '/pdf/snap-in/CD297.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">📄 PDF</a></td>
           </tr>
           <tr>
             <td><strong>CD298</strong></td>
             <td>Large diameter (up to 40&phi;), high power</td>
             <td>UPS, welding equipment</td>
-            <td><a href="{{ '/pdf/snap-in/CD298.pdf' | relative_url }}" target="_blank" class="download-link">📄 PDF</a></td>
+            <td style="text-align:center;"><a href="{{ '/pdf/snap-in/CD298.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">📄 PDF</a></td>
           </tr>
         </tbody>
       </table>

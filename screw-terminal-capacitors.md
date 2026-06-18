@@ -59,55 +59,55 @@ description: "Screw terminal aluminum electrolytic capacitors from HUAYU — 9 s
             <td><strong>CD92</strong></td>
             <td>Standard screw terminal, wide temperature range</td>
             <td>General industrial, power supplies</td>
-            <td><a href="{{ '/pdf/screw/CD92.pdf' | relative_url }}" target="_blank" class="download-link">📄 PDF</a></td>
+            <td style="text-align:center;"><a href="{{ '/pdf/screw/CD92.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">📄 PDF</a></td>
           </tr>
           <tr>
             <td><strong>CD92L</strong></td>
             <td>Long-life version of CD92, extended load life</td>
             <td>Continuous industrial operation</td>
-            <td><a href="{{ '/pdf/screw/CD92L.pdf' | relative_url }}" target="_blank" class="download-link">📄 PDF</a></td>
+            <td style="text-align:center;"><a href="{{ '/pdf/screw/CD92L.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">📄 PDF</a></td>
           </tr>
           <tr>
             <td><strong>CD98SK</strong></td>
             <td>High ripple current, UPS/DC-link optimized</td>
             <td>UPS, inverter DC-link</td>
-            <td><a href="{{ '/pdf/screw/CD98SK.pdf' | relative_url }}" target="_blank" class="download-link">📄 PDF</a></td>
+            <td style="text-align:center;"><a href="{{ '/pdf/screw/CD98SK.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">📄 PDF</a></td>
           </tr>
           <tr>
             <td><strong>CD135</strong></td>
             <td>Large-can, heavy-duty industrial power filtering</td>
             <td>Heavy-duty filtering, traction drives</td>
-            <td><a href="{{ '/pdf/screw/CD135.pdf' | relative_url }}" target="_blank" class="download-link">📄 PDF</a></td>
+            <td style="text-align:center;"><a href="{{ '/pdf/screw/CD135.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">📄 PDF</a></td>
           </tr>
           <tr>
             <td><strong>CD136</strong></td>
             <td>High-voltage large-can, DC-bus optimized</td>
             <td>High DC-bus voltage power converters</td>
-            <td><a href="{{ '/pdf/screw/CD136.pdf' | relative_url }}" target="_blank" class="download-link">📄 PDF</a></td>
+            <td style="text-align:center;"><a href="{{ '/pdf/screw/CD136.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">📄 PDF</a></td>
           </tr>
           <tr>
             <td><strong>CD13L</strong></td>
             <td>Long-life, 10,000+ hours at 85&deg;C</td>
             <td>High-reliability, extended service life</td>
-            <td><a href="{{ '/pdf/screw/CD13L.pdf' | relative_url }}" target="_blank" class="download-link">📄 PDF</a></td>
+            <td style="text-align:center;"><a href="{{ '/pdf/screw/CD13L.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">📄 PDF</a></td>
           </tr>
           <tr>
             <td><strong>CD13N</strong></td>
             <td>Standard ESR, widely used in automation</td>
             <td>Industrial automation, servo drives</td>
-            <td><a href="{{ '/pdf/screw/CD13N.pdf' | relative_url }}" target="_blank" class="download-link">📄 PDF</a></td>
+            <td style="text-align:center;"><a href="{{ '/pdf/screw/CD13N.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">📄 PDF</a></td>
           </tr>
           <tr>
             <td><strong>CD13HL</strong></td>
             <td>High-temperature (105&deg;C), long-life</td>
             <td>Demanding high-temp environments</td>
-            <td><a href="{{ '/pdf/screw/CD13HL.pdf' | relative_url }}" target="_blank" class="download-link">📄 PDF</a></td>
+            <td style="text-align:center;"><a href="{{ '/pdf/screw/CD13HL.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">📄 PDF</a></td>
           </tr>
           <tr>
             <td><strong>CD13NH</strong></td>
             <td>High-temp standard, compact form</td>
             <td>Reliable operation in tight spaces</td>
-            <td><a href="{{ '/pdf/screw/CD13NH.pdf' | relative_url }}" target="_blank" class="download-link">📄 PDF</a></td>
+            <td style="text-align:center;"><a href="{{ '/pdf/screw/CD13NH.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">📄 PDF</a></td>
           </tr>
         </tbody>
       </table>

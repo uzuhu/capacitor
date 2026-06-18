@@ -52,25 +52,25 @@ description: "High ripple current aluminum electrolytic capacitors for inverter 
             </thead>
             <tbody>
               <tr>
-                <td><a href="{{ '/products/#snap-in' | relative_url }}">CD294</a></td>
+                <td><a href="{{ '/products/#snap-in' | relative_url }}" style="color:var(--blue-dark);font-weight:600;">CD294</a></td>
                 <td>Snap-In</td>
                 <td>High</td>
                 <td>Standard high-ripple for general industrial</td>
               </tr>
               <tr>
-                <td><a href="{{ '/products/#snap-in' | relative_url }}">CD295</a></td>
+                <td><a href="{{ '/products/#snap-in' | relative_url }}" style="color:var(--blue-dark);font-weight:600;">CD295</a></td>
                 <td>Snap-In</td>
                 <td>Very High</td>
                 <td>Extended life + high ripple for 105&deg;C</td>
               </tr>
               <tr>
-                <td><a href="{{ '/products/#screw' | relative_url }}">CD13HL</a></td>
+                <td><a href="{{ '/products/#screw' | relative_url }}" style="color:var(--blue-dark);font-weight:600;">CD13HL</a></td>
                 <td>Screw</td>
                 <td>Very High</td>
                 <td>High ripple & extended life for heavy duty</td>
               </tr>
               <tr>
-                <td><a href="{{ '/products/#screw' | relative_url }}">CD13NH</a></td>
+                <td><a href="{{ '/products/#screw' | relative_url }}" style="color:var(--blue-dark);font-weight:600;">CD13NH</a></td>
                 <td>Screw</td>
                 <td>Ultra High</td>
                 <td>Highest ripple current rating</td>
