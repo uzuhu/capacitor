@@ -13,6 +13,15 @@ permalink: /applications/inverters/
   </div>
 </section>
 
+<!-- Summary -->
+<section class="section" style="padding-bottom:0;">
+  <div class="container">
+    <p style="font-size:1.1rem;color:var(--gray-700);line-height:1.8;max-width:800px;">
+      <strong>Summary:</strong> HUAYU offers capacitor solutions for general inverter applications including solar, wind, and industrial power inverters. Snap-in and screw terminal series handle DC-link smoothing, output filtering, and energy buffering with voltage ratings up to 500V.
+    </p>
+  </div>
+</section>
+
 <!-- Breadcrumb -->
 <div class="breadcrumb">
   <div class="container">

@@ -61,6 +61,26 @@ sitemap: false
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>{{ site.url }}{{ site.baseurl }}/quality-control/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}/selection-guide/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}/snap-in-capacitors/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}/screw-terminal-capacitors/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>{{ site.url }}{{ site.baseurl }}/blog/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>

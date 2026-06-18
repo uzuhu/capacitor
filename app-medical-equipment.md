@@ -13,6 +13,15 @@ permalink: /applications/medical-equipment/
   </div>
 </section>
 
+<!-- Summary -->
+<section class="section" style="padding-bottom:0;">
+  <div class="container">
+    <p style="font-size:1.1rem;color:var(--gray-700);line-height:1.8;max-width:800px;">
+      <strong>Summary:</strong> HUAYU provides aluminum electrolytic capacitors for medical equipment power systems including diagnostic imaging, patient monitoring, and therapeutic devices. Long-life series ensure sustained performance in critical medical applications.
+    </p>
+  </div>
+</section>
+
 <!-- Breadcrumb -->
 <div class="breadcrumb">
   <div class="container">

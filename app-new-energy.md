@@ -13,6 +13,15 @@ permalink: /applications/new-energy/
   </div>
 </section>
 
+<!-- Summary -->
+<section class="section" style="padding-bottom:0;">
+  <div class="container">
+    <p style="font-size:1.1rem;color:var(--gray-700);line-height:1.8;max-width:800px;">
+      <strong>Summary:</strong> HUAYU's capacitors support new energy applications including energy storage systems (ESS), wind power converters, and EV charging infrastructure. High-voltage screw terminal series handle demanding DC-link requirements in renewable power conversion.
+    </p>
+  </div>
+</section>
+
 <!-- Breadcrumb -->
 <div class="breadcrumb">
   <div class="container">

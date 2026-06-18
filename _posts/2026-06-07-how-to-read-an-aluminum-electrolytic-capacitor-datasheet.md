@@ -8,6 +8,9 @@ excerpt: "A step-by-step guide to reading aluminum electrolytic capacitor datash
 tags: [capacitor datasheet, aluminum electrolytic capacitor, how to read datasheet, capacitor specifications, ESR, ripple current, capacitor parameters]
 ---
 
+> **Summary:** A step-by-step guide to reading aluminum electrolytic capacitor datasheets. Learn how to interpret electrical specifications, dimensions, and performance curves.
+
+
 Reading a capacitor datasheet correctly is essential for proper component selection. This guide explains how to interpret the key parameters in aluminum electrolytic capacitor datasheets.
 
 ## Datasheet Structure - What You'll Find
@@ -173,3 +176,8 @@ HUAYU provides **comprehensive datasheets** for all our series:
 *Contact our engineering team to discuss your capacitor requirements and request a custom quote.*
 
 *Next article: **"Capacitor Reliability and Lifetime Prediction"** — subscribe to our blog for updates.*
+<br>
+<div style="background:#f8f9fa;padding:20px;border-radius:8px;border-left:4px solid #2471a3;margin-top:30px;">
+  <strong>Need Help Selecting the Right Capacitor?</strong><br>
+  Contact HUAYU's engineering team for technical support and custom capacitor solutions. <a href="https://capacitormanufacturer.com/contact/">Get a quote &rarr;</a>
+</div>

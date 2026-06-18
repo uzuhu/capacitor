@@ -13,6 +13,15 @@ permalink: /applications/ups-systems/
   </div>
 </section>
 
+<!-- Summary -->
+<section class="section" style="padding-bottom:0;">
+  <div class="container">
+    <p style="font-size:1.1rem;color:var(--gray-700);line-height:1.8;max-width:800px;">
+      <strong>Summary:</strong> HUAYU offers capacitor solutions for UPS systems including offline, line-interactive, online double-conversion, and delta-conversion topologies. High ripple current series deliver the reliability required for mission-critical backup power.
+    </p>
+  </div>
+</section>
+
 <!-- Breadcrumb -->
 <div class="breadcrumb">
   <div class="container">

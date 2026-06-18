@@ -13,6 +13,15 @@ permalink: /applications/servo-drives/
   </div>
 </section>
 
+<!-- Summary -->
+<section class="section" style="padding-bottom:0;">
+  <div class="container">
+    <p style="font-size:1.1rem;color:var(--gray-700);line-height:1.8;max-width:800px;">
+      <strong>Summary:</strong> HUAYU offers capacitor solutions for servo drive and motion control applications. Compact snap-in series (CD17FX, CD295) provide reliable DC-link filtering in space-constrained servo amplifier designs.
+    </p>
+  </div>
+</section>
+
 <!-- Breadcrumb -->
 <div class="breadcrumb">
   <div class="container">

@@ -13,6 +13,15 @@ permalink: /applications/welding-equipment/
   </div>
 </section>
 
+<!-- Summary -->
+<section class="section" style="padding-bottom:0;">
+  <div class="container">
+    <p style="font-size:1.1rem;color:var(--gray-700);line-height:1.8;max-width:800px;">
+      <strong>Summary:</strong> HUAYU provides high-ripple aluminum electrolytic capacitors for inverter welding machines. Screw terminal series (CD13NH, CD13HL) handle extreme ripple currents in MIG, TIG, plasma, and stud welding power sources.
+    </p>
+  </div>
+</section>
+
 <!-- Breadcrumb -->
 <div class="breadcrumb">
   <div class="container">

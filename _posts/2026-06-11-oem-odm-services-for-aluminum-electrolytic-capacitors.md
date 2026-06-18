@@ -9,6 +9,9 @@ tags: [OEM capacitor, ODM capacitor, custom capacitor, private label capacitor, 
 image: "/assets/images/posts/package1.jpg"
 ---
 
+> **Summary:** Learn about HUAYU's OEM/ODM services for aluminum electrolytic capacitors. Custom voltage, capacitance, case size, and branding options.
+
+
 HUAYU provides **full OEM and ODM services** for aluminum electrolytic capacitors. Whether you need **custom specifications** or **private labeling**, we can manufacture capacitors with your brand.
 
 This article explains our OEM/ODM capabilities and process.
@@ -150,3 +153,8 @@ Interested in OEM/ODM services? Send us:
 *Contact our engineering team to discuss your capacitor requirements and request a custom quote.*
 
 *Next article: **"Global Shipping and Logistics"** — subscribe to our blog for updates.*
+<br>
+<div style="background:#f8f9fa;padding:20px;border-radius:8px;border-left:4px solid #2471a3;margin-top:30px;">
+  <strong>Need Help Selecting the Right Capacitor?</strong><br>
+  Contact HUAYU's engineering team for technical support and custom capacitor solutions. <a href="https://capacitormanufacturer.com/contact/">Get a quote &rarr;</a>
+</div>
