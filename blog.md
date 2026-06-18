@@ -1,15 +1,15 @@
 ---
 layout: default
-title: "Blog - HUAYU Capacitor News & Technical Articles"
-description: "Stay updated with HUAYU capacitor product news, technical articles, and industry insights."
+title: "Articles - HUAYU Capacitor Knowledge & Technical Articles"
+description: "Explore HUAYU capacitor technical articles, selection guides, and industry insights."
 permalink: /blog/
 ---
 
 <!-- Page Header -->
 <section class="page-header">
   <div class="container">
-    <h1>Blog & News</h1>
-    <p>Product updates, technical insights, and company news</p>
+    <h1>Articles</h1>
+    <p>Technical knowledge, selection guides, and engineering insights about aluminum electrolytic capacitors</p>
   </div>
 </section>
 

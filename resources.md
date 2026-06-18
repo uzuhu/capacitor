@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "Resources - Blog & FAQ | HUAYU Capacitor"
-description: "Explore HUAYU's capacitor resources — technical blog, FAQs, selection guides, and quality information."
+title: "Articles & FAQ | HUAYU Capacitor Knowledge"
+description: "Explore HUAYU's capacitor knowledge — technical articles, FAQs, selection guides, and quality information."
 ---
 
 <!-- Page Header -->
 <section class="page-header">
   <div class="container">
-    <h1>Resources</h1>
+    <h1>Articles & FAQ</h1>
     <p>Technical articles, frequently asked questions, and guides for aluminum electrolytic capacitors</p>
   </div>
 </section>
@@ -27,7 +27,7 @@ description: "Explore HUAYU's capacitor resources — technical blog, FAQs, sele
             <line x1="15" y1="31" x2="27" y2="31" stroke="#2471a3" stroke-width="2" stroke-linecap="round"/>
           </svg>
         </div>
-        <h2>Technical Blog</h2>
+        <h2>Articles</h2>
         <p>In-depth articles about capacitor selection, application, reliability, and testing. Written by our engineering team to help you make informed decisions.</p>
         <span class="resource-meta">11 articles &rarr;</span>
       </a>
@@ -42,7 +42,7 @@ description: "Explore HUAYU's capacitor resources — technical blog, FAQs, sele
         </div>
         <h2>Frequently Asked Questions</h2>
         <p>Quick answers to the most common questions about HUAYU capacitors — products, custom orders, quality, ordering, and tech support.</p>
-        <span class="resource-meta">25 answers &rarr;</span>
+        <span class="resource-meta">9 answers &rarr;</span>
       </a>
 
     </div>
@@ -53,7 +53,7 @@ description: "Explore HUAYU's capacitor resources — technical blog, FAQs, sele
 <section class="section section-alt">
   <div class="container">
     <div class="section-title">
-      <h2>Additional Guides</h2>
+      <h2>Quick Links</h2>
       <div class="divider"></div>
     </div>
     <div style="display:flex;gap:16px;flex-wrap:wrap;justify-content:center;">

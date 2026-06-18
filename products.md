@@ -207,6 +207,77 @@ description: "Browse HUAYU's full range of snap-in and screw terminal aluminum e
   </div>
 </section>
 
+<!-- Product FAQ -->
+<section class="section">
+  <div class="container" style="max-width:800px;">
+    <div class="section-title">
+      <h2>Common Questions About Our Capacitors</h2>
+      <div class="divider"></div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)">
+        <span>What types of aluminum electrolytic capacitors does HUAYU manufacture?</span>
+        <span class="faq-toggle">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>HUAYU specializes in <strong>snap-in terminal capacitors</strong> (22&phi; to 40&phi;) and <strong>screw terminal capacitors</strong> (35&phi; to 100&phi;). We offer 17 standard product series covering a wide range of capacitance, voltage, and case size combinations, plus fully custom-designed capacitors for unique requirements.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)">
+        <span>What is the difference between snap-in and screw terminal capacitors?</span>
+        <span class="faq-toggle">+</span>
+      </div>
+      <div class="faq-answer">
+        <p><strong>Snap-in terminal capacitors</strong> have quick-mount terminals that snap into PCB or chassis mounting clips — ideal for compact designs and automated assembly. <strong>Screw terminal capacitors</strong> use threaded studs or bolted connections, providing superior vibration resistance and higher current handling for heavy-duty industrial applications.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)">
+        <span>What is the voltage and capacitance range?</span>
+        <span class="faq-toggle">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>Our standard range covers <strong>6.3V to 500V DC</strong> and <strong>47&mu;F to 100,000&mu;F</strong>. For non-standard requirements, our engineering team can develop custom-rated capacitors.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)">
+        <span>Do you offer long-life or high ripple current capacitors?</span>
+        <span class="faq-toggle">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>Yes. Several series are designed for <strong>extended operational life</strong> (10+ years) with enhanced electrolyte formulations. Our CD294, CD295, CD13HL, and CD13NH series are optimized for <strong>high ripple current applications</strong> such as welding machines, frequency converters, and motor drives.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)">
+        <span>Do you accept custom/OEM orders?</span>
+        <span class="faq-toggle">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>Yes. Custom and OEM manufacturing is our <strong>core business</strong>. We welcome non-standard specifications including custom capacitance, voltage, case size, terminal configuration, brand labeling, and packaging. Typical MOQ: 500&ndash;2000 pieces for standard custom variants.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)">
+        <span>What is the typical lead time?</span>
+        <span class="faq-toggle">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>Standard product orders ship within <strong>7&ndash;15 business days</strong>. Custom specifications typically require <strong>15&ndash;25 business days</strong>. Samples can be expedited to 5&ndash;7 business days.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 <!-- CTA -->
 <section class="cta-banner">
   <div class="container">
@@ -239,5 +310,88 @@ description: "Browse HUAYU's full range of snap-in and screw terminal aluminum e
     "priceCurrency": "USD",
     "url": "https://capacitormanufacturer.com/products/"
   }
+}
+</script>
+
+<style>
+.faq-item {
+  margin-bottom: 2px;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: box-shadow 0.2s;
+}
+.faq-item:hover {
+  box-shadow: var(--shadow);
+}
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+  background: var(--white);
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.2s;
+}
+.faq-question:hover {
+  background: var(--gray-50);
+}
+.faq-question span:first-child {
+  font-weight: 600;
+  font-size: 0.98rem;
+  color: var(--gray-800);
+  line-height: 1.4;
+}
+.faq-toggle {
+  flex-shrink: 0;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gray-200);
+  border-radius: 50%;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--gray-600);
+  transition: all 0.25s;
+}
+.faq-item.open .faq-toggle {
+  background: var(--blue-mid);
+  color: var(--white);
+  transform: rotate(45deg);
+}
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease, padding 0.35s ease;
+  padding: 0 20px;
+  background: var(--gray-50);
+}
+.faq-item.open .faq-answer {
+  max-height: 400px;
+  padding: 16px 20px;
+}
+.faq-answer p {
+  margin: 0;
+  color: var(--gray-600);
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+</style>
+
+<script>
+function toggleFaq(el) {
+  var item = el.closest('.faq-item');
+  if (!item) return;
+  var parent = item.closest('.section');
+  if (parent) {
+    parent.querySelectorAll('.faq-item.open').forEach(function(i) {
+      if (i !== item) i.classList.remove('open');
+    });
+  }
+  item.classList.toggle('open');
 }
 </script>

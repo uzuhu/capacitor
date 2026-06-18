@@ -124,8 +124,130 @@ permalink: /applications/
   </div>
 </section>
 
+<!-- Application FAQ -->
+<section class="section section-alt">
+  <div class="container" style="max-width:800px;">
+    <div class="section-title">
+      <h2>Common Questions About Applications</h2>
+      <div class="divider"></div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)">
+        <span>Can your engineering team help me select the right capacitor for my application?</span>
+        <span class="faq-toggle">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>Absolutely. Our engineering team has decades of experience in aluminum electrolytic capacitor application engineering. Simply provide your <strong>application type, voltage, ripple current, operating temperature, and lifetime requirements</strong>, and we will recommend the most suitable series and specification.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)">
+        <span>I need a replacement for another brand of capacitor — can you help?</span>
+        <span class="faq-toggle">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>Yes. We frequently provide <strong>replacement solutions</strong> for capacitors from brands like Nichicon, Rubycon, Panasonic, EPCOS/TDK, Cornell Dubilier, and many others. Send us the part number and datasheet of the capacitor you are currently using, and our engineers will identify the best HUAYU equivalent or recommend a custom solution.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)">
+        <span>Do you provide application notes or technical guides?</span>
+        <span class="faq-toggle">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>Yes, we offer a range of technical resources including our <a href="{{ '/technical/' | relative_url }}">application guide (PDF)</a>, usage guidelines, and a detailed <a href="{{ '/resources/' | relative_url }}">technical blog</a> covering capacitor selection, reliability, testing, and application-specific recommendations.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 <!-- CTA -->
 <section class="cta-banner">
+
+<style>
+.faq-item {
+  margin-bottom: 2px;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.faq-item:hover {
+  box-shadow: var(--shadow);
+}
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+  background: var(--white);
+  cursor: pointer;
+  user-select: none;
+}
+.faq-question:hover {
+  background: var(--gray-50);
+}
+.faq-question span:first-child {
+  font-weight: 600;
+  font-size: 0.98rem;
+  color: var(--gray-800);
+  line-height: 1.4;
+}
+.faq-toggle {
+  flex-shrink: 0;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gray-200);
+  border-radius: 50%;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--gray-600);
+  transition: all 0.25s;
+}
+.faq-item.open .faq-toggle {
+  background: var(--blue-mid);
+  color: var(--white);
+  transform: rotate(45deg);
+}
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease, padding 0.35s ease;
+  padding: 0 20px;
+  background: var(--gray-50);
+}
+.faq-item.open .faq-answer {
+  max-height: 400px;
+  padding: 16px 20px;
+}
+.faq-answer p {
+  margin: 0;
+  color: var(--gray-600);
+  line-height: 1.7;
+  font-size: 0.95rem;
+}
+</style>
+
+<script>
+function toggleFaq(el) {
+  var item = el.closest('.faq-item');
+  if (!item) return;
+  var parent = item.closest('.section');
+  if (parent) {
+    parent.querySelectorAll('.faq-item.open').forEach(function(i) {
+      if (i !== item) i.classList.remove('open');
+    });
+  }
+  item.classList.toggle('open');
+}
+</script>
   <div class="container">
     <h2>Need Help Selecting the Right Capacitor?</h2>
     <p>Our engineering team provides tailored capacitor recommendations based on your specific application requirements.</p>
