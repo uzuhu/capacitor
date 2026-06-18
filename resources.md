@@ -12,13 +12,6 @@ description: "Explore HUAYU's capacitor resources — technical blog, FAQs, sele
   </div>
 </section>
 
-<!-- Breadcrumb -->
-<div class="breadcrumb">
-  <div class="container">
-    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span> Resources
-  </div>
-</div>
-
 <!-- Two Main Cards -->
 <section class="section">
   <div class="container">

@@ -13,13 +13,6 @@ permalink: /blog/
   </div>
 </section>
 
-<!-- Breadcrumb -->
-<div class="breadcrumb">
-  <div class="container">
-    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span> Blog
-  </div>
-</div>
-
 <!-- Blog Listing -->
 <section class="section">
   <div class="container">

@@ -12,6 +12,15 @@ description: "Custom-designed snap-in and screw terminal aluminum electrolytic c
   </div>
 </section>
 
+<!-- Breadcrumb -->
+<div class="breadcrumb">
+  <div class="container">
+    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span> <a href="{{ '/products/' | relative_url }}">Products</a> <span>&rsaquo;</span> Custom Capacitors
+  </div>
+</div>
+
+
+
 
 
 <!-- What We Can Customize -->

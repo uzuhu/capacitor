@@ -12,6 +12,15 @@ description: "Frequently asked questions about aluminum electrolytic capacitors,
   </div>
 </section>
 
+<!-- Breadcrumb -->
+<div class="breadcrumb">
+  <div class="container">
+    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span> FAQ
+  </div>
+</div>
+
+
+
 
 
 <!-- FAQ Content -->

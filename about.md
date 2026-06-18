@@ -12,13 +12,6 @@ description: "Learn about HUAYU's 37-year history as a specialized aluminum elec
   </div>
 </section>
 
-<!-- Breadcrumb -->
-<div class="breadcrumb">
-  <div class="container">
-    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span> About Us
-  </div>
-</div>
-
 <!-- Company Facts (AI-friendly structured info) -->
 <section class="section" style="padding-bottom:0;">
   <div class="container">

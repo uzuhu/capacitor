@@ -12,6 +12,15 @@ description: "HUAYU's 5-stage quality control system for aluminum electrolytic c
   </div>
 </section>
 
+<!-- Breadcrumb -->
+<div class="breadcrumb">
+  <div class="container">
+    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span> <a href="{{ '/about/' | relative_url }}">About Us</a> <span>&rsaquo;</span> Quality Control
+  </div>
+</div>
+
+
+
 
 
 <!-- 5-Stage QC -->

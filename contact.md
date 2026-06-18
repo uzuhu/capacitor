@@ -12,13 +12,6 @@ description: "Contact Nantong HUAYU Electronics Co., Ltd. for snap-in and screw 
   </div>
 </section>
 
-<!-- Breadcrumb -->
-<div class="breadcrumb">
-  <div class="container">
-    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span> Contact Us
-  </div>
-</div>
-
 <!-- Contact Section -->
 <section class="section">
   <div class="container">

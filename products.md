@@ -12,13 +12,6 @@ description: "Browse HUAYU's full range of snap-in and screw terminal aluminum e
   </div>
 </section>
 
-<!-- Breadcrumb -->
-<div class="breadcrumb">
-  <div class="container">
-    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span> Products
-  </div>
-</div>
-
 <!-- Full Catalogue Download -->
 <section class="section" style="padding-bottom:20px;">
   <div class="container">
@@ -204,12 +197,12 @@ description: "Browse HUAYU's full range of snap-in and screw terminal aluminum e
 <!-- Technical References Strip -->
 <section class="section section-alt" style="padding:30px 0;">
   <div class="container">
-    <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:24px;">
-      <span style="font-weight:700;color:var(--blue-dark);font-size:0.9rem;">Technical References:</span>
-      <a href="{{ '/pdf/Part-Number-System.pdf' | relative_url }}" target="_blank" class="download-link" style="font-size:0.88rem;">🔍 Part Number System</a>
-      <a href="{{ '/pdf/Guidelines-For-Using.pdf' | relative_url }}" target="_blank" class="download-link" style="font-size:0.88rem;">📁 Guidelines for Using</a>
-      <a href="{{ '/pdf/GUIDE.pdf' | relative_url }}" target="_blank" class="download-link" style="font-size:0.88rem;">📒 Application Guide</a>
-      <a href="{{ '/pdf/catalogue.pdf' | relative_url }}" target="_blank" class="download-link" style="font-size:0.88rem;">📄 Full Catalogue</a>
+    <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:16px;">
+      <span style="font-weight:700;color:var(--blue-dark);font-size:0.88rem;">Technical References:</span>
+      <a href="{{ '/pdf/Part-Number-System.pdf' | relative_url }}" target="_blank" style="display:inline-block;background:var(--blue-dark);color:#fff;padding:6px 14px;border-radius:4px;font-size:0.84rem;font-weight:600;text-decoration:none;">🔍 Part Number System</a>
+      <a href="{{ '/pdf/Guidelines-For-Using.pdf' | relative_url }}" target="_blank" style="display:inline-block;background:var(--blue-dark);color:#fff;padding:6px 14px;border-radius:4px;font-size:0.84rem;font-weight:600;text-decoration:none;">📁 Guidelines for Using</a>
+      <a href="{{ '/pdf/GUIDE.pdf' | relative_url }}" target="_blank" style="display:inline-block;background:var(--blue-dark);color:#fff;padding:6px 14px;border-radius:4px;font-size:0.84rem;font-weight:600;text-decoration:none;">📒 Application Guide</a>
+      <a href="{{ '/pdf/catalogue.pdf' | relative_url }}" target="_blank" style="display:inline-block;background:var(--blue-dark);color:#fff;padding:6px 14px;border-radius:4px;font-size:0.84rem;font-weight:600;text-decoration:none;">📄 Full Catalogue</a>
     </div>
   </div>
 </section>

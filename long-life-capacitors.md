@@ -12,6 +12,15 @@ description: "Long life aluminum electrolytic capacitors for UPS, solar inverter
   </div>
 </section>
 
+<!-- Breadcrumb -->
+<div class="breadcrumb">
+  <div class="container">
+    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span> <a href="{{ '/products/' | relative_url }}">Products</a> <span>&rsaquo;</span> Long Life Capacitors
+  </div>
+</div>
+
+
+
 
 
 <!-- Content -->

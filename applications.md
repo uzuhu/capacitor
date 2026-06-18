@@ -13,13 +13,6 @@ permalink: /applications/
   </div>
 </section>
 
-<!-- Breadcrumb -->
-<div class="breadcrumb">
-  <div class="container">
-    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span> Applications
-  </div>
-</div>
-
 <!-- Intro -->
 <section class="section" style="padding-bottom:30px;">
   <div class="container">

@@ -12,6 +12,15 @@ description: "Find HUAYU replacement capacitors for Nichicon, Rubycon, Panasonic
   </div>
 </section>
 
+<!-- Breadcrumb -->
+<div class="breadcrumb">
+  <div class="container">
+    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span> <a href="{{ '/products/' | relative_url }}">Products</a> <span>&rsaquo;</span> Replacement Solutions
+  </div>
+</div>
+
+
+
 
 
 <!-- Why Replace -->
