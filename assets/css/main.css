@@ -248,9 +248,7 @@ li { margin-bottom: 0.3rem; }
 
 /* --- Table Wrap (responsive) --- */
 .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
-.table-wrap table { min-width: 480px; }
 @media (max-width: 600px) {
-  .table-wrap table { min-width: 0; }
   .spec-table { font-size: 0.82rem; }
   .spec-table th,
   .spec-table td { padding: 8px 10px; white-space: normal; }
