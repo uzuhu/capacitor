@@ -197,12 +197,12 @@ description: "Browse HUAYU's full range of snap-in and screw terminal aluminum e
 <!-- Technical References Strip -->
 <section class="section section-alt" style="padding:30px 0;">
   <div class="container">
-    <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:16px;">
+    <div style="display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:12px;">
       <span style="font-weight:700;color:var(--blue-dark);font-size:0.88rem;">Technical References:</span>
-      <a href="{{ '/pdf/Part-Number-System.pdf' | relative_url }}" target="_blank" style="display:inline-block;background:var(--blue-dark);color:#fff;padding:6px 14px;border-radius:4px;font-size:0.84rem;font-weight:600;text-decoration:none;">🔍 Part Number System</a>
-      <a href="{{ '/pdf/Guidelines-For-Using.pdf' | relative_url }}" target="_blank" style="display:inline-block;background:var(--blue-dark);color:#fff;padding:6px 14px;border-radius:4px;font-size:0.84rem;font-weight:600;text-decoration:none;">📁 Guidelines for Using</a>
-      <a href="{{ '/pdf/GUIDE.pdf' | relative_url }}" target="_blank" style="display:inline-block;background:var(--blue-dark);color:#fff;padding:6px 14px;border-radius:4px;font-size:0.84rem;font-weight:600;text-decoration:none;">📒 Application Guide</a>
-      <a href="{{ '/pdf/catalogue.pdf' | relative_url }}" target="_blank" style="display:inline-block;background:var(--blue-dark);color:#fff;padding:6px 14px;border-radius:4px;font-size:0.84rem;font-weight:600;text-decoration:none;">📄 Full Catalogue</a>
+      <a href="{{ '/pdf/Part-Number-System.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">🔍 Part Number System</a>
+      <a href="{{ '/pdf/Guidelines-For-Using.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">📁 Guidelines for Using</a>
+      <a href="{{ '/pdf/GUIDE.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">📒 Application Guide</a>
+      <a href="{{ '/pdf/catalogue.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">📄 Full Catalogue</a>
     </div>
   </div>
 </section>
@@ -265,13 +265,53 @@ description: "Browse HUAYU's full range of snap-in and screw terminal aluminum e
       </div>
     </div>
 
-    <div class="faq-item">
+      <div class="faq-item">
       <div class="faq-question" onclick="toggleFaq(this)">
         <span>What is the typical lead time?</span>
         <span class="faq-toggle">+</span>
       </div>
       <div class="faq-answer">
         <p>Standard product orders ship within <strong>7&ndash;15 business days</strong>. Custom specifications typically require <strong>15&ndash;25 business days</strong>. Samples can be expedited to 5&ndash;7 business days.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)">
+        <span>What quality control processes do you have in place?</span>
+        <span class="faq-toggle">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>Every HUAYU capacitor passes through a <strong>5-stage quality control system</strong>: raw material inspection, in-process monitoring, accelerated aging screening, 100% final testing (capacitance, ESR, leakage current, impedance), and full batch traceability. Read more on our <a href="{{ '/about/' | relative_url }}">About Us</a> page.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)">
+        <span>Do your capacitors comply with RoHS and REACH?</span>
+        <span class="faq-toggle">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>Yes. All our capacitors are <strong>RoHS compliant</strong> and meet applicable <strong>REACH</strong> requirements. We can provide compliance documentation upon request.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)">
+        <span>What is the expected lifetime of your capacitors?</span>
+        <span class="faq-toggle">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>Our standard 105&deg;C rated series typically offer <strong>2000&ndash;5000 hours</strong> at rated temperature, which translates to <strong>10&ndash;15+ years</strong> of service life in typical 40&deg;C&ndash;55&deg;C operating environments. For extended life applications, we recommend our long-life series with enhanced electrolyte formulations.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question" onclick="toggleFaq(this)">
+        <span>Do you provide technical datasheets?</span>
+        <span class="faq-toggle">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>Yes. Complete technical datasheets for all 17 product series are available for download on our <a href="{{ '/products/' | relative_url }}">Products page</a>. We also provide <a href="{{ '/technical/' | relative_url }}">terminal dimension drawings, application guidelines, and our full product catalog</a> in PDF format.</p>
       </div>
     </div>
 

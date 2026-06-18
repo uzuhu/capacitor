@@ -1,21 +1,21 @@
 ---
 layout: default
-title: "Articles & FAQ | HUAYU Capacitor Knowledge"
-description: "Explore HUAYU's capacitor knowledge — technical articles, FAQs, selection guides, and quality information."
+title: "Articles | HUAYU Capacitor Knowledge"
+description: "Explore HUAYU's capacitor technical articles, selection guides, and quality information."
 ---
 
 <!-- Page Header -->
 <section class="page-header">
   <div class="container">
-    <h1>Articles & FAQ</h1>
-    <p>Technical articles, frequently asked questions, and guides for aluminum electrolytic capacitors</p>
+    <h1>Articles</h1>
+    <p>Technical articles, selection guides, and quality information about aluminum electrolytic capacitors</p>
   </div>
 </section>
 
 <!-- Two Main Cards -->
 <section class="section">
   <div class="container">
-    <div class="resources-grid">
+    <div class="resources-grid-single">
 
       <!-- Blog Card -->
       <a href="{{ '/blog/' | relative_url }}" class="resource-card">
@@ -32,18 +32,7 @@ description: "Explore HUAYU's capacitor knowledge — technical articles, FAQs, 
         <span class="resource-meta">11 articles &rarr;</span>
       </a>
 
-      <!-- FAQ Card -->
-      <a href="{{ '/faq/' | relative_url }}" class="resource-card">
-        <div class="resource-icon">
-          <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
-            <circle cx="24" cy="24" r="18" stroke="#2471a3" stroke-width="2.5" fill="#eaf2f8"/>
-            <text x="24" y="30" text-anchor="middle" font-size="22" font-weight="bold" fill="#2471a3" font-family="sans-serif">?</text>
-          </svg>
-        </div>
-        <h2>Frequently Asked Questions</h2>
-        <p>Quick answers to the most common questions about HUAYU capacitors — products, custom orders, quality, ordering, and tech support.</p>
-        <span class="resource-meta">9 answers &rarr;</span>
-      </a>
+      
 
     </div>
   </div>
