@@ -120,12 +120,12 @@ description: "Huayu is a leading aluminum electrolytic capacitor manufacturer in
       </div>
     </div>
     <div style="text-align:center;margin-top:30px;">
-      <p style="margin-bottom:14px;color:var(--gray-600);font-weight:600;">Specialized Product Lines:</p>
+      <p style="margin-bottom:14px;color:var(--blue-dark);font-weight:700;font-size:1.05rem;">Specialized Product Lines:</p>
       <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;">
-        <a href="{{ '/high-ripple-current-capacitors/' | relative_url }}" class="btn btn-sm btn-outline">High Ripple Current</a>
-        <a href="{{ '/long-life-capacitors/' | relative_url }}" class="btn btn-sm btn-outline">Long Life Capacitors</a>
-        <a href="{{ '/capacitor-replacement/' | relative_url }}" class="btn btn-sm btn-outline">Brand Replacement</a>
-        <a href="{{ '/custom-capacitors/' | relative_url }}" class="btn btn-sm btn-outline">Custom / OEM</a>
+        <a href="{{ '/high-ripple-current-capacitors/' | relative_url }}" class="btn btn-sm" style="background:var(--blue-dark);color:var(--white);padding:8px 20px;border-radius:6px;text-decoration:none;font-weight:600;">High Ripple Current</a>
+        <a href="{{ '/long-life-capacitors/' | relative_url }}" class="btn btn-sm" style="background:var(--blue-dark);color:var(--white);padding:8px 20px;border-radius:6px;text-decoration:none;font-weight:600;">Long Life Capacitors</a>
+        <a href="{{ '/capacitor-replacement/' | relative_url }}" class="btn btn-sm" style="background:var(--blue-dark);color:var(--white);padding:8px 20px;border-radius:6px;text-decoration:none;font-weight:600;">Brand Replacement</a>
+        <a href="{{ '/custom-capacitors/' | relative_url }}" class="btn btn-sm" style="background:var(--blue-dark);color:var(--white);padding:8px 20px;border-radius:6px;text-decoration:none;font-weight:600;">Custom / OEM</a>
       </div>
     </div>
   </div>
