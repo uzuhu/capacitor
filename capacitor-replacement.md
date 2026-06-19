@@ -39,17 +39,15 @@ description: "Find HUAYU replacement capacitors for Nichicon, Rubycon, Panasonic
       </div>
       <div>
         <h2>Brands We Cross-Reference</h2>
+        <p style="font-size:0.9rem;color:var(--gray-600);margin-bottom:12px;">Click any brand below for a dedicated alternative solutions page:</p>
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px;">
-          <div style="background:var(--gray-50);padding:12px;border-radius:var(--radius);font-weight:600;">Nichicon</div>
-          <div style="background:var(--gray-50);padding:12px;border-radius:var(--radius);font-weight:600;">Rubycon</div>
-          <div style="background:var(--gray-50);padding:12px;border-radius:var(--radius);font-weight:600;">Panasonic</div>
-          <div style="background:var(--gray-50);padding:12px;border-radius:var(--radius);font-weight:600;">EPCOS / TDK</div>
-          <div style="background:var(--gray-50);padding:12px;border-radius:var(--radius);font-weight:600;">Cornell Dubilier</div>
-          <div style="background:var(--gray-50);padding:12px;border-radius:var(--radius);font-weight:600;">United Chemi-Con</div>
-          <div style="background:var(--gray-50);padding:12px;border-radius:var(--radius);font-weight:600;">Hitachi AIC</div>
-          <div style="background:var(--gray-50);padding:12px;border-radius:var(--radius);font-weight:600;">BHC Aerovox</div>
-          <div style="background:var(--gray-50);padding:12px;border-radius:var(--radius);font-weight:600;">Samwha</div>
-          <div style="background:var(--gray-50);padding:12px;border-radius:var(--radius);font-weight:600;">Sangyo</div>
+          <a href="{{ '/nichicon-capacitor-alternative/' | relative_url }}" style="background:var(--blue-dark);color:var(--white);padding:14px;border-radius:var(--radius);font-weight:600;text-align:center;transition:all 0.25s;">Nichicon →</a>
+          <a href="{{ '/rubycon-capacitor-alternative/' | relative_url }}" style="background:var(--blue-dark);color:var(--white);padding:14px;border-radius:var(--radius);font-weight:600;text-align:center;transition:all 0.25s;">Rubycon →</a>
+          <a href="{{ '/panasonic-capacitor-alternative/' | relative_url }}" style="background:var(--blue-dark);color:var(--white);padding:14px;border-radius:var(--radius);font-weight:600;text-align:center;transition:all 0.25s;">Panasonic →</a>
+          <a href="{{ '/epcos-tdk-capacitor-alternative/' | relative_url }}" style="background:var(--blue-dark);color:var(--white);padding:14px;border-radius:var(--radius);font-weight:600;text-align:center;transition:all 0.25s;">EPCOS / TDK →</a>
+          <a href="{{ '/chemi-con-capacitor-alternative/' | relative_url }}" style="background:var(--blue-dark);color:var(--white);padding:14px;border-radius:var(--radius);font-weight:600;text-align:center;transition:all 0.25s;">Nippon Chemi-Con →</a>
+          <a href="{{ '/vishay-capacitor-alternative/' | relative_url }}" style="background:var(--blue-dark);color:var(--white);padding:14px;border-radius:var(--radius);font-weight:600;text-align:center;transition:all 0.25s;">Vishay →</a>
+          <a href="{{ '/cornell-dubilier-capacitor-alternative/' | relative_url }}" style="background:var(--blue-dark);color:var(--white);padding:14px;border-radius:var(--radius);font-weight:600;text-align:center;transition:all 0.25s;">Cornell Dubilier →</a>
         </div>
       </div>
     </div>

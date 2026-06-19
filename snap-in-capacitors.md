@@ -1,8 +1,24 @@
----
-layout: default
-title: "Snap-In Aluminum Electrolytic Capacitors | 22-40mm | 8 Series | HUAYU"
-description: "Snap-in terminal aluminum electrolytic capacitors from HUAYU — 8 series, 22-40mm diameter, up to 500V. Datasheets, dimensions, and custom options available."
----
+------
+
+<!-- Product Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Snap-In Aluminum Electrolytic Capacitors",
+  "description": "Large-can snap-in terminal aluminum electrolytic capacitors manufactured by HUAYU since 1987. 8 series, 22φ-40φ diameter, 6.3V-500V, 47μF-100,000μF.",
+  "category": "Aluminum Electrolytic Capacitors",
+  "manufacturer": {
+    "@type": "Organization",
+    "name": "Nantong Huayu Electronics Co., Ltd."
+  },
+  "brand": {
+    "@type": "Brand",
+    "name": "HUAYU"
+  }
+}
+</script>
+
 
 <!-- Page Header -->
 <section class="page-header">

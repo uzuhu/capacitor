@@ -1,8 +1,24 @@
----
-layout: default
-title: "Screw Terminal Aluminum Electrolytic Capacitors | 35-100mm | 9 Series | HUAYU"
-description: "Screw terminal aluminum electrolytic capacitors from HUAYU — 9 series, 35-100mm diameter, high ripple current, long life options. Industrial-grade DC-link filtering."
----
+------
+
+<!-- Product Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Screw Terminal Aluminum Electrolytic Capacitors",
+  "description": "Large-can screw terminal aluminum electrolytic capacitors manufactured by HUAYU. 9 series, 35φ-100φ diameter, high ripple current, long life options.",
+  "category": "Aluminum Electrolytic Capacitors",
+  "manufacturer": {
+    "@type": "Organization",
+    "name": "Nantong Huayu Electronics Co., Ltd."
+  },
+  "brand": {
+    "@type": "Brand",
+    "name": "HUAYU"
+  }
+}
+</script>
+
 
 <!-- Page Header -->
 <section class="page-header">

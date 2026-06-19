@@ -1,8 +1,24 @@
----
-layout: default
-title: "High Ripple Current Aluminum Electrolytic Capacitors | Low ESR | HUAYU"
-description: "High ripple current aluminum electrolytic capacitors for inverter welding, VFD drives, and UPS systems. Low ESR snap-in and screw terminal series with optimized heat dissipation."
----
+------
+
+<!-- Product Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "High Ripple Current Aluminum Electrolytic Capacitors",
+  "description": "Low-ESR, high ripple current aluminum electrolytic capacitors for inverter welding, VFDs, and UPS systems. Snap-in and screw terminal series.",
+  "category": "Aluminum Electrolytic Capacitors",
+  "manufacturer": {
+    "@type": "Organization",
+    "name": "Nantong Huayu Electronics Co., Ltd."
+  },
+  "brand": {
+    "@type": "Brand",
+    "name": "HUAYU"
+  }
+}
+</script>
+
 
 <!-- Page Header -->
 <section class="page-header">

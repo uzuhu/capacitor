@@ -1,8 +1,24 @@
----
-layout: default
-title: "Long Life Aluminum Electrolytic Capacitors | 105°C Extended Life | HUAYU"
-description: "Long life aluminum electrolytic capacitors for UPS, solar inverters, and industrial power supplies. 105°C rated, 5000h+ life, snap-in and screw terminal options."
----
+------
+
+<!-- Product Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Long Life Aluminum Electrolytic Capacitors",
+  "description": "Extended-life aluminum electrolytic capacitors rated at 105C, 5000h+ endurance. Snap-in and screw terminal options for UPS, solar, and industrial power.",
+  "category": "Aluminum Electrolytic Capacitors",
+  "manufacturer": {
+    "@type": "Organization",
+    "name": "Nantong Huayu Electronics Co., Ltd."
+  },
+  "brand": {
+    "@type": "Brand",
+    "name": "HUAYU"
+  }
+}
+</script>
+
 
 <!-- Page Header -->
 <section class="page-header">
