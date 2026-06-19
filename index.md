@@ -17,9 +17,6 @@ description: "Huayu is a leading aluminum electrolytic capacitor manufacturer in
           <a href="{{ '/contact/' | relative_url }}" class="btn btn-outline">Request a Quote &rarr;</a>
         </div>
       </div>
-      <div class="hero__media">
-        <img src="{{ '/images/HUAYU.jpg' | relative_url }}" alt="HUAYU Capacitor">
-      </div>
     </div>
   </div>
 </section>
