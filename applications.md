@@ -20,7 +20,7 @@ permalink: /applications/
       <h2 style="font-size:2.1rem;">Capacitor Solutions Across Industries</h2>
       <div class="divider"></div>
     </div>
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;max-width:960px;margin:0 auto;">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;">
       <!-- Module 1 -->
       <div style="background:linear-gradient(135deg,#f0f7ff 0%,#e8f4fd 100%);border-radius:12px;padding:32px 30px;border-left:4px solid var(--blue-mid);">
         <div style="font-size:1.6rem;font-weight:700;color:var(--blue-dark);margin-bottom:6px;">🔧</div>
@@ -89,12 +89,11 @@ permalink: /applications/
         <h3>Welding Equipment</h3>
         <p style="color:var(--gray-600);font-size:0.92rem;margin:0;">Aluminum electrolytic capacitor solutions for MIG/TIG/plasma cutting welding machines. CD135 and CD136 large-capacity series, high ripple current capability.</p>
       </a>
-      <div class="feature-card">
+      <a href="{{ '/applications/medical-equipment/' | relative_url }}" class="feature-card" style="display:block;text-decoration:none;color:inherit;">
         <div style="font-size:1.8rem;margin-bottom:10px;">&#x1F3E5;</div>
         <h3>Medical Equipment</h3>
-        <p style="color:var(--gray-600);font-size:0.92rem;margin-bottom:14px;">Aluminum electrolytic capacitor selection for X-ray, CT, and MRI medical equipment power supplies. CD13HL and CD298 high-reliability series.</p>
-        <a href="{{ '/applications/medical-equipment/' | relative_url }}" class="btn btn-sm btn-secondary">Read More &rarr;</a>
-      </div>
+        <p style="color:var(--gray-600);font-size:0.92rem;margin:0;">Aluminum electrolytic capacitor selection for X-ray, CT, and MRI medical equipment power supplies. CD13HL and CD298 high-reliability series.</p>
+      </a>
     </div>
   </div>
 </section>

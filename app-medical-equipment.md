@@ -99,7 +99,6 @@ permalink: /applications/medical-equipment/
     <div class="section-title">
       <h2>Recommended Series</h2>
       <div class="divider"></div>
-      <p>HUAYU series best suited for medical equipment applications</p>
     </div>
     <table class="spec-table">
       <thead>
