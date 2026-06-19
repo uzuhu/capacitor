@@ -6,26 +6,56 @@ description: "Huayu is a leading aluminum electrolytic capacitor manufacturer in
 
 <!-- Hero Section -->
 <section class="hero">
+  <!-- Decorative background shapes -->
+  <div class="hero-shape hero-shape-1"></div>
+  <div class="hero-shape hero-shape-2"></div>
+  <div class="hero-shape hero-shape-3"></div>
+
   <div class="container">
-    <h1>Large-Can Aluminum Electrolytic Capacitor Manufacturer &mdash; Snap-In &amp; Screw Terminal, Since 1987</h1>
-    <p class="hero-sub">China-based manufacturer specializing in large-can aluminum electrolytic capacitors for UPS, inverters, VFDs, welding, and industrial power electronics</p>
-    <div class="hero-grid">
-      <div class="hero-text">
-        <p style="margin-bottom:0;">Founded in Nantong, Jiangsu, HUAYU engineers snap-in (22&phi;&ndash;40&phi;) and screw terminal (35&phi;&ndash;100&phi;) capacitors spanning 6.3V&ndash;500V with full custom specification support. Over 37 years of manufacturing excellence.</p>
-        <div class="hero-features">
-          <div class="hero-feat"><span>&#x2705;</span> Snap-in 22&phi;&ndash;40&phi;</div>
-          <div class="hero-feat"><span>&#x2705;</span> Screw Terminal 35&phi;&ndash;100&phi;</div>
-          <div class="hero-feat"><span>&#x2705;</span> 6.3V&ndash;500V Range</div>
-          <div class="hero-feat"><span>&#x2705;</span> Full Custom Support</div>
+    <div class="hero-layout">
+      <!-- Left: Text Content -->
+      <div class="hero-content">
+        <!-- Year badge -->
+        <div class="hero-year-badge">Since 1987</div>
+
+        <h1>Professional Aluminum Electrolytic <span>Capacitor Manufacturer</span></h1>
+
+        <p class="hero-desc">China-based manufacturer specializing in <strong>snap-in</strong> and <strong>screw terminal</strong> large-can aluminum electrolytic capacitors for UPS, inverters, VFDs, welding, and industrial power electronics.</p>
+
+        <!-- Feature pills -->
+        <div class="hero-pills">
+          <span class="hero-pill">Snap-In 22&phi;&ndash;40&phi;</span>
+          <span class="hero-pill">Screw Terminal 35&phi;&ndash;100&phi;</span>
+          <span class="hero-pill">6.3V&ndash;500V Range</span>
+          <span class="hero-pill">Full Custom Support</span>
+        </div>
+
+        <!-- CTA Buttons -->
+        <div class="hero-buttons">
+          <a href="{{ '/products/' | relative_url }}" class="btn btn-primary btn-lg">Browse Products &amp; Datasheets &rarr;</a>
+          <a href="{{ '/contact/' | relative_url }}" class="btn btn-outline btn-lg">Send Your Specifications &rarr;</a>
         </div>
       </div>
-      <div class="hero-image">
-        <img src="{{ '/assets/images/factory.png' | relative_url }}" alt="HUAYU aluminum electrolytic capacitor factory in Nantong Jiangsu China">
+
+      <!-- Right: Image + Floating Stats -->
+      <div class="hero-visual">
+        <div class="hero-image-wrap">
+          <img src="{{ '/assets/images/factory.png' | relative_url }}" alt="HUAYU aluminum electrolytic capacitor factory in Nantong Jiangsu China">
+          <!-- Decorative corner accents -->
+          <div class="hero-corner hero-corner-tl"></div>
+          <div class="hero-corner hero-corner-br"></div>
+        </div>
+
+        <!-- Floating stat cards -->
+        <div class="hero-stat hero-stat-1">
+          <span class="hero-stat-num">39+</span>
+          <span class="hero-stat-label">Years Experience</span>
+        </div>
+        <div class="hero-stat hero-stat-2">
+          <span class="hero-stat-num">50+</span>
+          <span class="hero-stat-label">Export Countries</span>
+        </div>
       </div>
-    </div>
-    <div class="hero-buttons">
-      <a href="{{ '/products/' | relative_url }}" class="btn btn-primary">View Products &amp; Datasheets &rarr;</a>
-      <a href="{{ '/contact/' | relative_url }}" class="btn btn-outline">Send Your Specifications &rarr;</a>
     </div>
   </div>
 </section>
@@ -35,7 +65,7 @@ description: "Huayu is a leading aluminum electrolytic capacitor manufacturer in
   <div class="container">
     <div class="stats-grid">
       <div class="stat-item">
-        <div class="stat-number">37+</div>
+        <div class="stat-number">39+</div>
         <div class="stat-label">Years of Manufacturing</div>
       </div>
       <div class="stat-item">
@@ -70,7 +100,7 @@ description: "Huayu is a leading aluminum electrolytic capacitor manufacturer in
       </div>
       <div class="feature-card">
         <div class="feature-icon">💪</div>
-        <h3>37+ Years of Expertise</h3>
+        <h3>39+ Years of Expertise</h3>
         <p>Founded in 1987 as Nantong Huayu Capacitor Factory, we bring nearly four decades of deep domain knowledge in aluminum electrolytic capacitor design and manufacturing.</p>
       </div>
       <div class="feature-card">
@@ -175,7 +205,7 @@ description: "Huayu is a leading aluminum electrolytic capacitor manufacturer in
       {% endfor %}
     </div>
     <div style="text-align:center;margin-top:30px;">
-      <a href="{{ '/resources/' | relative_url }}" class="btn btn-secondary">View All Resources &rarr;</a>
+      <a href="{{ '/technical-resources/' | relative_url }}" class="btn btn-secondary">View All Resources &rarr;</a>
     </div>
   </div>
 </section>

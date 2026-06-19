@@ -169,7 +169,7 @@ description: "Frequently asked questions about HUAYU aluminum electrolytic capac
           <span class="faq-toggle">+</span>
         </button>
         <div class="faq-answer" style="display:none;padding:14px 18px;color:var(--gray-600);font-size:0.9rem;">
-          We were founded in 1987 — over 37 years of continuous manufacturing experience in aluminum electrolytic capacitors. What started as a small workshop has grown into a professional manufacturer serving customers in 50+ countries.
+          We were founded in 1987 — over 39 years of continuous manufacturing experience in aluminum electrolytic capacitors. What started as a small workshop has grown into a professional manufacturer serving customers in 50+ countries.
         </div>
       </div>
       <div class="faq-item" style="margin-bottom:10px;">

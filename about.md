@@ -1,14 +1,14 @@
 ---
 layout: default
 title: "About HUAYU - Aluminum Electrolytic Capacitor Manufacturer Since 1987"
-description: "Learn about HUAYU's 37-year history as a specialized aluminum electrolytic capacitor manufacturer."
+description: "Learn about HUAYU's 39-year history as a specialized aluminum electrolytic capacitor manufacturer."
 ---
 
 <!-- Page Header -->
 <section class="page-header">
   <div class="container">
     <h1>About HUAYU</h1>
-    <p>37+ years of dedication to aluminum electrolytic capacitor manufacturing excellence</p>
+    <p>39+ years of dedication to aluminum electrolytic capacitor manufacturing excellence</p>
   </div>
 </section>
 
