@@ -116,14 +116,15 @@ li { margin-bottom: 0.3rem; }
 .hero h1 { color: var(--white); font-size: 2.4rem; margin-bottom: 0.6rem; text-align: center; line-height: 1.25; }
 .hero h1 span { color: var(--orange); }
 .hero .hero-sub { font-size: 1.08rem; opacity: 0.88; text-align: center; margin: 0 auto 30px; padding: 0 16px; }
-.hero-grid { display: flex; align-items: flex-start; gap: 48px; }
-.hero-text { flex: 1; padding-top: 8px; }
+.hero-grid { display: flex; align-items: center; gap: 48px; }
+.hero-text { flex: 1; }
 .hero-text p { font-size: 1rem; opacity: 0.88; margin-bottom: 1.2rem; line-height: 1.65; }
 .hero-features { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 16px; }
 .hero-feat { font-size: 0.92rem; opacity: 0.9; display: flex; align-items: center; gap: 8px; }
 .hero-feat span { font-size: 0.85rem; }
-.hero-image { flex: 1; min-height: 280px; display: flex; align-items: center; }
-.hero-image img { width: 100%; max-height: 320px; object-fit: cover; border-radius: var(--radius); box-shadow: var(--shadow-lg); }
+.hero-image { flex: 0 0 45%; display: flex; align-items: center; }
+.hero-image img { width: 100%; height: auto; max-height: 340px; object-fit: contain; border-radius: var(--radius); box-shadow: var(--shadow-lg); }
+.hero-buttons { display: flex; gap: 14px; justify-content: center; margin-top: 30px; flex-wrap: wrap; }
 .img-placeholder {
   background: var(--gray-100);
   border: 2px dashed var(--gray-300);
@@ -843,11 +844,16 @@ figure.highlight {
 @media (max-width: 768px) {
   h1 { font-size: 1.8rem; }
   h2 { font-size: 1.5rem; }
-  .hero { padding: 50px 0; }
-  .hero h1 { font-size: 1.9rem; }
-  .hero-grid { flex-direction: column; gap: 30px; }
-  .hero-image { order: -1; min-height: auto; }
-  .hero-image img { max-height: 240px; }
+  .hero { padding: 40px 0; }
+  .hero h1 { font-size: 1.7rem; }
+  .hero .hero-sub { font-size: 0.95rem; margin-bottom: 24px; }
+  .hero-grid { flex-direction: column; gap: 24px; }
+  .hero-image { flex: none; width: 100%; order: -1; }
+  .hero-image img { max-height: 220px; width: 100%; }
+  .hero-features { grid-template-columns: 1fr 1fr; gap: 6px; }
+  .hero-feat { font-size: 0.85rem; }
+  .hero-buttons { flex-direction: column; align-items: center; gap: 10px; }
+  .hero-buttons .btn { width: 100%; max-width: 320px; }
   .features-grid { grid-template-columns: 1fr; }
   .contact-grid { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; }

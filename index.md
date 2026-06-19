@@ -23,8 +23,8 @@ description: "Huayu is a leading aluminum electrolytic capacitor manufacturer in
         <img src="{{ '/assets/images/factory.png' | relative_url }}" alt="HUAYU aluminum electrolytic capacitor factory in Nantong Jiangsu China">
       </div>
     </div>
-    <div style="text-align:center;margin-top:24px;">
-      <a href="{{ '/products/' | relative_url }}" class="btn btn-primary" style="margin-right:10px;">View Products &amp; Datasheets &rarr;</a>
+    <div class="hero-buttons">
+      <a href="{{ '/products/' | relative_url }}" class="btn btn-primary">View Products &amp; Datasheets &rarr;</a>
       <a href="{{ '/contact/' | relative_url }}" class="btn btn-outline">Send Your Specifications &rarr;</a>
     </div>
   </div>
