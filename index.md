@@ -6,79 +6,81 @@ description: "Huayu is a leading aluminum electrolytic capacitor manufacturer in
 
 <!-- Hero Section -->
 <section class="hero">
-  <!-- Decorative background shapes -->
-  <div class="hero-shape hero-shape-1"></div>
-  <div class="hero-shape hero-shape-2"></div>
-  <div class="hero-shape hero-shape-3"></div>
-
   <div class="container">
-    <div class="hero-layout">
-      <!-- Left: Text Content -->
-      <div class="hero-content">
-        <!-- Year badge -->
-        <div class="hero-year-badge">Since 1987</div>
-
-        <h1>Professional Aluminum Electrolytic <span>Capacitor Manufacturer</span></h1>
-
-        <p class="hero-desc">China-based manufacturer specializing in <strong>snap-in</strong> and <strong>screw terminal</strong> large-can aluminum electrolytic capacitors for UPS, inverters, VFDs, welding, and industrial power electronics.</p>
-
-        <!-- Feature pills -->
-        <div class="hero-pills">
-          <span class="hero-pill">Snap-In 22&phi;&ndash;40&phi;</span>
-          <span class="hero-pill">Screw Terminal 35&phi;&ndash;100&phi;</span>
-          <span class="hero-pill">6.3V&ndash;500V Range</span>
-          <span class="hero-pill">Full Custom Support</span>
+    <div class="hero__inner">
+      <div class="hero__text">
+        <div class="hero__eyebrow">Est. 1987 &middot; Nantong, China</div>
+        <h1>Aluminum Electrolytic <span>Capacitors</span> for Industrial Power</h1>
+        <p class="hero__desc">Snap-in &amp; screw terminal large-can capacitors built for UPS, inverters, VFDs, and welding equipment. Custom specifications supported.</p>
+        <div class="hero__specs">
+          <div class="hero__spec">
+            <div class="hero__spec-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M9 3v18M15 3v18M3 9h18M3 15h18"/></svg>
+            </div>
+            <div>
+              <div class="hero__spec-label">Snap-In</div>
+              <div class="hero__spec-value">22&phi;&ndash;40&phi;</div>
+            </div>
+          </div>
+          <div class="hero__spec">
+            <div class="hero__spec-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18"/></svg>
+            </div>
+            <div>
+              <div class="hero__spec-label">Screw Terminal</div>
+              <div class="hero__spec-value">35&phi;&ndash;100&phi;</div>
+            </div>
+          </div>
+          <div class="hero__spec">
+            <div class="hero__spec-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            </div>
+            <div>
+              <div class="hero__spec-label">Voltage Range</div>
+              <div class="hero__spec-value">6.3V&ndash;500V</div>
+            </div>
+          </div>
+          <div class="hero__spec">
+            <div class="hero__spec-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 100 20 10 10 0 000-20z"/><path d="M12 8v4l3 3"/></svg>
+            </div>
+            <div>
+              <div class="hero__spec-label">Custom Support</div>
+              <div class="hero__spec-value">Full OEM/ODM</div>
+            </div>
+          </div>
         </div>
-
-        <!-- CTA Buttons -->
-        <div class="hero-buttons">
-          <a href="{{ '/products/' | relative_url }}" class="btn btn-primary btn-lg">Browse Products &amp; Datasheets &rarr;</a>
-          <a href="{{ '/contact/' | relative_url }}" class="btn btn-outline btn-lg">Send Your Specifications &rarr;</a>
+        <div class="hero__actions">
+          <a href="{{ '/products/' | relative_url }}" class="btn btn-primary">Browse Products &amp; Datasheets &rarr;</a>
+          <a href="{{ '/contact/' | relative_url }}" class="btn btn-outline">Send Your Specifications &rarr;</a>
         </div>
       </div>
-
-      <!-- Right: Image + Floating Stats -->
-      <div class="hero-visual">
-        <div class="hero-image-wrap">
+      <div class="hero__media">
+        <div class="hero__media-wrap">
           <img src="{{ '/assets/images/factory.png' | relative_url }}" alt="HUAYU aluminum electrolytic capacitor factory in Nantong Jiangsu China">
-          <!-- Decorative corner accents -->
-          <div class="hero-corner hero-corner-tl"></div>
-          <div class="hero-corner hero-corner-br"></div>
-        </div>
-
-        <!-- Floating stat cards -->
-        <div class="hero-stat hero-stat-1">
-          <span class="hero-stat-num">39+</span>
-          <span class="hero-stat-label">Years Experience</span>
-        </div>
-        <div class="hero-stat hero-stat-2">
-          <span class="hero-stat-num">50+</span>
-          <span class="hero-stat-label">Export Countries</span>
+          <div class="hero__float-card">
+            <div class="hero__float-stat">39+</div>
+            <div class="hero__float-label">Years of Manufacturing</div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-
-<!-- Stats Bar -->
-<section class="stats-bar">
-  <div class="container">
-    <div class="stats-grid">
-      <div class="stat-item">
-        <div class="stat-number">39+</div>
-        <div class="stat-label">Years of Manufacturing</div>
+    <div class="hero__trust">
+      <div class="hero__trust-item">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><rect x="3" y="3" width="18" height="18" rx="3"/></svg>
+        ISO 9001 Certified
       </div>
-      <div class="stat-item">
-        <div class="stat-number">17</div>
-        <div class="stat-label">Product Series</div>
+      <div class="hero__trust-item">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+        50+ Countries Exported
       </div>
-      <div class="stat-item">
-        <div class="stat-number">500+</div>
-        <div class="stat-label">Custom Specifications</div>
+      <div class="hero__trust-item">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4-4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+        500+ Custom Specifications
       </div>
-      <div class="stat-item">
-        <div class="stat-number">50+</div>
-        <div class="stat-label">Countries Exported</div>
+      <div class="hero__trust-item">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        Industrial-Grade Reliability
       </div>
     </div>
   </div>
