@@ -14,19 +14,28 @@ permalink: /applications/
 </section>
 
 <!-- Intro -->
-<section class="section" style="padding:48px 0;">
+<section class="section" style="padding:55px 0 40px;">
   <div class="container">
-    <div style="max-width:920px;margin:0 auto;background:linear-gradient(135deg,#f0f7ff 0%,#e8f4fd 100%);border-radius:12px;padding:36px 44px;border-left:4px solid var(--blue-mid);">
-      <div style="display:flex;gap:20px;align-items:flex-start;">
-        <div style="font-size:2rem;flex-shrink:0;margin-top:2px;width:44px;text-align:center;">🔧</div>
-        <div>
-          <p style="color:var(--gray-800);font-size:1.1rem;line-height:1.85;margin-bottom:10px;font-weight:500;">
-            HUAYU aluminum electrolytic capacitors are widely used in <strong style="color:var(--blue-dark);">industrial automation</strong>, <strong style="color:var(--blue-dark);">new energy</strong>, <strong style="color:var(--blue-dark);">medical equipment</strong>, <strong style="color:var(--blue-dark);">power electronics</strong>, and many other fields.
-          </p>
-          <p style="color:var(--gray-600);font-size:0.95rem;line-height:1.8;margin:0;">
-            We provide professional selection advice and highly reliable product solutions tailored to different application scenarios. Select a field below to explore recommended series, key requirements, and selection guidelines.
-          </p>
-        </div>
+    <div class="section-title" style="margin-bottom:36px;">
+      <h2 style="font-size:2.1rem;">Capacitor Solutions Across Industries</h2>
+      <div class="divider"></div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;max-width:960px;margin:0 auto;">
+      <!-- Module 1 -->
+      <div style="background:linear-gradient(135deg,#f0f7ff 0%,#e8f4fd 100%);border-radius:12px;padding:32px 30px;border-left:4px solid var(--blue-mid);">
+        <div style="font-size:1.6rem;font-weight:700;color:var(--blue-dark);margin-bottom:6px;">🔧</div>
+        <h3 style="margin-bottom:10px;">Wide Industry Coverage</h3>
+        <p style="color:var(--gray-600);font-size:0.93rem;line-height:1.8;margin:0;">
+          HUAYU aluminum electrolytic capacitors are deployed across <strong style="color:var(--blue-dark);">industrial automation</strong>, <strong style="color:var(--blue-dark);">new energy</strong>, <strong style="color:var(--blue-dark);">medical equipment</strong>, <strong style="color:var(--blue-dark);">power electronics</strong>, and many other fields — from solar inverters to UPS systems, from VFDs to welding equipment.
+        </p>
+      </div>
+      <!-- Module 2 -->
+      <div style="background:linear-gradient(135deg,#fef9e7 0%,#fdf2d7 100%);border-radius:12px;padding:32px 30px;border-left:4px solid var(--orange);">
+        <div style="font-size:1.6rem;font-weight:700;color:var(--orange);margin-bottom:6px;">📋</div>
+        <h3 style="margin-bottom:10px;">Expert Selection Guidance</h3>
+        <p style="color:var(--gray-600);font-size:0.93rem;line-height:1.8;margin:0;">
+          We provide professional selection advice and highly reliable product solutions tailored to your application. Browse the fields below for recommended series, key technical requirements, and detailed selection guidelines.
+        </p>
       </div>
     </div>
   </div>

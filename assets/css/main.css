@@ -270,52 +270,69 @@ li { margin-bottom: 0.3rem; }
   border-spacing: 0;
   margin-bottom: 28px;
   font-size: 0.9rem;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
   border-radius: 10px;
   overflow: hidden;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.02);
 }
 .spec-table thead { background: transparent; }
 .spec-table th {
-  background: linear-gradient(135deg, #2e86c1 0%, #3498db 100%);
-  color: var(--white);
-  padding: 14px 18px;
+  background: #f0f4f8;
+  color: var(--gray-800);
+  padding: 13px 18px;
   text-align: left;
   font-weight: 600;
-  font-size: 0.88rem;
-  letter-spacing: 0.3px;
-  border-bottom: none;
+  font-size: 0.82rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border-bottom: 3px solid var(--blue-light);
 }
-.spec-table th:first-child { border-radius: 0; }
 .spec-table td {
-  padding: 12px 18px;
-  border-bottom: 1px solid var(--gray-100);
+  padding: 11px 18px;
+  border-bottom: 1px solid #eef2f7;
   color: var(--gray-700);
+  font-size: 0.88rem;
   transition: background 0.15s;
 }
 .spec-table tbody tr { background: var(--white); transition: background 0.15s; }
 .spec-table tbody tr:nth-child(even) { background: #f8fafc; }
 .spec-table tbody tr:last-child td { border-bottom: none; }
-.spec-table tbody tr:hover td { background: #eef4ff; }
+.spec-table tbody tr:hover td { background: #edf5ff; }
+.spec-table td:first-child {
+  font-weight: 600;
+  color: var(--blue-dark);
+  border-left: 3px solid transparent;
+  transition: border-color 0.15s;
+}
+.spec-table tbody tr:hover td:first-child { border-left-color: var(--blue-light); }
 .spec-table td strong { color: var(--blue-dark); }
 .download-link {
   display: inline-flex;
   align-items: center;
   gap: 4px;
+  background: #eef4ff;
+  color: var(--blue-dark);
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 0.78rem;
+  font-weight: 500;
+  border: 1px solid #d0ddf0;
+  transition: all 0.2s;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.download-link:hover {
   background: var(--blue-dark);
   color: var(--white);
-  padding: 4px 12px;
-  border-radius: 3px;
-  font-size: 0.8rem;
-  font-weight: 500;
+  border-color: var(--blue-dark);
 }
-.download-link:hover { background: var(--orange); color: var(--white); }
 
 /* --- Table Wrap (responsive) --- */
 .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; display: flex; justify-content: center; border-radius: 10px; }
 @media (max-width: 600px) {
-  .spec-table { font-size: 0.82rem; border-radius: 8px; }
+  .spec-table { font-size: 0.8rem; border-radius: 8px; }
   .spec-table th,
-  .spec-table td { padding: 10px 12px; white-space: normal; }
+  .spec-table td { padding: 9px 12px; white-space: normal; word-break: break-word; }
+  .download-link { font-size: 0.72rem; padding: 3px 8px; }
 }
 
 /* --- PDF Viewer --- */
