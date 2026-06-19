@@ -23,11 +23,13 @@ permalink: /applications/frequency-inverters/
 
 
 <!-- Summary -->
-<section class="section" style="padding-bottom:0;">
+<section class="section" style="padding:40px 0 20px;">
   <div class="container">
-    <p style="font-size:1.1rem;color:var(--gray-700);line-height:1.8;max-width:800px;">
-      <strong>Summary:</strong> HUAYU provides aluminum electrolytic capacitor solutions for variable frequency drives (VFDs) and frequency inverters. Our snap-in (CD294, CD295) and screw terminal (CD13HL, CD13NH) series handle DC-link filtering, bus support, and braking circuits in VFD applications from 220V to 690V input.
-    </p>
+    <div style="background:linear-gradient(135deg,#f0f7ff 0%,#e8f4fd 100%);border-radius:12px;padding:28px 36px;border-left:4px solid var(--blue-mid);">
+      <p style="color:var(--gray-800);font-size:1.05rem;line-height:1.85;margin:0;">
+        <strong>Summary:</strong> HUAYU provides aluminum electrolytic capacitor solutions for variable frequency drives (VFDs) and frequency inverters. Our snap-in (CD294, CD295) and screw terminal (CD13HL, CD13NH) series handle DC-link filtering, bus support, and braking circuits in VFD applications from 220V to 690V input.
+      </p>
+    </div>
   </div>
 </section>
 
