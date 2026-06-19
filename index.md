@@ -7,18 +7,19 @@ description: "Huayu is a leading aluminum electrolytic capacitor manufacturer in
 <!-- Hero Section -->
 <section class="hero">
   <div class="container">
+    <h1><span>Large-Can Aluminum Electrolytic Capacitor</span> Manufacturer<br>Snap-In &amp; Screw Terminal &mdash; Since 1987</h1>
+    <p class="hero-sub">China-based manufacturer specializing in large-can aluminum electrolytic capacitors for UPS, inverters, VFDs, welding, and industrial power electronics</p>
     <div class="hero-grid">
       <div class="hero-text">
-        <h1><span>Aluminum Electrolytic Capacitor</span> Manufacturer &mdash; Snap-In &amp; Screw Terminal Since 1987</h1>
-        <p>HUAYU is a specialized Chinese manufacturer of large-can aluminum electrolytic capacitors, founded in 1987 and based in Nantong, Jiangsu. We engineer snap-in (22&phi;&ndash;40&phi;) and screw terminal (35&phi;&ndash;100&phi;) capacitors for industrial frequency inverters, UPS systems, welding equipment, solar inverters, and custom power electronics applications.</p>
-        <div style="display:flex;gap:12px;flex-wrap:wrap;">
-          <a href="{{ '/products/' | relative_url }}" class="btn btn-primary">View Products &amp; Datasheets &rarr;</a>
-          <a href="{{ '/contact/' | relative_url }}" class="btn btn-outline">Send Your Specifications &rarr;</a>
-        </div>
+        <p style="margin-bottom:0;">Founded in Nantong, Jiangsu, HUAYU engineers snap-in (22&phi;&ndash;40&phi;) and screw terminal (35&phi;&ndash;100&phi;) capacitors spanning 6.3V&ndash;500V with full custom specification support. Over 37 years of manufacturing excellence.</p>
       </div>
       <div class="hero-image">
-        <img src="{{ '/assets/images/factory.png' | relative_url }}" alt="HUAYU Factory" style="width:100%; border-radius:var(--radius); box-shadow:var(--shadow-lg);">
+        <img src="{{ '/assets/images/factory.png' | relative_url }}" alt="HUAYU aluminum electrolytic capacitor factory in Nantong Jiangsu China">
       </div>
+    </div>
+    <div style="text-align:center;margin-top:24px;">
+      <a href="{{ '/products/' | relative_url }}" class="btn btn-primary" style="margin-right:10px;">View Products &amp; Datasheets &rarr;</a>
+      <a href="{{ '/contact/' | relative_url }}" class="btn btn-outline">Send Your Specifications &rarr;</a>
     </div>
   </div>
 </section>
