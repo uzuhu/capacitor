@@ -48,55 +48,47 @@ permalink: /applications/
       <h2>Browse by Application</h2>
       <div class="divider"></div>
     </div>
-    <div class="features-grid">
-      <div class="feature-card">
+    <div class="features-grid" style="cursor:pointer;">
+      <a href="{{ '/applications/industrial-power/' | relative_url }}" class="feature-card" style="display:block;text-decoration:none;color:inherit;">
         <div style="font-size:1.8rem;margin-bottom:10px;">&#x1F4E1;</div>
         <h3>Industrial Power Supplies</h3>
-        <p style="color:var(--gray-600);font-size:0.92rem;margin-bottom:14px;">Aluminum electrolytic capacitor solutions for switching power supplies, DC-DC converters, and PFC circuits. CD294 and CD13L series recommended.</p>
-        <a href="{{ '/applications/industrial-power/' | relative_url }}" class="btn btn-sm btn-secondary">Read More &rarr;</a>
-      </div>
-      <div class="feature-card">
+        <p style="color:var(--gray-600);font-size:0.92rem;margin:0;">Aluminum electrolytic capacitor solutions for switching power supplies, DC-DC converters, and PFC circuits. CD294 and CD13L series recommended.</p>
+      </a>
+      <a href="{{ '/applications/new-energy/' | relative_url }}" class="feature-card" style="display:block;text-decoration:none;color:inherit;">
         <div style="font-size:1.8rem;margin-bottom:10px;">&#x26A1;</div>
         <h3>New Energy</h3>
-        <p style="color:var(--gray-600);font-size:0.92rem;margin-bottom:14px;">PV inverters, wind converters, and energy storage system DC-Link and filtering capacitor solutions. CD298 and CD13HL ultra-long-life series.</p>
-        <a href="{{ '/applications/new-energy/' | relative_url }}" class="btn btn-sm btn-secondary">Read More &rarr;</a>
-      </div>
-      <div class="feature-card">
+        <p style="color:var(--gray-600);font-size:0.92rem;margin:0;">PV inverters, wind converters, and energy storage system DC-Link and filtering capacitor solutions. CD298 and CD13HL ultra-long-life series.</p>
+      </a>
+      <a href="{{ '/applications/solar-inverters/' | relative_url }}" class="feature-card" style="display:block;text-decoration:none;color:inherit;">
         <div style="font-size:1.8rem;margin-bottom:10px;">&#x2600;&#xFE0F;</div>
         <h3>Solar Inverters</h3>
-        <p style="color:var(--gray-600);font-size:0.92rem;margin-bottom:14px;">Dedicated aluminum electrolytic capacitor selection for string and central solar inverters. CD298 10,000-hour life series, resistant to high and low temperatures.</p>
-        <a href="{{ '/applications/solar-inverters/' | relative_url }}" class="btn btn-sm btn-secondary">Read More &rarr;</a>
-      </div>
-      <div class="feature-card">
+        <p style="color:var(--gray-600);font-size:0.92rem;margin:0;">Dedicated aluminum electrolytic capacitor selection for string and central solar inverters. CD298 10,000-hour life series, resistant to high and low temperatures.</p>
+      </a>
+      <a href="{{ '/applications/inverters/' | relative_url }}" class="feature-card" style="display:block;text-decoration:none;color:inherit;">
         <div style="font-size:1.8rem;margin-bottom:10px;">&#x1F50C;</div>
         <h3>Inverters</h3>
-        <p style="color:var(--gray-600);font-size:0.92rem;margin-bottom:14px;">General inverter DC-Link and output filter aluminum electrolytic capacitor solutions. CD294, CD297, and CD17FX series recommended.</p>
-        <a href="{{ '/applications/inverters/' | relative_url }}" class="btn btn-sm btn-secondary">Read More &rarr;</a>
-      </div>
-      <div class="feature-card">
+        <p style="color:var(--gray-600);font-size:0.92rem;margin:0;">General inverter DC-Link and output filter aluminum electrolytic capacitor solutions. CD294, CD297, and CD17FX series recommended.</p>
+      </a>
+      <a href="{{ '/applications/frequency-inverters/' | relative_url }}" class="feature-card" style="display:block;text-decoration:none;color:inherit;">
         <div style="font-size:1.8rem;margin-bottom:10px;">&#x1F4C8;</div>
         <h3>Frequency Inverters (VFDs)</h3>
-        <p style="color:var(--gray-600);font-size:0.92rem;margin-bottom:14px;">DC bus support and braking circuit aluminum electrolytic capacitor selection for frequency inverters. CD13NH and CD13HL series, with calculation formulas.</p>
-        <a href="{{ '/applications/frequency-inverters/' | relative_url }}" class="btn btn-sm btn-secondary">Read More &rarr;</a>
-      </div>
-      <div class="feature-card">
+        <p style="color:var(--gray-600);font-size:0.92rem;margin:0;">DC bus support and braking circuit aluminum electrolytic capacitor selection for frequency inverters. CD13NH and CD13HL series, with calculation formulas.</p>
+      </a>
+      <a href="{{ '/applications/servo-drives/' | relative_url }}" class="feature-card" style="display:block;text-decoration:none;color:inherit;">
         <div style="font-size:1.8rem;margin-bottom:10px;">&#x1F6E0;&#xFE0F;</div>
         <h3>Servo Drives</h3>
-        <p style="color:var(--gray-600);font-size:0.92rem;margin-bottom:14px;">DC-Link and braking absorption aluminum electrolytic capacitor solutions for servo drives. High ripple current, low ESR, CD294/CD298 series.</p>
-        <a href="{{ '/applications/servo-drives/' | relative_url }}" class="btn btn-sm btn-secondary">Read More &rarr;</a>
-      </div>
-      <div class="feature-card">
+        <p style="color:var(--gray-600);font-size:0.92rem;margin:0;">DC-Link and braking absorption aluminum electrolytic capacitor solutions for servo drives. High ripple current, low ESR, CD294/CD298 series.</p>
+      </a>
+      <a href="{{ '/applications/ups-systems/' | relative_url }}" class="feature-card" style="display:block;text-decoration:none;color:inherit;">
         <div style="font-size:1.8rem;margin-bottom:10px;">&#x1F50B;</div>
         <h3>UPS Systems</h3>
-        <p style="color:var(--gray-600);font-size:0.92rem;margin-bottom:14px;">UPS rectifier filtering, DC-Link, and output filter aluminum electrolytic capacitor selection. CD135 and CD298 series, covering various power solutions.</p>
-        <a href="{{ '/applications/ups-systems/' | relative_url }}" class="btn btn-sm btn-secondary">Read More &rarr;</a>
-      </div>
-      <div class="feature-card">
+        <p style="color:var(--gray-600);font-size:0.92rem;margin:0;">UPS rectifier filtering, DC-Link, and output filter aluminum electrolytic capacitor selection. CD135 and CD298 series, covering various power solutions.</p>
+      </a>
+      <a href="{{ '/applications/welding-equipment/' | relative_url }}" class="feature-card" style="display:block;text-decoration:none;color:inherit;">
         <div style="font-size:1.8rem;margin-bottom:10px;">&#x2699;&#xFE0F;</div>
         <h3>Welding Equipment</h3>
-        <p style="color:var(--gray-600);font-size:0.92rem;margin-bottom:14px;">Aluminum electrolytic capacitor solutions for MIG/TIG/plasma cutting welding machines. CD135 and CD136 large-capacity series, high ripple current capability.</p>
-        <a href="{{ '/applications/welding-equipment/' | relative_url }}" class="btn btn-sm btn-secondary">Read More &rarr;</a>
-      </div>
+        <p style="color:var(--gray-600);font-size:0.92rem;margin:0;">Aluminum electrolytic capacitor solutions for MIG/TIG/plasma cutting welding machines. CD135 and CD136 large-capacity series, high ripple current capability.</p>
+      </a>
       <div class="feature-card">
         <div style="font-size:1.8rem;margin-bottom:10px;">&#x1F3E5;</div>
         <h3>Medical Equipment</h3>
