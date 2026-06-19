@@ -99,18 +99,8 @@ li { margin-bottom: 0.3rem; }
 .hero {
   background: linear-gradient(135deg, var(--blue-dark) 0%, var(--blue-mid) 100%);
   color: var(--white);
-  padding: 50px 0 44px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 56px 0 50px;
   text-align: center;
-}
-.hero .container {
-  width: 100%;
-  max-width: 1200px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 .hero__eyebrow {
   font-size: 0.78rem;
@@ -127,17 +117,49 @@ li { margin-bottom: 0.3rem; }
   font-weight: 700;
   line-height: 1.3;
   margin-bottom: 12px;
-  text-align: center;
 }
 .hero h1 span { color: var(--orange); }
 .hero__desc {
   font-size: 1rem;
   opacity: 0.85;
   line-height: 1.6;
-  max-width: 600px;
-  margin: 0 auto 24px;
-  text-align: center;
+  max-width: 620px;
+  margin: 0 auto 32px;
 }
+
+/* Features grid */
+.hero__features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 32px;
+}
+.hero__feature {
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 10px;
+  padding: 16px 22px;
+  min-width: 130px;
+  transition: background 0.2s, transform 0.2s;
+}
+.hero__feature:hover {
+  background: rgba(255,255,255,0.12);
+  transform: translateY(-2px);
+}
+.hf-icon { color: var(--orange); margin-bottom: 8px; }
+.hf-label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  opacity: 0.65;
+  margin-bottom: 2px;
+}
+.hf-value {
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+/* CTA buttons */
 .hero__actions {
   display: flex;
   gap: 14px;
@@ -864,11 +886,12 @@ figure.highlight {
 @media (max-width: 768px) {
   h1 { font-size: 1.8rem; }
   h2 { font-size: 1.5rem; }
-  .hero { padding: 40px 0 36px; align-items: center; }
-  .hero .container { align-items: center; }
-  .hero__eyebrow { margin-bottom: 10px; text-align: center; }
-  .hero h1 { font-size: 1.7rem; margin-bottom: 10px; text-align: center; }
-  .hero__desc { font-size: 0.95rem; margin-bottom: 14px; }
+  .hero { padding: 36px 0 32px; }
+  .hero__eyebrow { margin-bottom: 10px; }
+  .hero h1 { font-size: 1.7rem; margin-bottom: 10px; }
+  .hero__desc { font-size: 0.95rem; margin-bottom: 20px; }
+  .hero__features { flex-wrap: wrap; gap: 10px; margin-bottom: 20px; }
+  .hero__feature { min-width: 100px; padding: 12px 16px; flex: 1 1 40%; }
   .hero__actions { flex-direction: column; }
   .hero__actions .btn { width: 100%; text-align: center; }
   .features-grid { grid-template-columns: 1fr; }

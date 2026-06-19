@@ -4,6 +4,51 @@ title: "HUAYU Capacitor - Professional Aluminum Electrolytic Capacitor Manufactu
 description: "Huayu is a leading aluminum electrolytic capacitor manufacturer in China since 1987, specializing in custom snap-in and screw terminal capacitors for industrial applications."
 ---
 
+<!-- Hero Section -->
+<section class="hero">
+  <div class="container">
+    <p class="hero__eyebrow">Est. 1987 &middot; Nantong, China</p>
+    <h1>Aluminum Electrolytic <span>Capacitors</span> for Industrial Power</h1>
+    <p class="hero__desc">Snap-in &amp; screw terminal large-can capacitors — custom engineered for UPS, inverters, VFDs, welding, and industrial power electronics.</p>
+
+    <div class="hero__features">
+      <div class="hero__feature">
+        <div class="hf-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M9 3v18M15 3v18M3 9h18M3 15h18"/></svg>
+        </div>
+        <div class="hf-label">Snap-In</div>
+        <div class="hf-value">22&phi;&ndash;40&phi;</div>
+      </div>
+      <div class="hero__feature">
+        <div class="hf-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18"/></svg>
+        </div>
+        <div class="hf-label">Screw Terminal</div>
+        <div class="hf-value">35&phi;&ndash;100&phi;</div>
+      </div>
+      <div class="hero__feature">
+        <div class="hf-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        </div>
+        <div class="hf-label">Voltage Range</div>
+        <div class="hf-value">6.3V&ndash;500V</div>
+      </div>
+      <div class="hero__feature">
+        <div class="hf-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2a10 10 0 100 20 10 10 0 000-20z"/><path d="M12 8v4l3 3"/></svg>
+        </div>
+        <div class="hf-label">Custom Support</div>
+        <div class="hf-value">Full OEM/ODM</div>
+      </div>
+    </div>
+
+    <div class="hero__actions">
+      <a href="{{ '/products/' | relative_url }}" class="btn btn-primary">Browse Products &amp; Datasheets &rarr;</a>
+      <a href="{{ '/contact/' | relative_url }}" class="btn btn-outline">Send Your Specifications &rarr;</a>
+    </div>
+  </div>
+</section>
+
 <!-- Core Advantages -->
 <section class="section">
   <div class="container">
