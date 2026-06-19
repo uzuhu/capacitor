@@ -12,30 +12,29 @@ description: "Contact Nantong HUAYU Electronics Co., Ltd. for snap-in and screw 
   </div>
 </section>
 
-<!-- Contact Section -->
+<!-- Contact Info + General Inquiry -->
 <section class="section">
   <div class="container">
     <div class="contact-grid">
       <!-- Left: Contact Info -->
       <div>
-        <h2 style="margin-bottom:20px;">Get in Touch</h2>
+        <h2 style="margin-bottom:20px;">Contact Information</h2>
 
         <div class="contact-info-card">
           <div class="contact-icon">📧</div>
           <div>
             <h4>Email</h4>
             <p><a href="mailto:{{ site.company_email }}">{{ site.company_email }}</a></p>
-            <p style="font-size:0.8rem;color:var(--gray-300);margin-top:4px;">For quotations, custom specifications, and general inquiries. We typically respond within 24 hours.</p>
+            <p class="contact-hint">For quotations, custom specs, and general inquiries. We respond within 24 hours.</p>
           </div>
         </div>
 
         <div class="contact-info-card">
           <div class="contact-icon">📞</div>
           <div>
-            <h4>Phone</h4>
-            <p><a href="tel:{{ site.company_tel | replace: '-', '' }}">{{ site.company_tel }}</a> (Office)</p>
-            <p><a href="tel:{{ site.company_mobile | replace: '-', '' }}">{{ site.company_mobile }}</a> (Mobile / WhatsApp)</p>
-            <p style="font-size:0.8rem;color:var(--gray-300);margin-top:4px;">Available Monday to Saturday, 8:00 AM &ndash; 5:30 PM (China Standard Time, UTC+8)</p>
+            <h4>Phone / WhatsApp</h4>
+            <p><a href="tel:{{ site.company_mobile | replace: '-', '' }}">{{ site.company_mobile }}</a></p>
+            <p class="contact-hint">Available Mon–Sat, 8:00 AM – 5:30 PM (CST, UTC+8)</p>
           </div>
         </div>
 
@@ -43,109 +42,166 @@ description: "Contact Nantong HUAYU Electronics Co., Ltd. for snap-in and screw 
           <div class="contact-icon">📍</div>
           <div>
             <h4>Factory Address</h4>
-            <p>
-              {{ site.company_name }}<br>
-              {{ site.company_address }}
-            </p>
+            <p>{{ site.company_name }}<br>{{ site.company_address }}</p>
           </div>
         </div>
 
+        <div class="contact-info-card">
+          <div class="contact-icon">🏢</div>
+          <div>
+            <h4>Established</h4>
+            <p>{{ site.company_founded }} &middot; Nantong, Jiangsu, China</p>
+          </div>
+        </div>
       </div>
 
-      <!-- Right: Inquiry Form -->
+      <!-- Right: General Inquiry Form -->
       <div>
-        <h2 style="margin-bottom:20px;">Send an Inquiry</h2>
-        <p style="color:var(--gray-600);margin-bottom:20px;">Fill out the form below and we will get back to you within 24 hours. For faster response, email us directly at <a href="mailto:{{ site.company_email }}">{{ site.company_email }}</a>.</p>
+        <h2 style="margin-bottom:8px;">General Inquiry</h2>
+        <p class="form-subtitle">For distributors, resellers, and general inquiries</p>
 
-        <form class="contact-form" id="inquiry-form">
-          <div class="form-row">
-            <div class="form-group">
-              <label for="name">Full Name *</label>
-              <input type="text" id="name" name="name" placeholder="Your full name" required>
-            </div>
-            <div class="form-group">
-              <label for="company">Company Name *</label>
-              <input type="text" id="company" name="company" placeholder="Your company name" required>
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="form-group">
-              <label for="email">Email Address *</label>
-              <input type="email" id="email" name="email" placeholder="your@email.com" required>
-            </div>
-            <div class="form-group">
-              <label for="phone">Phone / WhatsApp</label>
-              <input type="tel" id="phone" name="phone" placeholder="+1-xxx-xxx-xxxx">
-            </div>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSclFS3__I2lUeqoR4srV17NQ7d7-o9y-goWC9w8WF6q2BNdig/viewform?embedded=true" width="560" height="750" frameborder="0" marginheight="0" marginwidth="0" style="border:none; border-radius:6px; max-width:100%;">Loading…</iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Send Your Specifications -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="specs-form-wrap">
+      <div class="specs-form-header">
+        <h2>Send Your Specifications</h2>
+        <p class="form-subtitle">For engineers and technical buyers — provide your target parameters and we'll recommend the right capacitor model</p>
+      </div>
+
+      <form class="contact-form" id="specs-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="spec-name">Full Name *</label>
+            <input type="text" id="spec-name" placeholder="Your full name" required>
           </div>
           <div class="form-group">
-            <label for="product">Product Interest</label>
-            <select id="product" name="product_interest">
-              <option value="">-- Select a product category --</option>
-              <option value="Snap-In Terminal Capacitors">Snap-In Terminal Capacitors</option>
-              <option value="Screw Terminal Capacitors">Screw Terminal Capacitors</option>
-              <option value="Custom Specification Capacitors">Custom Specification Capacitors</option>
-              <option value="Sample Request">Sample Request</option>
-              <option value="Other / General Inquiry">Other / General Inquiry</option>
+            <label for="spec-company">Company Name *</label>
+            <input type="text" id="spec-company" placeholder="Your company name" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="spec-email">Email Address *</label>
+            <input type="email" id="spec-email" placeholder="your@email.com" required>
+          </div>
+          <div class="form-group">
+            <label for="spec-country">Country</label>
+            <input type="text" id="spec-country" placeholder="e.g. Germany">
+          </div>
+        </div>
+
+        <h3 class="specs-divider">Technical Parameters</h3>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="spec-type">Capacitor Type</label>
+            <select id="spec-type">
+              <option value="">-- Select --</option>
+              <option value="Snap-In">Snap-In Terminal</option>
+              <option value="Screw Terminal">Screw Terminal</option>
+              <option value="Not Sure">Not Sure</option>
             </select>
           </div>
           <div class="form-group">
-            <label for="message">Your Message / Requirements *</label>
-            <textarea id="message" name="message" rows="6" placeholder="Please describe your requirements: capacitance, voltage, case size, quantity, delivery timeline..." required></textarea>
+            <label for="spec-voltage">Rated Voltage (V)</label>
+            <input type="text" id="spec-voltage" placeholder="e.g. 400, 450, 500">
           </div>
-          <button type="submit" class="btn btn-primary" style="width:100%;">Send Inquiry</button>
-          <p style="font-size:0.75rem;color:var(--gray-300);margin-top:10px;text-align:center;">
-            Your email app will open with the inquiry pre-filled. Just click Send.
-          </p>
-        </form>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="spec-cap">Capacitance (&mu;F)</label>
+            <input type="text" id="spec-cap" placeholder="e.g. 4700, 10000">
+          </div>
+          <div class="form-group">
+            <label for="spec-size">Case Size (mm)</label>
+            <input type="text" id="spec-size" placeholder="e.g. 35x50, 76x105">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="spec-ripple">Ripple Current (A)</label>
+            <input type="text" id="spec-ripple" placeholder="e.g. 5.6, 10.2">
+          </div>
+          <div class="form-group">
+            <label for="spec-life">Lifetime (hours)</label>
+            <input type="text" id="spec-life" placeholder="e.g. 2000, 5000, 10000">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="spec-temp">Operating Temperature (&deg;C)</label>
+            <input type="text" id="spec-temp" placeholder="e.g. -40 to +85, -25 to +105">
+          </div>
+          <div class="form-group">
+            <label for="spec-qty">Annual Quantity</label>
+            <input type="text" id="spec-qty" placeholder="e.g. 5000 pcs/year">
+          </div>
+        </div>
 
-        <script>
-        document.getElementById('inquiry-form').addEventListener('submit', function(e) {
-          e.preventDefault();
-          var name    = document.getElementById('name').value;
-          var company = document.getElementById('company').value;
-          var email   = document.getElementById('email').value;
-          var phone   = document.getElementById('phone').value;
-          var product = document.getElementById('product');
-          var productText = product.options[product.selectedIndex].text;
-          var msg     = document.getElementById('message').value;
+        <h3 class="specs-divider">Current Reference (Optional)</h3>
 
-          var body = "Inquiry from: " + name + "\n";
-          body += "Company: " + company + "\n";
-          body += "Email: " + email + "\n";
-          if (phone) body += "Phone: " + phone + "\n";
-          if (product.value) body += "Product Interest: " + productText + "\n";
-          body += "\n" + msg;
+        <div class="form-row">
+          <div class="form-group">
+            <label for="spec-brand">Current Brand</label>
+            <input type="text" id="spec-brand" placeholder="e.g. Nichicon, EPCOS, Panasonic">
+          </div>
+          <div class="form-group">
+            <label for="spec-part">Current Part Number</label>
+            <input type="text" id="spec-part" placeholder="e.g. LNT2W472MSE">
+          </div>
+        </div>
 
-          var mailto = "mailto:{{ site.company_email }}?subject=" + encodeURIComponent("Inquiry from " + name) + "&body=" + encodeURIComponent(body);
-          window.location.href = mailto;
-        });
-        </script>
-      </div>
+        <div class="form-group">
+          <label for="spec-app">Application</label>
+          <input type="text" id="spec-app" placeholder="e.g. UPS, solar inverter, VFD, welding machine, power supply">
+        </div>
+
+        <div class="form-group">
+          <label for="spec-msg">Additional Notes</label>
+          <textarea id="spec-msg" rows="4" placeholder="Any other requirements or special requests..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width:100%;">Submit Specifications</button>
+        <p class="form-note">Our engineering team will review and recommend a suitable model within 24 hours.</p>
+      </form>
     </div>
   </div>
 </section>
 
-<!-- FAQ / Quick Info -->
-<section class="section section-alt">
-  <div class="container">
-    <div class="section-title">
-      <h2>Common Inquiry Topics</h2>
-      <div class="divider"></div>
-    </div>
-    <div class="features-grid">
-      <div class="feature-card">
-        <h3>📩 Request a Quotation</h3>
-        <p>Fill out the form above or email us directly at {{ site.company_email }}. Include your target specifications (capacitance, voltage, case size, quantity) for an accurate quote. We respond within 24 hours.</p>
-      </div>
-      <div class="feature-card">
-        <h3>📬 Sample Request</h3>
-        <p>We offer samples for evaluation and qualification testing. Standard samples can be shipped within 5&ndash;7 business days.</p>
-      </div>
-      <div class="feature-card">
-        <h3>🏭 OEM / ODM Service</h3>
-        <p>We provide full OEM and ODM services. Capacitors can be manufactured with your brand and custom packaging.</p>
-      </div>
-    </div>
-  </div>
-</section>
+<script>
+// Send Your Specifications form
+document.getElementById('specs-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+  var s = function(id) { return document.getElementById(id).value; };
+  var sel = function(id) { var el = document.getElementById(id); return el.options[el.selectedIndex].text; };
+
+  var typeVal = document.getElementById('spec-type');
+  var typeText = typeVal.options[typeVal.selectedIndex].text;
+
+  var body = "=== Technical Specifications Submission ===\n\n";
+  body += "Name: " + s('spec-name') + "\nCompany: " + s('spec-company') + "\nEmail: " + s('spec-email');
+  if (s('spec-country')) body += "\nCountry: " + s('spec-country');
+  body += "\n\n--- Technical Parameters ---";
+  if (typeVal.value) body += "\nType: " + typeText;
+  if (s('spec-voltage')) body += "\nVoltage: " + s('spec-voltage') + "V";
+  if (s('spec-cap')) body += "\nCapacitance: " + s('spec-cap') + "\u00B5F";
+  if (s('spec-size')) body += "\nCase Size: " + s('spec-size') + "mm";
+  if (s('spec-ripple')) body += "\nRipple Current: " + s('spec-ripple') + "A";
+  if (s('spec-life')) body += "\nLifetime: " + s('spec-life') + "h";
+  if (s('spec-temp')) body += "\nTemperature: " + s('spec-temp') + "\u00B0C";
+  if (s('spec-qty')) body += "\nAnnual Qty: " + s('spec-qty');
+  if (s('spec-brand')) body += "\nCurrent Brand: " + s('spec-brand');
+  if (s('spec-part')) body += "\nPart Number: " + s('spec-part');
+  if (s('spec-app')) body += "\nApplication: " + s('spec-app');
+  if (s('spec-msg')) body += "\n\n--- Notes ---\n" + s('spec-msg');
+
+  window.location.href = "mailto:{{ site.company_email }}?subject=" + encodeURIComponent("Specification from " + s('spec-name')) + "&body=" + encodeURIComponent(body);
+});
+</script>

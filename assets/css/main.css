@@ -429,6 +429,43 @@ li { margin-bottom: 0.3rem; }
 .form-group textarea { resize: vertical; min-height: 100px; }
 .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
 
+/* Form extras */
+.form-subtitle {
+  font-size: 0.9rem;
+  color: var(--gray-500);
+  margin-bottom: 20px;
+}
+.form-note {
+  font-size: 0.75rem;
+  color: var(--gray-400);
+  margin-top: 10px;
+  text-align: center;
+}
+.contact-hint {
+  font-size: 0.8rem;
+  color: var(--gray-400);
+  margin-top: 4px;
+}
+
+/* Specs form section */
+.specs-form-wrap {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.specs-form-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+.specs-form-header h2 { margin-bottom: 8px; }
+.specs-divider {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--blue-dark);
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--blue-dark);
+  margin: 24px 0 16px;
+}
+
 /* --- Footer --- */
 .footer {
   background: var(--gray-800);
