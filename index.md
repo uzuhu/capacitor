@@ -12,6 +12,12 @@ description: "Huayu is a leading aluminum electrolytic capacitor manufacturer in
     <div class="hero-grid">
       <div class="hero-text">
         <p style="margin-bottom:0;">Founded in Nantong, Jiangsu, HUAYU engineers snap-in (22&phi;&ndash;40&phi;) and screw terminal (35&phi;&ndash;100&phi;) capacitors spanning 6.3V&ndash;500V with full custom specification support. Over 37 years of manufacturing excellence.</p>
+        <div class="hero-features">
+          <div class="hero-feat"><span>&#x2705;</span> Snap-in 22&phi;&ndash;40&phi;</div>
+          <div class="hero-feat"><span>&#x2705;</span> Screw Terminal 35&phi;&ndash;100&phi;</div>
+          <div class="hero-feat"><span>&#x2705;</span> 6.3V&ndash;500V Range</div>
+          <div class="hero-feat"><span>&#x2705;</span> Full Custom Support</div>
+        </div>
       </div>
       <div class="hero-image">
         <img src="{{ '/assets/images/factory.png' | relative_url }}" alt="HUAYU aluminum electrolytic capacitor factory in Nantong Jiangsu China">
