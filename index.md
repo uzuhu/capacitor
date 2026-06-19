@@ -4,19 +4,6 @@ title: "HUAYU Capacitor - Professional Aluminum Electrolytic Capacitor Manufactu
 description: "Huayu is a leading aluminum electrolytic capacitor manufacturer in China since 1987, specializing in custom snap-in and screw terminal capacitors for industrial applications."
 ---
 
-<!-- Hero Section -->
-<section class="hero">
-  <div class="container">
-    <p class="hero__eyebrow">Est. 1987 &middot; Nantong, China</p>
-    <h1>Aluminum Electrolytic <span>Capacitors</span> for Industrial Power</h1>
-    <p class="hero__desc">Professional manufacturer of snap-in &amp; screw terminal large-can aluminum electrolytic capacitors — 39+ years serving UPS, inverter, VFD, and welding industries worldwide.</p>
-    <div class="hero__actions">
-      <a href="{{ '/products/' | relative_url }}" class="btn btn-primary">Browse Products &rarr;</a>
-      <a href="{{ '/contact/' | relative_url }}" class="btn btn-outline">Request a Quote &rarr;</a>
-    </div>
-  </div>
-</section>
-
 <!-- Core Advantages -->
 <section class="section">
   <div class="container">
