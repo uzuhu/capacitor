@@ -7,11 +7,15 @@ description: "Huayu is a leading aluminum electrolytic capacitor manufacturer in
 <!-- Hero Section -->
 <section class="hero">
   <div class="container">
-    <div class="hero__inner">
-      <div class="hero__text">
-        <div class="hero__eyebrow">Est. 1987 &middot; Nantong, China</div>
-        <h1>Aluminum Electrolytic <span>Capacitors</span> for Industrial Power</h1>
-        <p class="hero__desc">Snap-in &amp; screw terminal large-can capacitors built for UPS, inverters, VFDs, and welding equipment. Custom specifications supported.</p>
+    <!-- Row 1: Title (full width) -->
+    <div class="hero__header">
+      <div class="hero__eyebrow">Est. 1987 &middot; Nantong, China</div>
+      <h1>Aluminum Electrolytic <span>Capacitors</span> for Industrial Power</h1>
+      <p class="hero__desc">Snap-in &amp; screw terminal large-can capacitors built for UPS, inverters, VFDs, and welding equipment. Custom specifications supported.</p>
+    </div>
+    <!-- Row 2: Left specs + Right image (equal height) -->
+    <div class="hero__body">
+      <div class="hero__body-left">
         <div class="hero__specs">
           <div class="hero__spec">
             <div class="hero__spec-icon">
@@ -50,12 +54,8 @@ description: "Huayu is a leading aluminum electrolytic capacitor manufacturer in
             </div>
           </div>
         </div>
-        <div class="hero__actions">
-          <a href="{{ '/products/' | relative_url }}" class="btn btn-primary">Browse Products &amp; Datasheets &rarr;</a>
-          <a href="{{ '/contact/' | relative_url }}" class="btn btn-outline">Send Your Specifications &rarr;</a>
-        </div>
       </div>
-      <div class="hero__media">
+      <div class="hero__body-right">
         <div class="hero__media-wrap">
           <img src="{{ '/assets/images/factory.png' | relative_url }}" alt="HUAYU aluminum electrolytic capacitor factory in Nantong Jiangsu China">
           <div class="hero__float-card">
@@ -65,6 +65,14 @@ description: "Huayu is a leading aluminum electrolytic capacitor manufacturer in
         </div>
       </div>
     </div>
+    <!-- Row 3: Buttons (full width) -->
+    <div class="hero__footer">
+      <div class="hero__actions">
+        <a href="{{ '/products/' | relative_url }}" class="btn btn-primary">Browse Products &amp; Datasheets &rarr;</a>
+        <a href="{{ '/contact/' | relative_url }}" class="btn btn-outline">Send Your Specifications &rarr;</a>
+      </div>
+    </div>
+    <!-- Trust bar -->
     <div class="hero__trust">
       <div class="hero__trust-item">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><rect x="3" y="3" width="18" height="18" rx="3"/></svg>
