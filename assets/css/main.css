@@ -264,24 +264,39 @@ li { margin-bottom: 0.3rem; }
 
 /* --- Product Table --- */
 .spec-table {
-  width: auto;
+  width: 100%;
   max-width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 24px;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-bottom: 28px;
   font-size: 0.9rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  border-radius: 10px;
+  overflow: hidden;
 }
+.spec-table thead { background: transparent; }
 .spec-table th {
-  background: var(--blue-dark);
+  background: linear-gradient(135deg, #2e86c1 0%, #3498db 100%);
   color: var(--white);
-  padding: 10px 14px;
+  padding: 14px 18px;
   text-align: left;
   font-weight: 600;
+  font-size: 0.88rem;
+  letter-spacing: 0.3px;
+  border-bottom: none;
 }
+.spec-table th:first-child { border-radius: 0; }
 .spec-table td {
-  padding: 10px 14px;
+  padding: 12px 18px;
   border-bottom: 1px solid var(--gray-100);
+  color: var(--gray-700);
+  transition: background 0.15s;
 }
-.spec-table tr:hover td { background: var(--gray-50); }
+.spec-table tbody tr { background: var(--white); transition: background 0.15s; }
+.spec-table tbody tr:nth-child(even) { background: #f8fafc; }
+.spec-table tbody tr:last-child td { border-bottom: none; }
+.spec-table tbody tr:hover td { background: #eef4ff; }
+.spec-table td strong { color: var(--blue-dark); }
 .download-link {
   display: inline-flex;
   align-items: center;
@@ -296,11 +311,11 @@ li { margin-bottom: 0.3rem; }
 .download-link:hover { background: var(--orange); color: var(--white); }
 
 /* --- Table Wrap (responsive) --- */
-.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; display: flex; justify-content: center; }
+.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; display: flex; justify-content: center; border-radius: 10px; }
 @media (max-width: 600px) {
-  .spec-table { font-size: 0.82rem; }
+  .spec-table { font-size: 0.82rem; border-radius: 8px; }
   .spec-table th,
-  .spec-table td { padding: 8px 10px; white-space: normal; }
+  .spec-table td { padding: 10px 12px; white-space: normal; }
 }
 
 /* --- PDF Viewer --- */

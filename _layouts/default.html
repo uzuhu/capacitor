@@ -150,51 +150,10 @@
 </main>
 
 <!-- Footer -->
-<footer class="footer">
+<footer class="footer" style="padding:20px 0;">
   <div class="container">
-    <div class="footer-grid">
-      <div>
-        <div class="footer-logo">HUAYU<span>.</span></div>
-        <p>{{ site.company_name }} is a professional manufacturer of snap-in and screw terminal aluminum electrolytic capacitors, specializing in custom specifications for industrial applications since {{ site.company_founded }}.</p>
-      </div>
-      <div>
-        <h4>Quick Links</h4>
-        <ul class="footer-links">
-          <li><a href="{{ '/about/' | relative_url }}">About Us</a></li>
-          <li><a href="{{ '/products/' | relative_url }}">Products</a></li>
-          <li><a href="{{ '/applications/' | relative_url }}">Applications</a></li>
-          <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
-          <li><a href="{{ '/faq/' | relative_url }}">FAQ</a></li>
-          <li><a href="{{ '/technical-resources/' | relative_url }}">Technical Resources</a></li>
-          <li><a href="{{ '/contact/' | relative_url }}">Contact Us</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Products</h4>
-        <ul class="footer-links">
-          <li><a href="{{ '/snap-in-capacitors/' | relative_url }}">Snap-In Capacitors</a></li>
-          <li><a href="{{ '/screw-terminal-capacitors/' | relative_url }}">Screw Terminal Capacitors</a></li>
-          <li><a href="{{ '/high-ripple-current-capacitors/' | relative_url }}">High Ripple Current</a></li>
-          <li><a href="{{ '/long-life-capacitors/' | relative_url }}">Long Life Series</a></li>
-          <li><a href="{{ '/quality-control/' | relative_url }}">Quality Control</a></li>
-          <li><a href="{{ '/selection-guide/' | relative_url }}">Selection Guide</a></li>
-          <li><a href="{{ '/custom-capacitors/' | relative_url }}">Custom / OEM</a></li>
-          <li><a href="{{ '/capacitor-replacement/' | relative_url }}">Replacement Solutions</a></li>
-          <li><a href="{{ '/pdf/catalogue.pdf' | relative_url }}" target="_blank">Full Catalogue (PDF)</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Contact Info</h4>
-        <p>{{ site.company_address }}</p>
-        <p style="margin-top:10px;">
-          Tel: <a href="tel:{{ site.company_tel | replace: '-', '' }}" style="color:var(--gray-300);">{{ site.company_tel }}</a><br>
-          Mobile / WhatsApp: <a href="https://wa.me/8618912241508" style="color:#25D366;font-weight:600;" target="_blank" rel="noopener">+86-18912241508</a><br>
-          Email: <a href="mailto:{{ site.company_email }}" style="color:var(--gray-300);">{{ site.company_email }}</a>
-        </p>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      &copy; {{ 'now' | date: '%Y' }} {{ site.company_name }}. All Rights Reserved.
+    <div class="footer-bottom" style="border-top:none;padding:0;">
+      &copy; 1987-{{ 'now' | date: '%Y' }} <a href="https://capacitormanufacturer.com" style="color:var(--gray-300);">CapacitorManufacturer.com</a> &mdash; All Rights Reserved.
     </div>
   </div>
 </footer>

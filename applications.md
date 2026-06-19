@@ -14,15 +14,20 @@ permalink: /applications/
 </section>
 
 <!-- Intro -->
-<section class="section" style="padding-bottom:30px;">
+<section class="section" style="padding:48px 0;">
   <div class="container">
-    <div style="max-width:900px;margin:0 auto;">
-      <p style="color:var(--gray-700);font-size:1.08rem;line-height:1.85;margin-bottom:12px;">
-        HUAYU aluminum electrolytic capacitors are widely used in <strong>industrial automation</strong>, <strong>new energy</strong>, <strong>medical equipment</strong>, <strong>power electronics</strong>, and many other fields.
-      </p>
-      <p style="color:var(--gray-600);font-size:0.95rem;line-height:1.8;">
-        We provide professional selection advice and highly reliable product solutions tailored to different application scenarios. Select a field below to explore recommended series, key requirements, and selection guidelines.
-      </p>
+    <div style="max-width:920px;margin:0 auto;background:linear-gradient(135deg,#f0f7ff 0%,#e8f4fd 100%);border-radius:12px;padding:36px 44px;border-left:4px solid var(--blue-mid);">
+      <div style="display:flex;gap:20px;align-items:flex-start;">
+        <div style="font-size:2rem;flex-shrink:0;margin-top:2px;width:44px;text-align:center;">🔧</div>
+        <div>
+          <p style="color:var(--gray-800);font-size:1.1rem;line-height:1.85;margin-bottom:10px;font-weight:500;">
+            HUAYU aluminum electrolytic capacitors are widely used in <strong style="color:var(--blue-dark);">industrial automation</strong>, <strong style="color:var(--blue-dark);">new energy</strong>, <strong style="color:var(--blue-dark);">medical equipment</strong>, <strong style="color:var(--blue-dark);">power electronics</strong>, and many other fields.
+          </p>
+          <p style="color:var(--gray-600);font-size:0.95rem;line-height:1.8;margin:0;">
+            We provide professional selection advice and highly reliable product solutions tailored to different application scenarios. Select a field below to explore recommended series, key requirements, and selection guidelines.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
