@@ -3,7 +3,13 @@ layout: default
 title: "Technical - Capacitor Datasheets, Terminal Dimensions | HUAYU"
 description: "Access HUAYU capacitor technical resources: terminal dimension drawings, part number system guide, and application usage guidelines."
 permalink: /technical/
+canonical_url: /technical-resources/
 ---
+
+<!-- Redirect Notice -->
+<div style="background:linear-gradient(135deg,#eef4ff,#f0f7ff);border:1px solid #c3d9ff;border-radius:8px;padding:16px 24px;margin:16px 0;text-align:center;">
+  <p style="margin:0;font-size:0.95rem;">Looking for complete datasheets and download center? <a href="{{ '/technical-resources/' | relative_url }}" style="color:var(--blue-dark);font-weight:600;">Visit our Technical Resources page &rarr;</a></p>
+</div>
 
 <!-- Page Header -->
 <section class="page-header">

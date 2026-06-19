@@ -8,7 +8,7 @@
 
   <!-- SEO: Robots & Canonical -->
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="canonical" href="{% if page.canonical_url %}{{ page.canonical_url | absolute_url }}{% else %}{{ page.url | absolute_url }}{% endif %}">
 
   <!-- SEO: Webmaster Tools (fill in _config.yml after verification) -->
   {% if site.google_verification != "" %}<meta name="google-site-verification" content="{{ site.google_verification }}">{% endif %}
@@ -163,7 +163,6 @@
           <li><a href="{{ '/about/' | relative_url }}">About Us</a></li>
           <li><a href="{{ '/products/' | relative_url }}">Products</a></li>
           <li><a href="{{ '/applications/' | relative_url }}">Applications</a></li>
-          <li><a href="{{ '/about/' | relative_url }}">About Us</a></li>
           <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
           <li><a href="{{ '/faq/' | relative_url }}">FAQ</a></li>
           <li><a href="{{ '/technical-resources/' | relative_url }}">Technical Resources</a></li>

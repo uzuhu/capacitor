@@ -15,7 +15,7 @@ description: "Step-by-step guide to selecting the right aluminum electrolytic ca
 <!-- Breadcrumb -->
 <div class="breadcrumb">
   <div class="container">
-    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span> <a href="{{ '/technical/' | relative_url }}">Technical Resources</a> <span>&rsaquo;</span> Selection Guide
+    <a href="{{ '/' | relative_url }}">Home</a> <span>&rsaquo;</span> <a href="{{ '/technical-resources/' | relative_url }}">Technical Resources</a> <span>&rsaquo;</span> Selection Guide
   </div>
 </div>
 

@@ -116,6 +116,56 @@ sitemap: false
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>{{ site.url }}{{ site.baseurl }}/technical/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}/applications/frequency-inverters/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}/applications/industrial-power/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}/applications/inverters/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}/applications/medical-equipment/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}/applications/new-energy/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}/applications/servo-drives/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}/applications/solar-inverters/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}/applications/ups-systems/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}/applications/welding-equipment/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>{{ site.url }}{{ site.baseurl }}/blog/</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
