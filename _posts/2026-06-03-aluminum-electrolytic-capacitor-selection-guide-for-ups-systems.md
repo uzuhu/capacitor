@@ -95,7 +95,7 @@ HUAYU provides **reliable aluminum electrolytic capacitors** for UPS systems:
 - **Lifetime**: 5,000 hours at 105°C
 - **ESR**: Optimized for low heat generation
 
-### Screw Terminal Series (CD92, CD98SK, CD135, CD136)
+### Screw Terminal Series (CD92, CD135, CD136)
 - **Diameter**: 35-100 mm
 - **Voltage**: Up to 800V
 - **Ripple current**: 10A+ RMS

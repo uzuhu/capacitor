@@ -77,10 +77,6 @@ description: "Download HUAYU aluminum electrolytic capacitor datasheets, product
             <a href="{{ '/pdf/screw/CD92L.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">Download PDF</a>
           </li>
           <li style="padding:12px 0;border-bottom:1px solid var(--gray-100);display:flex;justify-content:space-between;align-items:center;">
-            <span><strong>CD98SK</strong> — Snap-kap screw terminal</span>
-            <a href="{{ '/pdf/screw/CD98SK.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">Download PDF</a>
-          </li>
-          <li style="padding:12px 0;border-bottom:1px solid var(--gray-100);display:flex;justify-content:space-between;align-items:center;">
             <span><strong>CD135</strong> — High performance, compact</span>
             <a href="{{ '/pdf/screw/CD135.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">Download PDF</a>
           </li>

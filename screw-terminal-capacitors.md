@@ -84,12 +84,6 @@
             <td style="text-align:center;"><a href="{{ '/pdf/screw/CD92L.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">📄 PDF</a></td>
           </tr>
           <tr>
-            <td><strong>CD98SK</strong></td>
-            <td>High ripple current, UPS/DC-link optimized</td>
-            <td>UPS, inverter DC-link</td>
-            <td style="text-align:center;"><a href="{{ '/pdf/screw/CD98SK.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-secondary">📄 PDF</a></td>
-          </tr>
-          <tr>
             <td><strong>CD135</strong></td>
             <td>Large-can, heavy-duty industrial power filtering</td>
             <td>Heavy-duty filtering, traction drives</td>

@@ -150,11 +150,6 @@ description: "Browse HUAYU's full range of snap-in and screw terminal aluminum e
             <td><a href="{{ '/pdf/screw/CD92L.pdf' | relative_url }}" target="_blank" class="download-link">📄 Download PDF</a></td>
           </tr>
           <tr>
-            <td><strong>CD98SK</strong></td>
-            <td>High-performance screw terminal with high ripple current capability. Designed for UPS and inverter DC-link.</td>
-            <td><a href="{{ '/pdf/screw/CD98SK.pdf' | relative_url }}" target="_blank" class="download-link">📄 Download PDF</a></td>
-          </tr>
-          <tr>
             <td><strong>CD135</strong></td>
             <td>Large-can screw terminal capacitor. Built for heavy-duty industrial power filtering applications.</td>
             <td><a href="{{ '/pdf/screw/CD135.pdf' | relative_url }}" target="_blank" class="download-link">📄 Download PDF</a></td>

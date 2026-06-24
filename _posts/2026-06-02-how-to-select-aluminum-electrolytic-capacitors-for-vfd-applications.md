@@ -77,7 +77,7 @@ Industrial VFDS often operate in harsh environments:
 | VFD Power Range | Recommended Type | HUAYU Series |
 | --- | --- | --- |
 | < 5 kW | **Snap-In** | CD17FX, CD292-CD298 |
-| 5-50 kW | **Snap-In or Screw Terminal** | CD92, CD98SK |
+| 5-50 kW | **Snap-In or Screw Terminal** | CD92 |
 | 50+ kW | **Screw Terminal** | CD135, CD136 |
 
 
@@ -92,7 +92,7 @@ HUAYU specializes in **large-can aluminum electrolytic capacitors** for industri
 - **Ripple current**: Up to 10A RMS at 105°C
 - **Lifetime**: 5,000 hours at 105°C
 
-### Screw Terminal Series (CD92, CD98SK, CD135, CD136)
+### Screw Terminal Series (CD92, CD135, CD136)
 - **Diameter**: 35-100 mm
 - **Voltage**: Up to 500V
 - **Ripple current**: 10A+ RMS

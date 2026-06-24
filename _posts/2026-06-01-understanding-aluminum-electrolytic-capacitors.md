@@ -82,7 +82,7 @@ A 105°C / 5,000h capacitor running at 65°C can last **80,000+ hours** (>9 year
 | Current capability | Up to ~10A ripple | 10A+ ripple |
 | Mounting | PCB / chassis snap-in | Busbar / heavy-duty screw |
 | Typical use | VFD output, SMPS | UPS, welding, large inverters |
-| HUAYU series | CD17FX, CD292–CD298 | CD92, CD98SK, CD135, CD136 |
+| HUAYU series | CD17FX, CD292–CD298 | CD92, CD135, CD136 |
 
 
 

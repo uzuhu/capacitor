@@ -27,7 +27,7 @@ This guide compares **snap-in** and **screw terminal** capacitors to help you ch
 | Mounting method | PCB / chassis snap-in | Busbar / heavy-duty screw |
 | Assembly | Manual or automated insertion | Screw terminal connection |
 | Typical applications | VFD output stage, SMPS | UPS, welding, large inverters |
-| HUAYU series | CD17FX, CD292–CD298 | CD92, CD98SK, CD135, CD136 |
+| HUAYU series | CD17FX, CD292–CD298 | CD92, CD135, CD136 |
 
 
 
@@ -78,7 +78,6 @@ This guide compares **snap-in** and **screw terminal** capacitors to help you ch
 
 ### HUAYU Screw Terminal Series
 - **CD92, CD92L**: General-purpose screw terminal series
-- **CD98SK**: High-ripple current series
 - **CD135, CD136**: Ultra-high ripple current series
 - **Voltage range**: 16V to 500V DC
 - **Ripple current**: 10A+ RMS at 105°C

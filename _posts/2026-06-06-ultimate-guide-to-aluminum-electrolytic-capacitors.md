@@ -79,7 +79,7 @@ A 105°C / 5,000h capacitor running at 65°C can last **80,000+ hours** (>9 year
 - **Current capability**: 10A+ ripple
 - **Applications**: UPS, welding equipment, large inverters*
 
-**HUAYU series**: CD92, CD92L, CD98SK, CD135, CD136, CD13L, CD13N, CD13HL, CD13NH
+**HUAYU series**: CD92, CD92L, CD135, CD136, CD13L, CD13N, CD13HL, CD13NH
 
 ### 3. Radial Lead Capacitors
 - **Diameter range**: 3-22 mm
@@ -101,7 +101,7 @@ A 105°C / 5,000h capacitor running at 65°C can last **80,000+ hours** (>9 year
 ### 3. UPS Systems
 - **Function**: Energy storage, voltage stabilization
 - **Key requirements**: High reliability, long lifetime
-- **HUAYU solution**: CD92, CD98SK, CD135 series*
+- **HUAYU solution**: CD92, CD135 series*
 
 ### 4. Welding Equipment
 - **Function**: Energy storage, current smoothing

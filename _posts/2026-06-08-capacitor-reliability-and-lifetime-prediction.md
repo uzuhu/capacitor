@@ -117,7 +117,7 @@ HUAYU specializes in **long-life aluminum electrolytic capacitors**:
 
 ### 105°C Rated Series
 - **CD17FX, CD292-CD298**: Snap-in, 5,000 hours at 105°C
-- **CD92, CD98SK, CD135, CD136**: Screw terminal, 5,000 hours at 105°C
+- **CD92, CD135, CD136**: Screw terminal, 5,000 hours at 105°C
 
 ### 125°C Rated Series (Available on Request)
 - **Extended lifetime** for critical applications
