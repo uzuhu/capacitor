@@ -9,6 +9,11 @@ description: "Download HUAYU aluminum electrolytic capacitor datasheets, product
   <div class="container">
     <h1>Technical Resources</h1>
     <p>Download datasheets, product catalogs, selection guides, and application documentation</p>
+    <p style="margin-top:14px;">
+      <a href="{{ '/blog/' | relative_url }}" class="btn btn-sm btn-secondary">Blog</a>
+      <a href="{{ '/faq/' | relative_url }}" class="btn btn-sm btn-secondary" style="margin-left:8px;">FAQ</a>
+      <a href="{{ '/selection-guide/' | relative_url }}" class="btn btn-sm btn-secondary" style="margin-left:8px;">Selection Guide</a>
+    </p>
   </div>
 </section>
 
