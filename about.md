@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "About HUAYU - Aluminum Electrolytic Capacitor Manufacturer Since 1987"
-description: "Learn about HUAYU's 39-year history as a specialized aluminum electrolytic capacitor manufacturer."
+description: "Nantong HUAYU Electronics Co., Ltd. — aluminum electrolytic capacitor manufacturer since 1987. Learn our history, factory capabilities, and focus on large-can snap-in and screw terminal capacitors."
 ---
 
 <!-- Page Header -->

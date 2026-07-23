@@ -1,4 +1,8 @@
-------
+---
+layout: default
+title: "Screw Terminal Aluminum Electrolytic Capacitors | 35φ–100φ | HUAYU"
+description: "HUAYU screw terminal aluminum electrolytic capacitors — 9 series, 35φ–100φ. High ripple current and long-life options for UPS, welding, and industrial power."
+---
 
 <!-- Product Schema -->
 <script type="application/ld+json">

@@ -1,4 +1,8 @@
-------
+---
+layout: default
+title: "Snap-In Aluminum Electrolytic Capacitors | 22φ–40φ | HUAYU"
+description: "HUAYU snap-in aluminum electrolytic capacitors — 8 series, 22φ–40φ, 6.3V–500V. Datasheets and specifications for industrial PCB and chassis mounting."
+---
 
 <!-- Product Schema -->
 <script type="application/ld+json">

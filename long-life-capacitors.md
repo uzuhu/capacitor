@@ -1,4 +1,8 @@
-------
+---
+layout: default
+title: "Long Life Aluminum Electrolytic Capacitors | 105°C Extended Endurance | HUAYU"
+description: "Extended-life aluminum electrolytic capacitors rated 105°C, 5000h+ endurance. Snap-in and screw terminal options for UPS, solar, and industrial power."
+---
 
 <!-- Product Schema -->
 <script type="application/ld+json">

@@ -17,19 +17,17 @@ company_address_zip: "226311"
 company_founded: "1987"
 company_website: "https://capacitormanufacturer.com"
 
-# SEO - Google & Search Console
-google_analytics: ""                # 📌 Fill in GA4 measurement ID (e.g. G-XXXXXXXXXX)
-google_site_verification: ""         # Google Search Console verification
-baidu_site_verification: ""          # Baidu webmaster (for China traffic)
+# SEO - Analytics & Webmaster Tools
+# After verifying in each console, paste the token/ID below (used by _layouts/default.html)
+google_analytics: "G-M81Y7D58V6"     # GA4 measurement ID, e.g. G-XXXXXXXXXX
+google_verification: ""              # Google Search Console meta content value
+bing_verification: ""                # Bing Webmaster Tools msvalidate.01 content value
+baidu_site_verification: ""          # Baidu webmaster verification content
 
 # Site Social (Open Graph / Twitter Card)
 twitter_username: ""                 # e.g. "HuayuCapacitor"
 facebook_app_id: ""                  # For better Facebook/LinkedIn sharing
 default_image: "/assets/images/huayu.jpg"
-
-# Webmaster Tools Verification
-google_verification: ""              # Google site verification content
-bing_verification: ""                # Bing site verification content
 
 # Build settings
 markdown: kramdown
@@ -68,3 +66,5 @@ exclude:
   - .gitignore
   - README.md
   - .workbuddy
+  - website-improvement-plan.md
+  - blog/index.md

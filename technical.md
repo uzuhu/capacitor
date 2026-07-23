@@ -4,6 +4,8 @@ title: "Technical - Capacitor Datasheets, Terminal Dimensions | HUAYU"
 description: "Access HUAYU capacitor technical resources: terminal dimension drawings, part number system guide, and application usage guidelines."
 permalink: /technical/
 canonical_url: /technical-resources/
+sitemap: false
+robots: "noindex, follow"
 ---
 
 <!-- Redirect Notice -->
