@@ -133,16 +133,9 @@
     <ul class="nav-links">
       <li><a href="{{ '/products/' | relative_url }}" {% if page.url contains '/products/' or page.url contains '/snap-in-capacitors/' or page.url contains '/screw-terminal-capacitors/' or page.url contains '/high-ripple-current-capacitors/' or page.url contains '/long-life-capacitors/' or page.url contains '/custom-capacitors/' %}class="active"{% endif %}>Products</a></li>
       <li><a href="{{ '/applications/' | relative_url }}" {% if page.url contains '/applications/' %}class="active"{% endif %}>Applications</a></li>
-      <li class="nav-item-has-dropdown{% if page.url contains '/technical-resources/' or page.url contains '/blog/' or page.url contains '/faq/' or page.url contains '/selection-guide/' %} active{% endif %}">
-        <a href="{{ '/technical-resources/' | relative_url }}" class="nav-dropdown-toggle{% if page.url contains '/technical-resources/' or page.url contains '/blog/' or page.url contains '/faq/' or page.url contains '/selection-guide/' %} active{% endif %}">Resources <span class="nav-caret" aria-hidden="true"></span></a>
-        <ul class="nav-dropdown">
-          <li><a href="{{ '/technical-resources/' | relative_url }}">Datasheets &amp; Guides</a></li>
-          <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
-          <li><a href="{{ '/faq/' | relative_url }}">FAQ</a></li>
-        </ul>
-      </li>
+      <li><a href="{{ '/technical-resources/' | relative_url }}" {% if page.url contains '/technical-resources/' or page.url contains '/blog/' or page.url contains '/faq/' or page.url contains '/selection-guide/' %}class="active"{% endif %}>Resources</a></li>
       <li><a href="{{ '/about/' | relative_url }}" {% if page.url contains '/about/' %}class="active"{% endif %}>About</a></li>
-      <li><a href="{{ '/contact/' | relative_url }}" {% if page.url contains '/contact/' %}class="active"{% endif %}>Contact</a></li>
+      <li><a href="{{ '/contact/' | relative_url }}" class="nav-cta{% if page.url contains '/contact/' %} active{% endif %}">Contact</a></li>
     </ul>
     <div class="hamburger"><span></span><span></span><span></span></div>
   </div>

@@ -9,16 +9,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // Mobile: expand Resources dropdown without leaving page
-  document.querySelectorAll('.nav-dropdown-toggle').forEach(function(toggle) {
-    toggle.addEventListener('click', function(e) {
-      if (window.matchMedia('(max-width: 768px)').matches) {
-        e.preventDefault();
-        this.parentElement.classList.toggle('open');
-      }
-    });
-  });
-
   // Tab functionality
   document.querySelectorAll('.tab-btn').forEach(function(btn) {
     btn.addEventListener('click', function() {
