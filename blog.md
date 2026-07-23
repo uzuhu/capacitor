@@ -17,8 +17,9 @@ permalink: /blog/
 <section class="section">
   <div class="container">
 
+    {% if site.posts.size > 0 %}
     <div class="blog-grid">
-      {% for post in paginator.posts %}
+      {% for post in site.posts %}
       <article class="blog-card">
         <a href="{{ post.url | relative_url }}" class="blog-card-thumb">
           {% if post.image %}
@@ -45,39 +46,11 @@ permalink: /blog/
       </article>
       {% endfor %}
     </div>
-
-    <!-- Pagination -->
-    {% if paginator.total_pages > 1 %}
-    <div class="pagination">
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path | relative_url }}">&larr; Previous</a>
-      {% endif %}
-
-      {% if paginator.page == 1 %}
-        <span class="current-page">1</span>
-      {% else %}
-        <a href="{{ '/' | relative_url }}blog/">1</a>
-      {% endif %}
-
-      {% for page in (2..paginator.total_pages) %}
-        {% if page == paginator.page %}
-          <span class="current-page">{{ page }}</span>
-        {% else %}
-          <a href="{{ site.url }}{{ site.baseurl }}/blog/page{{ page }}/">{{ page }}</a>
-        {% endif %}
-      {% endfor %}
-
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path | relative_url }}">Next &rarr;</a>
-      {% endif %}
-    </div>
-    {% endif %}
-
-    {% if paginator.posts.size == 0 %}
+    {% else %}
     <div style="text-align:center; padding:60px 0; color:var(--gray-300);">
       <div style="font-size:3rem; margin-bottom:16px;">📝</div>
       <h3>No posts yet</h3>
-      <p>Upload a new `.md` file to `_posts/` and it will appear here automatically.</p>
+      <p>Upload a new <code>.md</code> file to <code>_posts/</code> and it will appear here automatically.</p>
     </div>
     {% endif %}
 
