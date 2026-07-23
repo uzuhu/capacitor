@@ -64,8 +64,7 @@ li { margin-bottom: 0.3rem; }
 }
 
 /* --- Logo (Nav + Footer) --- */
-.nav-logo,
-.footer-logo {
+.nav-logo {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.6rem;
   font-weight: 800;
@@ -74,6 +73,16 @@ li { margin-bottom: 0.3rem; }
   padding: 14px 0;
   text-transform: uppercase;
   flex-shrink: 0;
+  line-height: 1;
+}
+.footer-logo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--blue-dark);
+  letter-spacing: 1px;
+  padding: 10px 0;
+  text-transform: uppercase;
   line-height: 1;
 }
 .nav-logo span,
