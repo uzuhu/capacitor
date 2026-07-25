@@ -1,14 +1,16 @@
 ---
 layout: default
 title: "Aluminum Electrolytic Capacitor Products - Snap-In & Screw Terminal | HUAYU"
-description: "Browse HUAYU's full range of snap-in and screw terminal aluminum electrolytic capacitors. 17 product series with custom specification options."
+description: "Browse HUAYU's full range of snap-in and screw terminal aluminum electrolytic capacitors. 17 product series with PDF datasheets, cross-reference guides, and 15–30 day lead times."
 ---
+
+{% include breadcrumb-schema.html name2="Products" url2="/products/" %}
 
 <!-- Page Header -->
 <section class="page-header">
   <div class="container">
     <h1>Aluminum Electrolytic Capacitor Products</h1>
-    <p>Complete range of snap-in and screw terminal capacitors for industrial applications</p>
+    <p>Complete range of snap-in and screw terminal capacitors for industrial applications — every series with PDF datasheet download</p>
   </div>
 </section>
 
@@ -36,8 +38,20 @@ description: "Browse HUAYU's full range of snap-in and screw terminal aluminum e
   <a href="{{ '/long-life-capacitors/' | relative_url }}" class="btn btn-sm btn-secondary" style="padding:8px 20px;">&raquo; Long Life Capacitors</a>
   <a href="{{ '/quality-control/' | relative_url }}" class="btn btn-sm btn-secondary" style="padding:8px 20px;">&raquo; Quality Control</a>
   <a href="{{ '/selection-guide/' | relative_url }}" class="btn btn-sm btn-secondary" style="padding:8px 20px;">&raquo; Selection Guide</a>
-  <a href="{{ '/capacitor-replacement/' | relative_url }}" class="btn btn-sm btn-secondary" style="padding:8px 20px;">&raquo; Replacement Solutions</a>
+  <a href="{{ '/capacitor-replacement/' | relative_url }}" class="btn btn-sm btn-secondary" style="padding:8px 20px;">&raquo; Cross Reference</a>
   <a href="{{ '/custom-capacitors/' | relative_url }}" class="btn btn-sm btn-secondary" style="padding:8px 20px;">&raquo; Custom / OEM</a>
+  <a href="{{ '/faq/' | relative_url }}" class="btn btn-sm btn-secondary" style="padding:8px 20px;">&raquo; FAQ</a>
+</div>
+
+<!-- Brand alternative callout -->
+<div class="container" style="margin-bottom:36px;">
+  <div style="background:linear-gradient(135deg,#f0f7ff 0%,#e8f4fd 100%);border-radius:12px;padding:22px 28px;border-left:4px solid var(--blue-mid);display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;">
+    <div style="flex:1;min-width:240px;">
+      <h3 style="color:var(--blue-dark);margin:0 0 6px;font-size:1.1rem;">Looking for a brand alternative?</h3>
+      <p style="color:var(--gray-600);margin:0;font-size:0.92rem;line-height:1.6;">HTML cross-reference tables for Nichicon, Chemi-Con, Rubycon, Panasonic, EPCOS/TDK, Vishay, and Cornell Dubilier — with PDF datasheets and 15–30 day standard lead times.</p>
+    </div>
+    <a href="{{ '/capacitor-replacement/' | relative_url }}" class="btn btn-primary">Open Cross Reference &rarr;</a>
+  </div>
 </div>
 
 <!-- Products -->

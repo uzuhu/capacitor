@@ -1,0 +1,4 @@
+# Local preview overrides — use with:
+#   jekyll serve --config _config.yml,_config_local.yml
+plugins:
+  - jekyll-feed

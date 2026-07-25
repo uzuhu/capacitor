@@ -1,6 +1,6 @@
 # Jekyll Configuration - Huayu Capacitor Website
 title: "HUAYU Capacitor"
-description: "Professional aluminum electrolytic capacitor manufacturer since 1987, specializing in custom snap-in and screw terminal capacitors for industrial applications."
+description: "Nantong Huayu manufactures industrial aluminum electrolytic capacitors — cost-effective cross-references for Japanese brands with 15–30 day standard lead times for power supply, UPS, and inverter applications."
 url: "https://capacitormanufacturer.com"
 baseurl: ""
 permalink: /blog/:title/
@@ -28,6 +28,13 @@ baidu_site_verification: ""          # Baidu webmaster verification content
 twitter_username: ""                 # e.g. "HuayuCapacitor"
 facebook_app_id: ""                  # For better Facebook/LinkedIn sharing
 default_image: "/assets/images/huayu.jpg"
+
+# Organization sameAs (LinkedIn / directories / B2B profiles) — fill when accounts exist
+same_as: []
+
+# Canonical GEO lead-time copy (see also _data/geo.yml)
+geo_lead_time_standard: "15–30 days"
+geo_lead_time_custom: "25–45 days"
 
 # Build settings
 markdown: kramdown
@@ -67,4 +74,7 @@ exclude:
   - README.md
   - .workbuddy
   - website-improvement-plan.md
+  - cloudflare-cdn-setup.md
+  - geo-ai-qa-checklist.md
+  - _config_local.yml
   - blog/index.md

@@ -1,0 +1,45 @@
+{% comment %}
+  Usage:
+  {% include breadcrumb-schema.html
+     name2="Products" url2="/products/"
+     name3="Snap-In" url3="/snap-in-capacitors/" %}
+  Position 1 is always Home.
+{% endcomment %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ site.url }}{{ site.baseurl }}/"
+    }
+    {% if include.name2 and include.url2 %}
+    ,{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ include.name2 | escape }}",
+      "item": "{{ include.url2 | absolute_url }}"
+    }
+    {% endif %}
+    {% if include.name3 and include.url3 %}
+    ,{
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{ include.name3 | escape }}",
+      "item": "{{ include.url3 | absolute_url }}"
+    }
+    {% endif %}
+    {% if include.name4 and include.url4 %}
+    ,{
+      "@type": "ListItem",
+      "position": 4,
+      "name": "{{ include.name4 | escape }}",
+      "item": "{{ include.url4 | absolute_url }}"
+    }
+    {% endif %}
+  ]
+}
+</script>

@@ -69,7 +69,8 @@
       "contactType": "sales",
       "email": "{{ site.company_email }}",
       "availableLanguage": ["English", "Chinese"]
-    }
+    }{% if site.same_as and site.same_as.size > 0 %},
+    "sameAs": [{% for url in site.same_as %}{{ url | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}]{% endif %}
   }
   </script>
 
@@ -132,8 +133,10 @@
     <a href="{{ '/' | relative_url }}" class="nav-logo">HUAYU<span>.</span></a>
     <ul class="nav-links">
       <li><a href="{{ '/products/' | relative_url }}" {% if page.url contains '/products/' or page.url contains '/snap-in-capacitors/' or page.url contains '/screw-terminal-capacitors/' or page.url contains '/high-ripple-current-capacitors/' or page.url contains '/long-life-capacitors/' or page.url contains '/custom-capacitors/' %}class="active"{% endif %}>Products</a></li>
+      <li><a href="{{ '/capacitor-replacement/' | relative_url }}" {% if page.url contains '/capacitor-replacement/' or page.url contains '-capacitor-alternative/' %}class="active"{% endif %}>Cross Reference</a></li>
       <li><a href="{{ '/applications/' | relative_url }}" {% if page.url contains '/applications/' %}class="active"{% endif %}>Applications</a></li>
-      <li><a href="{{ '/technical-resources/' | relative_url }}" {% if page.url contains '/technical-resources/' or page.url contains '/blog/' or page.url contains '/faq/' or page.url contains '/selection-guide/' %}class="active"{% endif %}>Resources</a></li>
+      <li><a href="{{ '/technical-resources/' | relative_url }}" {% if page.url contains '/technical-resources/' or page.url contains '/blog/' or page.url contains '/selection-guide/' %}class="active"{% endif %}>Resources</a></li>
+      <li><a href="{{ '/faq/' | relative_url }}" {% if page.url contains '/faq/' %}class="active"{% endif %}>FAQ</a></li>
       <li><a href="{{ '/about/' | relative_url }}" {% if page.url contains '/about/' %}class="active"{% endif %}>About</a></li>
       <li><a href="{{ '/contact/' | relative_url }}" class="nav-cta{% if page.url contains '/contact/' %} active{% endif %}">Contact</a></li>
     </ul>

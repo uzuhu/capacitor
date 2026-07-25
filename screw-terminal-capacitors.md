@@ -1,10 +1,13 @@
 ---
 layout: default
 title: "Screw Terminal Aluminum Electrolytic Capacitors | 35φ–100φ | HUAYU"
-description: "HUAYU screw terminal aluminum electrolytic capacitors — 9 series, 35φ–100φ. High ripple current and long-life options for UPS, welding, and industrial power."
+description: "HUAYU screw terminal aluminum electrolytic capacitors — 9 series, 35φ–100φ. PDF datasheets, brand cross-references, and 15–30 day lead times for UPS and industrial power."
 ---
 
+{% include breadcrumb-schema.html name2="Products" url2="/products/" name3="Screw Terminal Capacitors" url3="/screw-terminal-capacitors/" %}
+
 <!-- Product Schema -->
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -39,11 +42,15 @@ description: "HUAYU screw terminal aluminum electrolytic capacitors — 9 series
   </div>
 </div>
 
-
-
-
+<div class="container" style="margin:24px auto 0;">
+  <div style="background:linear-gradient(135deg,#f0f7ff 0%,#e8f4fd 100%);border-radius:12px;padding:18px 24px;border-left:4px solid var(--blue-mid);display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;">
+    <p style="margin:0;color:var(--gray-700);font-size:0.92rem;">Looking for a brand alternative? Cross-reference Nichicon, Chemi-Con, Rubycon and more with PDF datasheets.</p>
+    <a href="{{ '/capacitor-replacement/' | relative_url }}" class="btn btn-sm btn-secondary">Cross Reference &rarr;</a>
+  </div>
+</div>
 
 <!-- Photos -->
+
 <section class="section">
   <div class="container">
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:40px;">

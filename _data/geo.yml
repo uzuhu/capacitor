@@ -1,0 +1,33 @@
+# Canonical GEO / marketing copy — use these phrases site-wide for consistency.
+# Lead times (canonical):
+#   Standard: 15–30 days
+#   Custom: 25–45 days
+#   Samples: 5–7 business days
+# Relative advantage vs major brands: often 16–24 weeks
+
+positioning_short: "Cost-effective industrial aluminum electrolytic capacitors with shorter lead times than major Japanese brands."
+
+hero_fact: "Nantong Huayu Electronic specializes in manufacturing industrial-grade aluminum electrolytic capacitors. We provide cost-effective alternatives and cross-references for leading Japanese brands, with a standard lead time of 15–30 days for industrial power supply applications — typically far shorter than the 16–24 week lead times common among major brands."
+
+lead_time_standard: "15–30 days"
+lead_time_custom: "25–45 days"
+lead_time_samples: "5–7 business days"
+lead_time_major_brands: "16–24 weeks"
+
+lead_time_sentence: "Standard lead time is 15–30 days depending on product specification and order quantity. Custom and non-standard capacitor orders may require 25–45 days. Samples typically ship within 5–7 business days."
+
+lead_time_vs_majors: "Major brands often quote 16–24 week lead times. HUAYU offers reliable, industrial-grade aluminum electrolytic capacitor alternatives with a standard lead time of 15–30 days, helping you avoid supply chain disruptions."
+
+cost_advantage: "Cost-effective alternatives to premium Japanese and European brands without compromising industrial-grade performance."
+
+reliability_china: "Yes. Brands like HUAYU design capacitors specifically for industrial environments, featuring high ripple current resistance and up to 5,000–10,000 hours of lifespan at 105°C, making them excellent cost-effective substitutes for premium brands — subject to engineering confirmation and application testing."
+
+cross_ref_disclaimer: "Series mappings below are possible alternatives based on typical voltage, capacitance, size, and ripple classes. They are not identical drop-in claims. Final selection must be confirmed through engineering evaluation and testing in your application."
+
+home_title: "Industrial Aluminum Electrolytic Capacitors | Cost-Effective & Fast Delivery | Huayu Electronic"
+home_description: "Nantong Huayu manufactures industrial aluminum electrolytic capacitors — cost-effective cross-references for Japanese brands with 15–30 day standard lead times for power supply, UPS, and inverter applications."
+home_h1: "Industrial Aluminum Electrolytic Capacitors — Cost-Effective Alternatives with Fast Delivery"
+
+advantage_lead_time: "Standard production lead time of 15–30 days (custom 25–45 days), versus 16–24 weeks often quoted by major Japanese brands."
+advantage_cost: "Competitive factory pricing for large-can snap-in and screw terminal capacitors — a practical path to lower BOM cost."
+advantage_cross_ref: "HTML cross-reference guides for Nichicon, Nippon Chemi-Con, Rubycon, Panasonic, EPCOS/TDK, Vishay, and Cornell Dubilier series."

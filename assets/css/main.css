@@ -103,10 +103,10 @@ li { margin-bottom: 0.3rem; }
 }
 .nav-links > li > a {
   display: block;
-  padding: 10px 14px;
+  padding: 10px 10px;
   color: var(--gray-700);
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 0.86rem;
   line-height: 1.2;
   border-bottom: 2px solid transparent;
   border-radius: 4px;
@@ -474,6 +474,13 @@ li { margin-bottom: 0.3rem; }
   font-size: 0.85rem;
   color: var(--gray-700);
   font-weight: 500;
+  text-decoration: none;
+  transition: border-color 0.2s, color 0.2s, background 0.2s;
+}
+a.app-tag:hover {
+  border-color: var(--blue-mid);
+  color: var(--blue-dark);
+  background: #edf5ff;
 }
 
 /* --- Contact --- */

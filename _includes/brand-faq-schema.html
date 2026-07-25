@@ -1,0 +1,41 @@
+{% assign brand = include.brand %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can HUAYU directly replace {{ brand.name }} capacitors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "HUAYU provides possible alternative solutions for {{ brand.name }} large-can aluminum electrolytic capacitors based on matching voltage, capacitance, size, ripple current, and application conditions. We do not claim identical drop-in replacement. Final selection must be confirmed through technical evaluation and testing. Standard lead time is 15–30 days for standard products."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What {{ brand.name }} series can HUAYU cross-reference?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "HUAYU publishes HTML series-level cross-reference tables for {{ brand.name }} large-can snap-in and screw terminal families commonly used in UPS, VFDs, solar inverters, and industrial power supplies. Send your part number for an engineering review."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does cross-reference evaluation take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most cross-reference evaluations are completed within 24–48 hours. We provide a technical proposal with datasheets. Samples typically ship within 5–7 business days. Standard production lead time is 15–30 days (custom 25–45 days), versus 16–24 weeks often quoted by major brands."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How to reduce the lead time for industrial power supply capacitors when replacing {{ brand.name }}?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Major brands often have 16–24 week lead times. HUAYU Electronic offers reliable, industrial-grade aluminum electrolytic capacitor alternatives with a standard lead time of 15–30 days, helping you avoid supply chain disruptions. Submit your {{ brand.name }} part number for a cross-reference proposal."
+      }
+    }
+  ]
+}
+</script>

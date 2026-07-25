@@ -1,0 +1,61 @@
+{% comment %}
+  Usage: {% include cross-ref-table.html brand=brand %}
+  Or overview: {% include cross-ref-table.html overview=true %}
+{% endcomment %}
+{% if include.overview %}
+<div class="table-wrap">
+  <table class="spec-table">
+    <thead>
+      <tr>
+        <th>Competitor Brand</th>
+        <th>Competitor Series</th>
+        <th>HUAYU Alternative Series</th>
+        <th>Key Advantages (HUAYU)</th>
+        <th>Datasheet</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for brand in site.data.cross_reference.brands %}
+        {% assign row = brand.rows | first %}
+        <tr>
+          <td><strong><a href="{{ brand.page | relative_url }}">{{ brand.name }}</a></strong></td>
+          <td>{{ row.competitor }} <span style="color:var(--gray-500);font-size:0.8rem;">(+ more)</span></td>
+          <td><strong>{{ row.huayu }}</strong></td>
+          <td>{{ row.advantages }}</td>
+          <td><a href="{{ row.datasheet | relative_url }}" target="_blank" class="download-link">Download PDF</a></td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+<p style="font-size:0.88rem;color:var(--gray-600);margin-top:12px;">Sample series shown per brand — open each brand page for the full HTML cross-reference table. {{ site.data.geo.cross_ref_disclaimer }}</p>
+{% else %}
+{% assign brand = include.brand %}
+<div class="table-wrap">
+  <table class="spec-table">
+    <thead>
+      <tr>
+        <th>Competitor Brand</th>
+        <th>Competitor Series</th>
+        <th>Type</th>
+        <th>HUAYU Alternative Series</th>
+        <th>Key Advantages (HUAYU)</th>
+        <th>Datasheet</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in brand.rows %}
+      <tr>
+        <td><strong>{{ brand.name }}</strong></td>
+        <td>{{ row.competitor }}</td>
+        <td>{{ row.type }}</td>
+        <td><strong>{{ row.huayu }}</strong></td>
+        <td>{{ row.advantages }}</td>
+        <td><a href="{{ row.datasheet | relative_url }}" target="_blank" class="download-link">Download PDF</a></td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+<p style="font-size:0.88rem;color:var(--gray-600);margin-top:12px;">{{ site.data.geo.cross_ref_disclaimer }}</p>
+{% endif %}

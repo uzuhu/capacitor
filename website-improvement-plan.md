@@ -2,6 +2,7 @@
 
 > 基于《华裕 AI 推广》文档建议 × 网站现状对比分析
 > 制定时间：2026-06-19
+> **状态更新：2026-07-25** — GEO 改版已落地（首页定位、HTML 对标表、FAQ GEO 问法、工业电源加深、导航/Breadcrumb、口径词典 `_data/geo.yml`）。CDN 见 `cloudflare-cdn-setup.md`；AI 抽检见 `geo-ai-qa-checklist.md`。
 
 ---
 
@@ -10,11 +11,11 @@
 | 维度 | 评分 | 说明 |
 |------|------|------|
 | 内容质量 | ★★★★☆ | 技术文章、应用页面深度好，专业性高 |
-| SEO基础 | ★★★☆☆ | 有结构化数据、sitemap、面包屑，但缺少验证和细分 |
-| 转化能力 | ★★☆☆☆ | 表单为 mailto 方式，无后端处理，无自动回复 |
-| AI/GEO 友好度 | ★★☆☆☆ | 缺少 FAQ 页面、Company Facts 模块、FAQ Schema |
-| 社交/外部信号 | ★☆☆☆☆ | 无 LinkedIn/YouTube 入口，无外链布局 |
-| 页面覆盖度 | ★★★☆☆ | 核心页面都有，但缺少高价值页面群 |
+| SEO基础 | ★★★★☆ | Organization / Product / FAQPage / Breadcrumb；Search Console 验证仍可加强 |
+| 转化能力 | ★★★☆☆ | Contact 表单已有；站外信号仍弱 |
+| AI/GEO 友好度 | ★★★★☆ | FAQ + FAQPage、HTML Cross Reference、首页差异化事实句已补齐 |
+| 社交/外部信号 | ★☆☆☆☆ | `same_as` 已预留；需补 LinkedIn 等 |
+| 页面覆盖度 | ★★★★☆ | 替代总页 + 7 品牌子页 + 工业电源 + FAQ 已齐 |
 
 ---
 

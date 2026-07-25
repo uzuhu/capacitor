@@ -13,6 +13,7 @@ description: "Download HUAYU aluminum electrolytic capacitor datasheets, product
       <a href="{{ '/blog/' | relative_url }}" class="btn btn-sm btn-secondary">Blog</a>
       <a href="{{ '/faq/' | relative_url }}" class="btn btn-sm btn-secondary" style="margin-left:8px;">FAQ</a>
       <a href="{{ '/selection-guide/' | relative_url }}" class="btn btn-sm btn-secondary" style="margin-left:8px;">Selection Guide</a>
+      <a href="{{ '/capacitor-replacement/' | relative_url }}" class="btn btn-sm btn-secondary" style="margin-left:8px;">Cross Reference</a>
     </p>
   </div>
 </section>

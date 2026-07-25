@@ -1,0 +1,202 @@
+# Series-level cross-reference (subject to engineering confirmation).
+# datasheet paths are relative to site root.
+
+brands:
+  - id: nichicon
+    name: Nichicon
+    short: Nichicon
+    page: /nichicon-capacitor-alternative/
+    about: "Nichicon is one of the world's leading aluminum electrolytic capacitor manufacturers, widely used in UPS, inverter, VFD, and industrial power supply applications."
+    rows:
+      - competitor: "LNT / LNR"
+        type: "Screw Terminal"
+        huayu: "CD13N / CD135"
+        advantages: "Cost-effective screw-terminal alternative; 15–30 day standard lead time"
+        datasheet: "/pdf/screw/CD13N.pdf"
+      - competitor: "LGU / LGX"
+        type: "Snap-In"
+        huayu: "CD292 / CD293"
+        advantages: "Matching industrial snap-in class; high ripple options available"
+        datasheet: "/pdf/snap-in/CD292.pdf"
+      - competitor: "GL / GN"
+        type: "Large Can"
+        huayu: "CD298 / CD135"
+        advantages: "Large-can capacity for UPS and high-power DC-link"
+        datasheet: "/pdf/snap-in/CD298.pdf"
+      - competitor: "LQS"
+        type: "High Ripple"
+        huayu: "CD293 / CD13NH"
+        advantages: "High ripple current design for inverter DC-link"
+        datasheet: "/pdf/snap-in/CD293.pdf"
+      - competitor: "LHS"
+        type: "Long Life"
+        huayu: "CD294 / CD13HL"
+        advantages: "Long life at 105°C; extended endurance series"
+        datasheet: "/pdf/snap-in/CD294.pdf"
+
+  - id: chemi-con
+    name: Nippon Chemi-Con
+    short: Chemi-Con / UCC
+    page: /chemi-con-capacitor-alternative/
+    about: "Nippon Chemi-Con (United Chemi-Con / UCC) is a premier Japanese capacitor manufacturer widely specified in industrial power electronics."
+    rows:
+      - competitor: "RWE / RWF"
+        type: "Screw Terminal"
+        huayu: "CD13N / CD92"
+        advantages: "Screw-terminal industrial alternative; shorter factory lead time"
+        datasheet: "/pdf/screw/CD13N.pdf"
+      - competitor: "SMH / SMQ"
+        type: "Snap-In"
+        huayu: "CD292 / CD293"
+        advantages: "Snap-in cross-reference for SMPS and inverter filtering"
+        datasheet: "/pdf/snap-in/CD292.pdf"
+      - competitor: "KMH / KMQ"
+        type: "Large Can"
+        huayu: "CD295 / CD136"
+        advantages: "High-voltage large-can options for DC bus applications"
+        datasheet: "/pdf/snap-in/CD295.pdf"
+      - competitor: "LXS / LXM"
+        type: "Long Life"
+        huayu: "CD294 / CD13L"
+        advantages: "Long-life series for continuous industrial duty"
+        datasheet: "/pdf/snap-in/CD294.pdf"
+      - competitor: "RLA / RLB"
+        type: "High Ripple"
+        huayu: "CD293 / CD13NH"
+        advantages: "High ripple current resistance for power conversion"
+        datasheet: "/pdf/snap-in/CD293.pdf"
+
+  - id: rubycon
+    name: Rubycon
+    short: Rubycon
+    page: /rubycon-capacitor-alternative/
+    about: "Rubycon aluminum electrolytic capacitors are widely used in industrial electronics. HUAYU offers possible large-can cross-reference solutions for screw terminal and snap-in series."
+    rows:
+      - competitor: "MXG / MXK"
+        type: "Snap-In"
+        huayu: "CD292 / CD293"
+        advantages: "Large-can snap-in alternative; competitive pricing"
+        datasheet: "/pdf/snap-in/CD292.pdf"
+      - competitor: "VXG / VXK"
+        type: "Screw Terminal"
+        huayu: "CD13N / CD135"
+        advantages: "Screw-terminal match class for industrial power"
+        datasheet: "/pdf/screw/CD13N.pdf"
+      - competitor: "BXW / BXC"
+        type: "Long Life"
+        huayu: "CD294 / CD13HL"
+        advantages: "Long life (105°C endurance series); industrial duty"
+        datasheet: "/pdf/snap-in/CD294.pdf"
+      - competitor: "YXF / YXG"
+        type: "Low Impedance"
+        huayu: "CD293 / CD297"
+        advantages: "Low-ESR / high-ripple oriented snap-in alternatives"
+        datasheet: "/pdf/snap-in/CD293.pdf"
+
+  - id: panasonic
+    name: Panasonic
+    short: Panasonic
+    page: /panasonic-capacitor-alternative/
+    about: "Panasonic industrial aluminum electrolytic capacitors are common in power supplies and drives. HUAYU provides possible large-can snap-in and screw terminal alternatives."
+    rows:
+      - competitor: "TS-UP / TS-HA"
+        type: "Screw Terminal"
+        huayu: "CD13N / CD135"
+        advantages: "Screw-terminal industrial alternative; factory-direct support"
+        datasheet: "/pdf/screw/CD13N.pdf"
+      - competitor: "TS-EE / TS-ED"
+        type: "Snap-In, Long Life"
+        huayu: "CD294 / CD13L"
+        advantages: "Extended life snap-in / screw options for continuous duty"
+        datasheet: "/pdf/snap-in/CD294.pdf"
+      - competitor: "TS-HC / TS-HB"
+        type: "High Ripple"
+        huayu: "CD293 / CD13NH"
+        advantages: "High ripple current capability for DC-link filtering"
+        datasheet: "/pdf/snap-in/CD293.pdf"
+      - competitor: "EEU-FC / EEU-FR"
+        type: "Low ESR (eval.)"
+        huayu: "CD17FX / CD292"
+        advantages: "Compact / standard snap-in evaluation path — confirm size class"
+        datasheet: "/pdf/snap-in/CD17FX.pdf"
+
+  - id: epcos-tdk
+    name: EPCOS / TDK
+    short: EPCOS/TDK
+    page: /epcos-tdk-capacitor-alternative/
+    about: "EPCOS/TDK large-can aluminum electrolytic capacitors are widely specified in European industrial equipment. HUAYU offers possible snap-in and screw terminal alternatives."
+    rows:
+      - competitor: "B43456 / B43458"
+        type: "Screw Terminal"
+        huayu: "CD13N / CD135"
+        advantages: "Screw-terminal cross-reference; shorter lead time"
+        datasheet: "/pdf/screw/CD13N.pdf"
+      - competitor: "B43504 / B43505"
+        type: "Snap-In"
+        huayu: "CD292 / CD293"
+        advantages: "Snap-in industrial alternative with datasheet support"
+        datasheet: "/pdf/snap-in/CD292.pdf"
+      - competitor: "B43564 / B43584"
+        type: "Screw, High Ripple"
+        huayu: "CD13NH / CD136"
+        advantages: "High ripple / high-voltage screw-terminal options"
+        datasheet: "/pdf/screw/CD13NH.pdf"
+      - competitor: "B43305 / B43508"
+        type: "Snap-In, Long Life"
+        huayu: "CD294 / CD13L"
+        advantages: "Long-life series for continuous industrial operation"
+        datasheet: "/pdf/snap-in/CD294.pdf"
+
+  - id: vishay
+    name: Vishay
+    short: Vishay
+    page: /vishay-capacitor-alternative/
+    about: "Vishay large-can aluminum electrolytic capacitors are common in industrial power conversion. HUAYU provides possible screw terminal and snap-in alternatives."
+    rows:
+      - competitor: "101 / 102 PHR-ST"
+        type: "Screw Terminal"
+        huayu: "CD13N / CD135"
+        advantages: "Screw-terminal industrial alternative; competitive cost"
+        datasheet: "/pdf/screw/CD13N.pdf"
+      - competitor: "056 / 057 PSM-SI"
+        type: "Snap-In"
+        huayu: "CD292 / CD293"
+        advantages: "Snap-in cross-reference for power supply filtering"
+        datasheet: "/pdf/snap-in/CD292.pdf"
+      - competitor: "136 RVI"
+        type: "Screw, High Ripple"
+        huayu: "CD13NH / CD13HL"
+        advantages: "High ripple / high-temperature screw-terminal options"
+        datasheet: "/pdf/screw/CD13NH.pdf"
+      - competitor: "192 CTX"
+        type: "Long Life"
+        huayu: "CD13L / CD92L"
+        advantages: "Long-life screw-terminal series for continuous duty"
+        datasheet: "/pdf/screw/CD13L.pdf"
+
+  - id: cornell-dubilier
+    name: Cornell Dubilier
+    short: Cornell Dubilier
+    page: /cornell-dubilier-capacitor-alternative/
+    about: "Cornell Dubilier large-can capacitors are widely used in North American industrial power designs. HUAYU offers possible snap-in and screw terminal alternatives."
+    rows:
+      - competitor: "DCMC / DCMX"
+        type: "Screw Terminal"
+        huayu: "CD135 / CD136"
+        advantages: "Large-can screw-terminal alternative; factory lead time 15–30 days"
+        datasheet: "/pdf/screw/CD135.pdf"
+      - competitor: "380LX / 381LX"
+        type: "Snap-In"
+        huayu: "CD292 / CD293"
+        advantages: "Snap-in industrial alternative with PDF datasheets"
+        datasheet: "/pdf/snap-in/CD292.pdf"
+      - competitor: "520C / 550C"
+        type: "Screw, High Ripple"
+        huayu: "CD13NH / CD13HL"
+        advantages: "High ripple screw-terminal options for heavy-duty power"
+        datasheet: "/pdf/screw/CD13NH.pdf"
+      - competitor: "SLP / SLPX"
+        type: "Snap-In, High Capacitance"
+        huayu: "CD296 / CD298"
+        advantages: "High capacitance density snap-in alternatives"
+        datasheet: "/pdf/snap-in/CD296.pdf"

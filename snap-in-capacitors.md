@@ -1,10 +1,13 @@
 ---
 layout: default
 title: "Snap-In Aluminum Electrolytic Capacitors | 22φ–40φ | HUAYU"
-description: "HUAYU snap-in aluminum electrolytic capacitors — 8 series, 22φ–40φ, 6.3V–500V. Datasheets and specifications for industrial PCB and chassis mounting."
+description: "HUAYU snap-in aluminum electrolytic capacitors — 8 series, 22φ–40φ, 6.3V–500V. PDF datasheets, brand cross-references, and 15–30 day lead times for industrial power."
 ---
 
+{% include breadcrumb-schema.html name2="Products" url2="/products/" name3="Snap-In Capacitors" url3="/snap-in-capacitors/" %}
+
 <!-- Product Schema -->
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -39,11 +42,15 @@ description: "HUAYU snap-in aluminum electrolytic capacitors — 8 series, 22φ�
   </div>
 </div>
 
-
-
-
+<div class="container" style="margin:24px auto 0;">
+  <div style="background:linear-gradient(135deg,#f0f7ff 0%,#e8f4fd 100%);border-radius:12px;padding:18px 24px;border-left:4px solid var(--blue-mid);display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;">
+    <p style="margin:0;color:var(--gray-700);font-size:0.92rem;">Looking for a brand alternative? Cross-reference Nichicon, Chemi-Con, Rubycon and more with PDF datasheets.</p>
+    <a href="{{ '/capacitor-replacement/' | relative_url }}" class="btn btn-sm btn-secondary">Cross Reference &rarr;</a>
+  </div>
+</div>
 
 <!-- Photos -->
+
 <section class="section">
   <div class="container">
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:40px;">
