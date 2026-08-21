@@ -173,4 +173,12 @@ sitemap: false
     <priority>0.7</priority>
   </url>
   {% endfor %}
+  {% assign pdf_files = "catalogue.pdf,GUIDE.pdf,Guidelines-For-Using.pdf,Part-Number-System.pdf,Snap-in-Terminal-Dimensions.pdf,Screw-Terminal-Dimensions.pdf,snap-in/CD17FX.pdf,snap-in/CD292.pdf,snap-in/CD293.pdf,snap-in/CD294.pdf,snap-in/CD295.pdf,snap-in/CD296.pdf,snap-in/CD297.pdf,snap-in/CD298.pdf,screw/CD92.pdf,screw/CD92L.pdf,screw/CD135.pdf,screw/CD136.pdf,screw/CD13L.pdf,screw/CD13N.pdf,screw/CD13HL.pdf,screw/CD13NH.pdf,screw/CD98SK.pdf" | split: "," %}
+  {% for pdf in pdf_files %}
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}/pdf/{{ pdf }}</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  {% endfor %}
 </urlset>

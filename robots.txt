@@ -10,6 +10,3 @@ Disallow: /.git/
 Disallow: /.workbuddy/
 Disallow: /Gemfile
 Disallow: /Gemfile.lock
-
-# Block PDFs from direct indexing — SEO weight goes to HTML pages
-Disallow: /pdf/
